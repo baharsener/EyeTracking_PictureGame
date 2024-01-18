@@ -1,0 +1,273 @@
+2.6114 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+10.0135 	WARNING 	Monitor specification not found. Creating a temporary one...
+10.0329 	WARNING 	User requested fullscreen with size [800 600], but screen is actually [1280, 1024]. Using actual size
+10.5664 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001DCE50B6970>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001DCE51DAA30>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1280, 1024]), stencilBits=0, stereo=False, units='pix', useFBO=False, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+10.5664 	EXP 	window1: mouseVisible = True
+10.5668 	EXP 	window1: mouseVisible = False
+15.4440 	DATA 	Keypress: return
+15.9547 	DATA 	Keypress: return
+65.0323 	EXP 	window1: units = 'pix'
+69.1981 	DATA 	Keypress: return
+73.4481 	DATA 	Keypress: return
+74.5647 	DATA 	Keypress: o
+74.5652 	EXP 	window1: units = 'pix'
+74.5999 	WARNING 	User requested fullscreen with size [1280  720], but screen is actually [1280, 1024]. Using actual size
+74.9993 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001DCE50B6970>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001DCE784E1C0>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1280, 1024]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+74.9996 	EXP 	window1: mouseVisible = True
+74.9996 	EXP 	window1: recordFrameIntervals = False
+75.1658 	EXP 	window1: recordFrameIntervals = True
+75.3489 	EXP 	window1: recordFrameIntervals = False
+75.4240 	EXP 	Created Instructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='Instructions', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+75.4269 	EXP 	Created Triplet1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Triplet1', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.3, 0.3]), texRes=128, units='height', win=Window(...))
+75.4295 	EXP 	Created Triplet2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Triplet2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.3, 0.3]), texRes=128, units='height', win=Window(...))
+75.4338 	EXP 	Created Triplet3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Triplet3', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.3, 0.3]), texRes=128, units='height', win=Window(...))
+75.4339 	EXP 	Sound sound_pop set volume 1.000
+75.4339 	EXP 	Sound sound_pop2 set volume 1.000
+75.4339 	EXP 	Sound sound_pop3 set volume 1.000
+75.5183 	EXP 	Created Mask = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='images/Mask.png', interpolate=True, mask=None, maskParams=None, name='Mask', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1.5, 0.5]), texRes=128, units='height', win=Window(...))
+75.5240 	EXP 	Created img1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='img1', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.3, 0.3]), texRes=128, units='height', win=Window(...))
+75.5280 	EXP 	Created img2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='img2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.3, 0.3]), texRes=128, units='height', win=Window(...))
+75.5329 	EXP 	Created img3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='img3', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.3, 0.3]), texRes=128, units='height', win=Window(...))
+75.5330 	EXP 	Sound sound_pop4 set volume 1.000
+75.5330 	EXP 	Sound sound_pop5 set volume 1.000
+75.5330 	EXP 	Sound sound_pop6 set volume 1.000
+75.5371 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='text_2', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+75.5392 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+75.5396 	EXP 	Created sameText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='sameText', opacity=1, ori=0, pos=array([-0.2, -0.3]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+75.5400 	EXP 	Created diffText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='diffText', opacity=1, ori=0, pos=array([ 0.2, -0.3]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+75.5406 	EXP 	Created leftCL = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-4.0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=UNKNOWN, interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=UNKNOWN, lineWidth=3, name='leftCL', opacity=0.5, ori=0.0, pos=array([-0.2, -0.3]), size=array([-0.2, -0.2]), units='height', vertices=ndarray(...), win=Window(...))
+75.5412 	EXP 	Created rightCL = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-5.0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=UNKNOWN, interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=UNKNOWN, lineWidth=3, name='rightCL', opacity=0.5, ori=0.0, pos=array([ 0.2, -0.3]), size=array([0.2, 0.2]), units='height', vertices=ndarray(...), win=Window(...))
+75.5413 	EXP 	window1: mouseVisible = True
+75.5413 	EXP 	Sound clickedSound set volume 1.000
+75.5452 	EXP 	Created retIMG = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='retIMG', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.3, 0.3]), texRes=128, units='height', win=Window(...))
+75.5452 	EXP 	Sound sound_pop7 set volume 1.000
+75.5472 	EXP 	Created question_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='question_text', opacity=1, ori=0, pos=array([0. , 0.3]), rgb=UNKNOWN, text='When did you see this object?', units='height', win=Window(...), wrapWidth=1)
+75.5491 	EXP 	Created decisionQ_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='decisionQ_2', opacity=1, ori=0, pos=array([0. , 0.3]), rgb=UNKNOWN, text='When did you see this object?', units='height', win=Window(...), wrapWidth=1)
+75.5496 	EXP 	Created first_left = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=UNKNOWN, interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=UNKNOWN, lineWidth=3, name='first_left', opacity=0.5, ori=0.0, pos=array([0. , 0.1]), size=array([0.15, 0.15]), units='height', vertices=ndarray(...), win=Window(...))
+75.5501 	EXP 	Created second_middle = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=UNKNOWN, interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=UNKNOWN, lineWidth=3, name='second_middle', opacity=0.5, ori=0.0, pos=array([ 0. , -0.1]), size=array([0.15, 0.15]), units='height', vertices=ndarray(...), win=Window(...))
+75.5506 	EXP 	Created third_right = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-4.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=UNKNOWN, interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=UNKNOWN, lineWidth=3, name='third_right', opacity=0.5, ori=0.0, pos=array([ 0. , -0.3]), size=array([0.15, 0.15]), units='height', vertices=ndarray(...), win=Window(...))
+75.5523 	EXP 	Created First = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='First', opacity=1, ori=0, pos=array([0. , 0.1]), rgb=UNKNOWN, text='First', units='height', win=Window(...), wrapWidth=1)
+75.5539 	EXP 	Created Second = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='Second', opacity=1, ori=0, pos=array([ 0. , -0.1]), rgb=UNKNOWN, text='Second', units='height', win=Window(...), wrapWidth=1)
+75.5556 	EXP 	Created Third = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='Third', opacity=1, ori=0, pos=array([ 0. , -0.3]), rgb=UNKNOWN, text='Third', units='height', win=Window(...), wrapWidth=1)
+75.5556 	EXP 	window1: mouseVisible = True
+75.5557 	EXP 	Sound clickedSound set volume 1.000
+75.5626 	EXP 	Created BlockBreak = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='BlockBreak', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+75.5745 	EXP 	Created text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='text_4', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+75.5777 	EXP 	Created Triplet1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Triplet1', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.3, 0.3]), texRes=128, units='height', win=Window(...))
+75.5810 	EXP 	Created Triplet2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Triplet2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.3, 0.3]), texRes=128, units='height', win=Window(...))
+75.5851 	EXP 	Created Triplet3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Triplet3', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.3, 0.3]), texRes=128, units='height', win=Window(...))
+75.5852 	EXP 	Sound sound_pop set volume 1.000
+75.5852 	EXP 	Sound sound_pop2 set volume 1.000
+75.5852 	EXP 	Sound sound_pop3 set volume 1.000
+75.6690 	EXP 	Created Mask = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='images/Mask.png', interpolate=True, mask=None, maskParams=None, name='Mask', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1.5, 0.5]), texRes=128, units='height', win=Window(...))
+75.6748 	EXP 	Created img1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='img1', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.3, 0.3]), texRes=128, units='height', win=Window(...))
+75.6790 	EXP 	Created img2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='img2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.3, 0.3]), texRes=128, units='height', win=Window(...))
+75.6841 	EXP 	Created img3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='img3', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.3, 0.3]), texRes=128, units='height', win=Window(...))
+75.6842 	EXP 	Sound sound_pop4 set volume 1.000
+75.6842 	EXP 	Sound sound_pop5 set volume 1.000
+75.6843 	EXP 	Sound sound_pop6 set volume 1.000
+75.6878 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='text_2', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+75.6899 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+75.6903 	EXP 	Created sameText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='sameText', opacity=1, ori=0, pos=array([-0.2, -0.3]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+75.6907 	EXP 	Created diffText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='diffText', opacity=1, ori=0, pos=array([ 0.2, -0.3]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+75.6914 	EXP 	Created leftCL = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-4.0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=UNKNOWN, interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=UNKNOWN, lineWidth=3, name='leftCL', opacity=0.5, ori=0.0, pos=array([-0.2, -0.3]), size=array([-0.2, -0.2]), units='height', vertices=ndarray(...), win=Window(...))
+75.6920 	EXP 	Created rightCL = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-5.0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=UNKNOWN, interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=UNKNOWN, lineWidth=3, name='rightCL', opacity=0.5, ori=0.0, pos=array([ 0.2, -0.3]), size=array([0.2, 0.2]), units='height', vertices=ndarray(...), win=Window(...))
+75.6921 	EXP 	window1: mouseVisible = True
+75.6921 	EXP 	Sound clickedSound set volume 1.000
+75.6952 	EXP 	Created retIMG = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='retIMG', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.3, 0.3]), texRes=128, units='height', win=Window(...))
+75.6953 	EXP 	Sound sound_pop7 set volume 1.000
+75.6971 	EXP 	Created question_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='question_text', opacity=1, ori=0, pos=array([0. , 0.3]), rgb=UNKNOWN, text='When did you see this object?', units='height', win=Window(...), wrapWidth=1)
+75.6990 	EXP 	Created decisionQ_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='decisionQ_2', opacity=1, ori=0, pos=array([0. , 0.3]), rgb=UNKNOWN, text='When did you see this object?', units='height', win=Window(...), wrapWidth=1)
+75.6995 	EXP 	Created first_left = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=UNKNOWN, interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=UNKNOWN, lineWidth=3, name='first_left', opacity=0.5, ori=0.0, pos=array([0. , 0.1]), size=array([0.15, 0.15]), units='height', vertices=ndarray(...), win=Window(...))
+75.7000 	EXP 	Created second_middle = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=UNKNOWN, interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=UNKNOWN, lineWidth=3, name='second_middle', opacity=0.5, ori=0.0, pos=array([ 0. , -0.1]), size=array([0.15, 0.15]), units='height', vertices=ndarray(...), win=Window(...))
+75.7005 	EXP 	Created third_right = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-4.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=UNKNOWN, interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=UNKNOWN, lineWidth=3, name='third_right', opacity=0.5, ori=0.0, pos=array([ 0. , -0.3]), size=array([0.15, 0.15]), units='height', vertices=ndarray(...), win=Window(...))
+75.7021 	EXP 	Created First = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='First', opacity=1, ori=0, pos=array([0. , 0.1]), rgb=UNKNOWN, text='First', units='height', win=Window(...), wrapWidth=1)
+75.7036 	EXP 	Created Second = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='Second', opacity=1, ori=0, pos=array([ 0. , -0.1]), rgb=UNKNOWN, text='Second', units='height', win=Window(...), wrapWidth=1)
+75.7052 	EXP 	Created Third = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='Third', opacity=1, ori=0, pos=array([ 0. , -0.3]), rgb=UNKNOWN, text='Third', units='height', win=Window(...), wrapWidth=1)
+75.7053 	EXP 	window1: mouseVisible = True
+75.7054 	EXP 	Sound clickedSound set volume 1.000
+75.7079 	EXP 	Created end = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='end', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+75.7677 	EXP 	Instructions: autoDraw = True
+81.2167 	EXP 	Created sequence: random, trialTypes=1, nReps=2, seed=None
+81.2168 	EXP 	New trial (rep=0, index=0): None
+81.3595 	DATA 	Keypress: space
+81.3628 	EXP 	Instructions: autoDraw = False
+81.3628 	EXP 	Triplet1: pos = array([0., 0.])
+81.3628 	EXP 	Triplet1: image = 'images/OBJ_91.png'
+81.3628 	EXP 	Triplet2: pos = array([-0.5,  0. ])
+81.3628 	EXP 	Triplet2: image = 'images/OBJ_75.png'
+81.3628 	EXP 	Triplet3: pos = array([0.5, 0. ])
+81.3628 	EXP 	Triplet3: image = 'images/OBJ_51.png'
+81.3628 	EXP 	Triplet1: autoDraw = True
+82.8632 	EXP 	Triplet1: autoDraw = False
+83.3631 	EXP 	Triplet2: autoDraw = True
+84.8627 	EXP 	Triplet2: autoDraw = False
+85.3625 	EXP 	Triplet3: autoDraw = True
+86.8621 	EXP 	Triplet3: autoDraw = False
+86.8621 	EXP 	Triplet1: autoDraw = False
+86.8621 	EXP 	Triplet2: autoDraw = False
+86.8621 	EXP 	Triplet3: autoDraw = False
+86.8621 	EXP 	Mask: autoDraw = True
+88.4879 	EXP 	Mask: autoDraw = False
+88.4879 	EXP 	Mask: autoDraw = False
+88.4879 	EXP 	img1: pos = array([0.5, 0. ])
+88.4879 	EXP 	img1: image = 'images/OBJ_75.png'
+88.4879 	EXP 	img2: pos = array([0., 0.])
+88.4879 	EXP 	img2: image = 'images/OBJ_91.png'
+88.4879 	EXP 	img3: pos = array([-0.5,  0. ])
+88.4879 	EXP 	img3: image = 'images/OBJ_51.png'
+88.4879 	EXP 	img1: autoDraw = True
+89.9945 	EXP 	img1: autoDraw = False
+90.4777 	EXP 	img2: autoDraw = True
+91.9773 	EXP 	img2: autoDraw = False
+92.4771 	EXP 	img3: autoDraw = True
+93.9770 	EXP 	img3: autoDraw = False
+93.9770 	EXP 	img1: autoDraw = False
+93.9770 	EXP 	img2: autoDraw = False
+93.9770 	EXP 	img3: autoDraw = False
+93.9770 	EXP 	text_2: autoDraw = True
+94.9764 	EXP 	text_2: autoDraw = False
+94.9764 	EXP 	text_2: autoDraw = False
+94.9764 	EXP 	sameText: text = 'Same'
+94.9764 	EXP 	diffText: text = 'Different'
+94.9764 	EXP 	text: autoDraw = True
+94.9764 	EXP 	sameText: autoDraw = True
+94.9764 	EXP 	diffText: autoDraw = True
+94.9764 	EXP 	leftCL: autoDraw = True
+94.9764 	EXP 	rightCL: autoDraw = True
+98.3256 	DATA 	Mouse: Left button down, pos=(498,152)
+98.3421 	EXP 	text: autoDraw = False
+98.3421 	EXP 	sameText: autoDraw = False
+98.3421 	EXP 	diffText: autoDraw = False
+98.3421 	EXP 	leftCL: autoDraw = False
+98.3421 	EXP 	rightCL: autoDraw = False
+98.4438 	DATA 	Mouse:  Left button up, pos=(498,152)
+98.8268 	EXP 	New trial (rep=1, index=0): None
+98.8921 	EXP 	Triplet1: pos = array([0.5, 0. ])
+98.8921 	EXP 	Triplet1: image = 'images/OBJ_80.png'
+98.8921 	EXP 	Triplet2: pos = array([-0.5,  0. ])
+98.8921 	EXP 	Triplet2: image = 'images/OBJ_150.png'
+98.8921 	EXP 	Triplet3: pos = array([0., 0.])
+98.8921 	EXP 	Triplet3: image = 'images/OBJ_24.png'
+98.8921 	EXP 	Triplet1: autoDraw = True
+100.3915 	EXP 	Triplet1: autoDraw = False
+100.8914 	EXP 	Triplet2: autoDraw = True
+102.3909 	EXP 	Triplet2: autoDraw = False
+102.8907 	EXP 	Triplet3: autoDraw = True
+104.3903 	EXP 	Triplet3: autoDraw = False
+104.3903 	EXP 	Triplet1: autoDraw = False
+104.3903 	EXP 	Triplet2: autoDraw = False
+104.3903 	EXP 	Triplet3: autoDraw = False
+104.3903 	EXP 	Mask: autoDraw = True
+105.9310 	EXP 	Mask: autoDraw = False
+105.9310 	EXP 	Mask: autoDraw = False
+105.9310 	EXP 	img1: pos = array([0.5, 0. ])
+105.9310 	EXP 	img1: image = 'images/OBJ_80.png'
+105.9310 	EXP 	img2: pos = array([-0.5,  0. ])
+105.9310 	EXP 	img2: image = 'images/OBJ_150.png'
+105.9310 	EXP 	img3: pos = array([0., 0.])
+105.9310 	EXP 	img3: image = 'images/OBJ_24.png'
+105.9310 	EXP 	img1: autoDraw = True
+107.4394 	EXP 	img1: autoDraw = False
+107.9226 	EXP 	img2: autoDraw = True
+109.4222 	EXP 	img2: autoDraw = False
+109.9221 	EXP 	img3: autoDraw = True
+111.4220 	EXP 	img3: autoDraw = False
+111.4220 	EXP 	img1: autoDraw = False
+111.4220 	EXP 	img2: autoDraw = False
+111.4220 	EXP 	img3: autoDraw = False
+111.4220 	EXP 	text_2: autoDraw = True
+112.4213 	EXP 	text_2: autoDraw = False
+112.4213 	EXP 	text_2: autoDraw = False
+112.4213 	EXP 	sameText: text = 'Same'
+112.4213 	EXP 	diffText: text = 'Different'
+112.4213 	EXP 	text: autoDraw = True
+112.4213 	EXP 	sameText: autoDraw = True
+112.4213 	EXP 	diffText: autoDraw = True
+112.4213 	EXP 	leftCL: autoDraw = True
+112.4213 	EXP 	rightCL: autoDraw = True
+112.9743 	DATA 	Mouse: Left button down, pos=(490,184)
+113.0045 	EXP 	text: autoDraw = False
+113.0045 	EXP 	sameText: autoDraw = False
+113.0045 	EXP 	diffText: autoDraw = False
+113.0045 	EXP 	leftCL: autoDraw = False
+113.0045 	EXP 	rightCL: autoDraw = False
+113.0892 	DATA 	Mouse:  Left button up, pos=(490,184)
+113.4909 	EXP 	Created sequence: random, trialTypes=1, nReps=3, seed=None
+113.4910 	EXP 	New trial (rep=0, index=0): None
+113.5417 	EXP 	retIMG: image = 'images/OBJ_150.png'
+113.5417 	EXP 	retIMG: autoDraw = True
+115.0539 	EXP 	retIMG: autoDraw = False
+115.0539 	EXP 	retIMG: autoDraw = False
+115.0539 	EXP 	question_text: autoDraw = True
+116.0537 	EXP 	question_text: autoDraw = False
+116.0537 	EXP 	question_text: autoDraw = False
+116.0537 	EXP 	decisionQ_2: autoDraw = True
+116.0537 	EXP 	first_left: autoDraw = True
+116.0537 	EXP 	second_middle: autoDraw = True
+116.0537 	EXP 	third_right: autoDraw = True
+116.0537 	EXP 	First: autoDraw = True
+116.0537 	EXP 	Second: autoDraw = True
+116.0537 	EXP 	Third: autoDraw = True
+117.3900 	DATA 	Mouse: Left button down, pos=(599,635)
+117.4199 	EXP 	decisionQ_2: autoDraw = False
+117.4199 	EXP 	first_left: autoDraw = False
+117.4199 	EXP 	second_middle: autoDraw = False
+117.4199 	EXP 	third_right: autoDraw = False
+117.4199 	EXP 	First: autoDraw = False
+117.4199 	EXP 	Second: autoDraw = False
+117.4199 	EXP 	Third: autoDraw = False
+117.5215 	DATA 	Mouse:  Left button up, pos=(599,635)
+117.9049 	EXP 	New trial (rep=1, index=0): None
+117.9274 	EXP 	retIMG: image = 'images/OBJ_80.png'
+117.9274 	EXP 	retIMG: autoDraw = True
+119.4360 	EXP 	retIMG: autoDraw = False
+119.4360 	EXP 	retIMG: autoDraw = False
+119.4360 	EXP 	question_text: autoDraw = True
+120.4357 	EXP 	question_text: autoDraw = False
+120.4357 	EXP 	question_text: autoDraw = False
+120.4357 	EXP 	decisionQ_2: autoDraw = True
+120.4357 	EXP 	first_left: autoDraw = True
+120.4357 	EXP 	second_middle: autoDraw = True
+120.4357 	EXP 	third_right: autoDraw = True
+120.4357 	EXP 	First: autoDraw = True
+120.4357 	EXP 	Second: autoDraw = True
+120.4357 	EXP 	Third: autoDraw = True
+121.2523 	DATA 	Mouse: Left button down, pos=(615,168)
+121.2688 	EXP 	decisionQ_2: autoDraw = False
+121.2688 	EXP 	first_left: autoDraw = False
+121.2688 	EXP 	second_middle: autoDraw = False
+121.2688 	EXP 	third_right: autoDraw = False
+121.2688 	EXP 	First: autoDraw = False
+121.2688 	EXP 	Second: autoDraw = False
+121.2688 	EXP 	Third: autoDraw = False
+121.3536 	DATA 	Mouse:  Left button up, pos=(615,168)
+121.7533 	EXP 	New trial (rep=2, index=0): None
+121.7775 	EXP 	retIMG: image = 'images/OBJ_24.png'
+121.7775 	EXP 	retIMG: autoDraw = True
+123.2849 	EXP 	retIMG: autoDraw = False
+123.2849 	EXP 	retIMG: autoDraw = False
+123.2849 	EXP 	question_text: autoDraw = True
+124.2846 	EXP 	question_text: autoDraw = False
+124.2846 	EXP 	question_text: autoDraw = False
+124.2846 	EXP 	decisionQ_2: autoDraw = True
+124.2846 	EXP 	first_left: autoDraw = True
+124.2846 	EXP 	second_middle: autoDraw = True
+124.2846 	EXP 	third_right: autoDraw = True
+124.2846 	EXP 	First: autoDraw = True
+124.2846 	EXP 	Second: autoDraw = True
+124.2846 	EXP 	Third: autoDraw = True
+124.9846 	DATA 	Mouse: Left button down, pos=(649,424)
+125.0011 	EXP 	decisionQ_2: autoDraw = False
+125.0011 	EXP 	first_left: autoDraw = False
+125.0011 	EXP 	second_middle: autoDraw = False
+125.0011 	EXP 	third_right: autoDraw = False
+125.0011 	EXP 	First: autoDraw = False
+125.0011 	EXP 	Second: autoDraw = False
+125.0011 	EXP 	Third: autoDraw = False
+125.1028 	DATA 	Mouse:  Left button up, pos=(649,424)
+125.5010 	EXP 	BlockBreak: autoDraw = True
+128.1690 	DATA 	Mouse: Left button down, pos=(652,425)
+128.3351 	DATA 	Mouse:  Left button up, pos=(656,425)
+129.9015 	DATA 	Keypress: escape
+130.0133 	EXP 	window1: mouseVisible = True

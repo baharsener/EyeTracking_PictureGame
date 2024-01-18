@@ -1,0 +1,1378 @@
+6.6386 	WARNING 	Monitor specification not found. Creating a temporary one...
+6.6590 	WARNING 	User requested fullscreen with size [800 600], but screen is actually [1280, 1024]. Using actual size
+7.2052 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001E318724CA0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001E318C7B460>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1280, 1024]), stencilBits=0, stereo=False, units='pix', useFBO=False, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+7.2052 	EXP 	window1: mouseVisible = True
+7.2057 	EXP 	window1: mouseVisible = False
+9.2034 	DATA 	Keypress: return
+9.7270 	DATA 	Keypress: return
+11.5568 	DATA 	Keypress: c
+31.9567 	EXP 	window1: units = 'pix'
+35.7388 	DATA 	Keypress: o
+35.7398 	EXP 	window1: units = 'pix'
+35.7663 	WARNING 	User requested fullscreen with size [1280  720], but screen is actually [1280, 1024]. Using actual size
+36.1651 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001E318724CA0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001E31F3C3490>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1280, 1024]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+36.1653 	EXP 	window1: mouseVisible = True
+36.1653 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+36.1653 	EXP 	window1: recordFrameIntervals = False
+36.3315 	EXP 	window1: recordFrameIntervals = True
+36.5149 	EXP 	Screen (0) actual frame rate measured at 60.02Hz
+36.5149 	EXP 	window1: recordFrameIntervals = False
+36.7003 	EXP 	Created Instructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='Instructions', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+36.7045 	EXP 	Created Triplet1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Triplet1', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.3, 0.3]), texRes=128, units='height', win=Window(...))
+36.7083 	EXP 	Created Triplet2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Triplet2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.3, 0.3]), texRes=128, units='height', win=Window(...))
+36.7161 	EXP 	Created Triplet3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Triplet3', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.3, 0.3]), texRes=128, units='height', win=Window(...))
+36.7249 	EXP 	Sound sound_pop set volume 1.000
+36.7337 	EXP 	Sound sound_pop2 set volume 1.000
+36.7425 	EXP 	Sound sound_pop3 set volume 1.000
+36.8287 	EXP 	Created Mask = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='images/Mask.png', interpolate=True, mask=None, maskParams=None, name='Mask', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.5, 0.5]), texRes=128, units='height', win=Window(...))
+36.8381 	EXP 	Created img1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='img1', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.3, 0.3]), texRes=128, units='height', win=Window(...))
+36.8438 	EXP 	Created img2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='img2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.3, 0.3]), texRes=128, units='height', win=Window(...))
+36.8493 	EXP 	Created img3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='img3', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.3, 0.3]), texRes=128, units='height', win=Window(...))
+36.8583 	EXP 	Sound sound_pop4 set volume 1.000
+36.8673 	EXP 	Sound sound_pop5 set volume 1.000
+36.8762 	EXP 	Sound sound_pop6 set volume 1.000
+36.8808 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+36.8837 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+36.8843 	EXP 	Created sameText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='sameText', opacity=1.0, ori=0, pos=array([-0.2, -0.3]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+36.8848 	EXP 	Created diffText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='diffText', opacity=1.0, ori=0, pos=array([ 0.2, -0.3]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+36.8857 	EXP 	Created leftCL = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-4.0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=3, name='leftCL', opacity=0.5, ori=0.0, pos=array([-0.2, -0.3]), size=array([-0.2, -0.2]), units='height', vertices=ndarray(...), win=Window(...))
+36.8866 	EXP 	Created rightCL = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-5.0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=3, name='rightCL', opacity=0.5, ori=0.0, pos=array([ 0.2, -0.3]), size=array([0.2, 0.2]), units='height', vertices=ndarray(...), win=Window(...))
+36.8867 	EXP 	window1: mouseVisible = True
+36.8871 	EXP 	Sound clickedSound set volume 1.000
+36.8908 	EXP 	Created retIMG = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='retIMG', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.3, 0.3]), texRes=128, units='height', win=Window(...))
+36.8996 	EXP 	Sound sound_pop7 set volume 1.000
+36.9020 	EXP 	Created question_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='question_text', opacity=1.0, ori=0, pos=array([0. , 0.3]), rgb=UNKNOWN, text='When did you see this object?', units='height', win=Window(...), wrapWidth=1)
+36.9041 	EXP 	Created decisionQ_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='decisionQ_2', opacity=1.0, ori=0, pos=array([0. , 0.3]), rgb=UNKNOWN, text='When did you see this object?', units='height', win=Window(...), wrapWidth=1)
+36.9048 	EXP 	Created first_left = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=3, name='first_left', opacity=0.5, ori=0.0, pos=array([0. , 0.1]), size=array([0.15, 0.15]), units='height', vertices=ndarray(...), win=Window(...))
+36.9056 	EXP 	Created second_middle = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=3, name='second_middle', opacity=0.5, ori=0.0, pos=array([ 0. , -0.1]), size=array([0.15, 0.15]), units='height', vertices=ndarray(...), win=Window(...))
+36.9062 	EXP 	Created third_right = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-4.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=3, name='third_right', opacity=0.5, ori=0.0, pos=array([ 0. , -0.3]), size=array([0.15, 0.15]), units='height', vertices=ndarray(...), win=Window(...))
+36.9087 	EXP 	Created First = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='First', opacity=1.0, ori=0, pos=array([0. , 0.1]), rgb=UNKNOWN, text='First', units='height', win=Window(...), wrapWidth=1)
+36.9106 	EXP 	Created Second = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='Second', opacity=1.0, ori=0, pos=array([ 0. , -0.1]), rgb=UNKNOWN, text='Second', units='height', win=Window(...), wrapWidth=1)
+36.9125 	EXP 	Created Third = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='Third', opacity=1.0, ori=0, pos=array([ 0. , -0.3]), rgb=UNKNOWN, text='Third', units='height', win=Window(...), wrapWidth=1)
+36.9126 	EXP 	window1: mouseVisible = True
+36.9130 	EXP 	Sound clickedSound set volume 1.000
+36.9208 	EXP 	Created BlockBreak = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='BlockBreak', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+36.9343 	EXP 	Created text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='text_4', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+36.9381 	EXP 	Created Triplet1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Triplet1', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.3, 0.3]), texRes=128, units='height', win=Window(...))
+36.9425 	EXP 	Created Triplet2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Triplet2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.3, 0.3]), texRes=128, units='height', win=Window(...))
+36.9472 	EXP 	Created Triplet3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Triplet3', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.3, 0.3]), texRes=128, units='height', win=Window(...))
+36.9561 	EXP 	Sound sound_pop set volume 1.000
+36.9651 	EXP 	Sound sound_pop2 set volume 1.000
+36.9740 	EXP 	Sound sound_pop3 set volume 1.000
+37.0616 	EXP 	Created Mask = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='images/Mask.png', interpolate=True, mask=None, maskParams=None, name='Mask', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.5, 0.5]), texRes=128, units='height', win=Window(...))
+37.0677 	EXP 	Created img1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='img1', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.3, 0.3]), texRes=128, units='height', win=Window(...))
+37.0727 	EXP 	Created img2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='img2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.3, 0.3]), texRes=128, units='height', win=Window(...))
+37.0773 	EXP 	Created img3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='img3', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.3, 0.3]), texRes=128, units='height', win=Window(...))
+37.0861 	EXP 	Sound sound_pop4 set volume 1.000
+37.0950 	EXP 	Sound sound_pop5 set volume 1.000
+37.1039 	EXP 	Sound sound_pop6 set volume 1.000
+37.1074 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+37.1100 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+37.1105 	EXP 	Created sameText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='sameText', opacity=1.0, ori=0, pos=array([-0.2, -0.3]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+37.1109 	EXP 	Created diffText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='diffText', opacity=1.0, ori=0, pos=array([ 0.2, -0.3]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+37.1118 	EXP 	Created leftCL = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-4.0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=3, name='leftCL', opacity=0.5, ori=0.0, pos=array([-0.2, -0.3]), size=array([-0.2, -0.2]), units='height', vertices=ndarray(...), win=Window(...))
+37.1126 	EXP 	Created rightCL = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-5.0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=3, name='rightCL', opacity=0.5, ori=0.0, pos=array([ 0.2, -0.3]), size=array([0.2, 0.2]), units='height', vertices=ndarray(...), win=Window(...))
+37.1127 	EXP 	window1: mouseVisible = True
+37.1131 	EXP 	Sound clickedSound set volume 1.000
+37.1168 	EXP 	Created retIMG = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='retIMG', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.3, 0.3]), texRes=128, units='height', win=Window(...))
+37.1257 	EXP 	Sound sound_pop7 set volume 1.000
+37.1280 	EXP 	Created question_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='question_text', opacity=1.0, ori=0, pos=array([0. , 0.3]), rgb=UNKNOWN, text='When did you see this object?', units='height', win=Window(...), wrapWidth=1)
+37.1302 	EXP 	Created decisionQ_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='decisionQ_2', opacity=1.0, ori=0, pos=array([0. , 0.3]), rgb=UNKNOWN, text='When did you see this object?', units='height', win=Window(...), wrapWidth=1)
+37.1309 	EXP 	Created first_left = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=3, name='first_left', opacity=0.5, ori=0.0, pos=array([0. , 0.1]), size=array([0.15, 0.15]), units='height', vertices=ndarray(...), win=Window(...))
+37.1316 	EXP 	Created second_middle = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=3, name='second_middle', opacity=0.5, ori=0.0, pos=array([ 0. , -0.1]), size=array([0.15, 0.15]), units='height', vertices=ndarray(...), win=Window(...))
+37.1322 	EXP 	Created third_right = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-4.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=3, name='third_right', opacity=0.5, ori=0.0, pos=array([ 0. , -0.3]), size=array([0.15, 0.15]), units='height', vertices=ndarray(...), win=Window(...))
+37.1342 	EXP 	Created First = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='First', opacity=1.0, ori=0, pos=array([0. , 0.1]), rgb=UNKNOWN, text='First', units='height', win=Window(...), wrapWidth=1)
+37.1361 	EXP 	Created Second = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='Second', opacity=1.0, ori=0, pos=array([ 0. , -0.1]), rgb=UNKNOWN, text='Second', units='height', win=Window(...), wrapWidth=1)
+37.1380 	EXP 	Created Third = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='Third', opacity=1.0, ori=0, pos=array([ 0. , -0.3]), rgb=UNKNOWN, text='Third', units='height', win=Window(...), wrapWidth=1)
+37.1381 	EXP 	window1: mouseVisible = True
+37.1385 	EXP 	Sound clickedSound set volume 1.000
+37.1413 	EXP 	Created end = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='end', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+37.1779 	EXP 	Instructions: autoDraw = True
+38.2012 	EXP 	Created sequence: random, trialTypes=1, nReps=25, seed=None
+38.2014 	EXP 	New trial (rep=0, index=0): None
+38.3407 	DATA 	Keypress: space
+38.5976 	EXP 	Sound sound_pop started
+38.5948 	EXP 	Instructions: autoDraw = False
+38.5948 	EXP 	Triplet1: image = 'images/OBJ_129.png'
+38.5948 	EXP 	Triplet2: image = 'images/OBJ_67.png'
+38.5948 	EXP 	Triplet3: image = 'images/OBJ_48.png'
+38.5948 	EXP 	Triplet1: autoDraw = True
+38.9696 	EXP 	Sound sound_pop reached end of file
+40.0973 	EXP 	Triplet1: autoDraw = False
+40.5971 	EXP 	Sound sound_pop2 started
+40.5967 	EXP 	Triplet2: autoDraw = True
+40.9607 	EXP 	Sound sound_pop2 reached end of file
+42.0962 	EXP 	Triplet2: autoDraw = False
+42.5965 	EXP 	Sound sound_pop3 started
+42.5961 	EXP 	Triplet3: autoDraw = True
+42.9599 	EXP 	Sound sound_pop3 reached end of file
+44.0957 	EXP 	Triplet3: autoDraw = False
+44.0957 	EXP 	Triplet1: autoDraw = False
+44.0957 	EXP 	Triplet2: autoDraw = False
+44.0957 	EXP 	Triplet3: autoDraw = False
+44.0957 	EXP 	Mask: autoDraw = True
+45.7288 	EXP 	Sound sound_pop4 started
+45.7309 	EXP 	Mask: autoDraw = False
+45.7309 	EXP 	Mask: autoDraw = False
+45.7309 	EXP 	img1: image = 'images/OBJ_129.png'
+45.7309 	EXP 	img2: image = 'images/OBJ_67.png'
+45.7309 	EXP 	img3: image = 'images/OBJ_48.png'
+45.7309 	EXP 	img1: autoDraw = True
+46.1002 	EXP 	Sound sound_pop4 reached end of file
+47.2452 	EXP 	img1: autoDraw = False
+47.7284 	EXP 	Sound sound_pop5 started
+47.7278 	EXP 	img2: autoDraw = True
+48.0912 	EXP 	Sound sound_pop5 reached end of file
+49.2275 	EXP 	img2: autoDraw = False
+49.7273 	EXP 	Sound sound_pop6 started
+49.7273 	EXP 	img3: autoDraw = True
+50.0905 	EXP 	Sound sound_pop6 reached end of file
+51.2268 	EXP 	img3: autoDraw = False
+51.2268 	EXP 	img1: autoDraw = False
+51.2268 	EXP 	img2: autoDraw = False
+51.2268 	EXP 	img3: autoDraw = False
+51.2268 	EXP 	text_2: autoDraw = True
+52.2271 	EXP 	text_2: autoDraw = False
+52.2271 	EXP 	text_2: autoDraw = False
+52.2271 	EXP 	sameText: height = 0.03
+52.2271 	EXP 	sameText: height = 0.03
+52.2271 	EXP 	sameText: height = 0.03
+52.2271 	EXP 	sameText: text = 'Same'
+52.2271 	EXP 	diffText: height = 0.03
+52.2271 	EXP 	diffText: height = 0.03
+52.2271 	EXP 	diffText: height = 0.03
+52.2271 	EXP 	diffText: text = 'Different'
+52.2271 	EXP 	text: autoDraw = True
+52.2271 	EXP 	sameText: autoDraw = True
+52.2271 	EXP 	diffText: autoDraw = True
+52.2271 	EXP 	leftCL: autoDraw = True
+52.2271 	EXP 	rightCL: autoDraw = True
+54.6761 	DATA 	Mouse: Left button down, pos=(504,159)
+54.6926 	EXP 	Sound clickedSound started
+54.6926 	EXP 	text: autoDraw = False
+54.6926 	EXP 	sameText: autoDraw = False
+54.6926 	EXP 	diffText: autoDraw = False
+54.6926 	EXP 	leftCL: autoDraw = False
+54.6926 	EXP 	rightCL: autoDraw = False
+54.8429 	DATA 	Mouse:  Left button up, pos=(504,159)
+55.2015 	EXP 	Sound clickedSound stopped
+55.2020 	EXP 	New trial (rep=1, index=0): None
+55.5094 	EXP 	Sound sound_pop started
+55.5040 	EXP 	Triplet1: image = 'images/OBJ_94.png'
+55.5040 	EXP 	Triplet2: image = 'images/OBJ_194.png'
+55.5040 	EXP 	Triplet3: image = 'images/OBJ_64.png'
+55.5040 	EXP 	Triplet1: autoDraw = True
+55.8802 	EXP 	Sound sound_pop reached end of file
+57.0085 	EXP 	Triplet1: autoDraw = False
+57.4917 	EXP 	Sound sound_pop2 started
+57.4917 	EXP 	Triplet2: autoDraw = True
+57.8524 	EXP 	Sound sound_pop2 reached end of file
+58.9913 	EXP 	Triplet2: autoDraw = False
+59.4911 	EXP 	Sound sound_pop3 started
+59.4911 	EXP 	Triplet3: autoDraw = True
+59.8500 	EXP 	Sound sound_pop3 reached end of file
+60.9907 	EXP 	Triplet3: autoDraw = False
+60.9907 	EXP 	Triplet1: autoDraw = False
+60.9907 	EXP 	Triplet2: autoDraw = False
+60.9907 	EXP 	Triplet3: autoDraw = False
+60.9907 	EXP 	Mask: autoDraw = True
+62.5406 	EXP 	Sound sound_pop4 started
+62.5303 	EXP 	Mask: autoDraw = False
+62.5303 	EXP 	Mask: autoDraw = False
+62.5303 	EXP 	img1: image = 'images/OBJ_94.png'
+62.5303 	EXP 	img2: image = 'images/OBJ_194.png'
+62.5303 	EXP 	img3: image = 'images/OBJ_64.png'
+62.5303 	EXP 	img1: autoDraw = True
+62.9010 	EXP 	Sound sound_pop4 reached end of file
+64.0398 	EXP 	img1: autoDraw = False
+64.5235 	EXP 	Sound sound_pop5 started
+64.5230 	EXP 	img2: autoDraw = True
+64.8840 	EXP 	Sound sound_pop5 reached end of file
+66.0226 	EXP 	img2: autoDraw = False
+66.5225 	EXP 	Sound sound_pop6 started
+66.5224 	EXP 	img3: autoDraw = True
+66.8830 	EXP 	Sound sound_pop6 reached end of file
+68.0220 	EXP 	img3: autoDraw = False
+68.0220 	EXP 	img1: autoDraw = False
+68.0220 	EXP 	img2: autoDraw = False
+68.0220 	EXP 	img3: autoDraw = False
+68.0220 	EXP 	text_2: autoDraw = True
+69.0223 	EXP 	text_2: autoDraw = False
+69.0223 	EXP 	text_2: autoDraw = False
+69.0223 	EXP 	sameText: text = 'Same'
+69.0223 	EXP 	diffText: text = 'Different'
+69.0223 	EXP 	text: autoDraw = True
+69.0223 	EXP 	sameText: autoDraw = True
+69.0223 	EXP 	diffText: autoDraw = True
+69.0223 	EXP 	leftCL: autoDraw = True
+69.0223 	EXP 	rightCL: autoDraw = True
+69.3218 	DATA 	Mouse: Left button down, pos=(793,153)
+69.3383 	EXP 	Sound clickedSound started
+69.3383 	EXP 	text: autoDraw = False
+69.3383 	EXP 	sameText: autoDraw = False
+69.3383 	EXP 	diffText: autoDraw = False
+69.3383 	EXP 	leftCL: autoDraw = False
+69.3383 	EXP 	rightCL: autoDraw = False
+69.4054 	DATA 	Mouse:  Left button up, pos=(795,152)
+69.8419 	EXP 	Sound clickedSound stopped
+69.8422 	EXP 	New trial (rep=2, index=0): None
+70.1546 	EXP 	Sound sound_pop started
+70.1438 	EXP 	Triplet1: image = 'images/OBJ_175.png'
+70.1438 	EXP 	Triplet2: image = 'images/OBJ_120.png'
+70.1438 	EXP 	Triplet3: image = 'images/OBJ_47.png'
+70.1438 	EXP 	Triplet1: autoDraw = True
+70.5203 	EXP 	Sound sound_pop reached end of file
+71.6543 	EXP 	Triplet1: autoDraw = False
+72.1375 	EXP 	Sound sound_pop2 started
+72.1375 	EXP 	Triplet2: autoDraw = True
+72.5011 	EXP 	Sound sound_pop2 reached end of file
+73.6375 	EXP 	Triplet2: autoDraw = False
+74.1369 	EXP 	Sound sound_pop3 started
+74.1369 	EXP 	Triplet3: autoDraw = True
+74.4953 	EXP 	Sound sound_pop3 reached end of file
+75.6364 	EXP 	Triplet3: autoDraw = False
+75.6364 	EXP 	Triplet1: autoDraw = False
+75.6364 	EXP 	Triplet2: autoDraw = False
+75.6364 	EXP 	Triplet3: autoDraw = False
+75.6364 	EXP 	Mask: autoDraw = True
+77.1859 	EXP 	Sound sound_pop4 started
+77.1738 	EXP 	Mask: autoDraw = False
+77.1738 	EXP 	Mask: autoDraw = False
+77.1738 	EXP 	img1: image = 'images/OBJ_47.png'
+77.1738 	EXP 	img2: image = 'images/OBJ_120.png'
+77.1738 	EXP 	img3: image = 'images/OBJ_175.png'
+77.1738 	EXP 	img1: autoDraw = True
+77.5511 	EXP 	Sound sound_pop4 reached end of file
+78.6856 	EXP 	img1: autoDraw = False
+79.1693 	EXP 	Sound sound_pop5 started
+79.1694 	EXP 	img2: autoDraw = True
+79.5319 	EXP 	Sound sound_pop5 reached end of file
+80.6688 	EXP 	img2: autoDraw = False
+81.1682 	EXP 	Sound sound_pop6 started
+81.1687 	EXP 	img3: autoDraw = True
+81.5311 	EXP 	Sound sound_pop6 reached end of file
+82.6677 	EXP 	img3: autoDraw = False
+82.6677 	EXP 	img1: autoDraw = False
+82.6677 	EXP 	img2: autoDraw = False
+82.6677 	EXP 	img3: autoDraw = False
+82.6677 	EXP 	text_2: autoDraw = True
+83.6675 	EXP 	text_2: autoDraw = False
+83.6675 	EXP 	text_2: autoDraw = False
+83.6675 	EXP 	sameText: text = 'Same'
+83.6675 	EXP 	diffText: text = 'Different'
+83.6675 	EXP 	text: autoDraw = True
+83.6675 	EXP 	sameText: autoDraw = True
+83.6675 	EXP 	diffText: autoDraw = True
+83.6675 	EXP 	leftCL: autoDraw = True
+83.6675 	EXP 	rightCL: autoDraw = True
+86.4835 	DATA 	Mouse: Left button down, pos=(481,164)
+86.5000 	EXP 	Sound clickedSound started
+86.5001 	EXP 	text: autoDraw = False
+86.5001 	EXP 	sameText: autoDraw = False
+86.5001 	EXP 	diffText: autoDraw = False
+86.5001 	EXP 	leftCL: autoDraw = False
+86.5001 	EXP 	rightCL: autoDraw = False
+86.6670 	DATA 	Mouse:  Left button up, pos=(481,164)
+87.0110 	EXP 	Sound clickedSound stopped
+87.0114 	EXP 	New trial (rep=3, index=0): None
+87.3163 	EXP 	Sound sound_pop started
+87.3048 	EXP 	Triplet1: image = 'images/OBJ_93.png'
+87.3048 	EXP 	Triplet2: image = 'images/OBJ_61.png'
+87.3048 	EXP 	Triplet3: image = 'images/OBJ_135.png'
+87.3048 	EXP 	Triplet1: autoDraw = True
+87.6815 	EXP 	Sound sound_pop reached end of file
+88.8160 	EXP 	Triplet1: autoDraw = False
+89.2992 	EXP 	Sound sound_pop2 started
+89.2997 	EXP 	Triplet2: autoDraw = True
+89.6623 	EXP 	Sound sound_pop2 reached end of file
+90.7988 	EXP 	Triplet2: autoDraw = False
+91.2986 	EXP 	Sound sound_pop3 started
+91.2992 	EXP 	Triplet3: autoDraw = True
+91.6614 	EXP 	Sound sound_pop3 reached end of file
+92.7986 	EXP 	Triplet3: autoDraw = False
+92.7986 	EXP 	Triplet1: autoDraw = False
+92.7986 	EXP 	Triplet2: autoDraw = False
+92.7986 	EXP 	Triplet3: autoDraw = False
+92.7986 	EXP 	Mask: autoDraw = True
+94.3481 	EXP 	Sound sound_pop4 started
+94.3444 	EXP 	Mask: autoDraw = False
+94.3444 	EXP 	Mask: autoDraw = False
+94.3444 	EXP 	img1: image = 'images/OBJ_93.png'
+94.3444 	EXP 	img2: image = 'images/OBJ_61.png'
+94.3444 	EXP 	img3: image = 'images/OBJ_135.png'
+94.3444 	EXP 	img1: autoDraw = True
+94.7224 	EXP 	Sound sound_pop4 reached end of file
+95.8478 	EXP 	img1: autoDraw = False
+96.3471 	EXP 	Sound sound_pop5 started
+96.3471 	EXP 	img2: autoDraw = True
+96.7114 	EXP 	Sound sound_pop5 reached end of file
+97.8472 	EXP 	img2: autoDraw = False
+98.3469 	EXP 	Sound sound_pop6 started
+98.3470 	EXP 	img3: autoDraw = True
+98.7126 	EXP 	Sound sound_pop6 reached end of file
+99.8461 	EXP 	img3: autoDraw = False
+99.8461 	EXP 	img1: autoDraw = False
+99.8461 	EXP 	img2: autoDraw = False
+99.8461 	EXP 	img3: autoDraw = False
+99.8461 	EXP 	text_2: autoDraw = True
+100.8459 	EXP 	text_2: autoDraw = False
+100.8459 	EXP 	text_2: autoDraw = False
+100.8459 	EXP 	sameText: text = 'Same'
+100.8459 	EXP 	diffText: text = 'Different'
+100.8459 	EXP 	text: autoDraw = True
+100.8459 	EXP 	sameText: autoDraw = True
+100.8459 	EXP 	diffText: autoDraw = True
+100.8459 	EXP 	leftCL: autoDraw = True
+100.8459 	EXP 	rightCL: autoDraw = True
+101.1793 	DATA 	Mouse: Left button down, pos=(396,228)
+101.1958 	EXP 	Sound clickedSound started
+101.1958 	EXP 	text: autoDraw = False
+101.1958 	EXP 	sameText: autoDraw = False
+101.1958 	EXP 	diffText: autoDraw = False
+101.1958 	EXP 	leftCL: autoDraw = False
+101.1958 	EXP 	rightCL: autoDraw = False
+101.3127 	DATA 	Mouse:  Left button up, pos=(396,228)
+101.7023 	EXP 	Sound clickedSound stopped
+101.7026 	EXP 	New trial (rep=4, index=0): None
+101.8298 	DATA 	Keypress: escape
+101.9954 	EXP 	Sound sound_pop started
+101.9899 	EXP 	Triplet1: image = 'images/OBJ_58.png'
+101.9899 	EXP 	Triplet2: image = 'images/OBJ_1.png'
+101.9899 	EXP 	Triplet3: image = 'images/OBJ_21.png'
+101.9899 	EXP 	Triplet1: autoDraw = True
+104.1455 	EXP 	window1: mouseVisible = True
+104.1488 	EXP 	window1: mouseVisible = True
+104.1488 	EXP 	window1: mouseVisible = True
+104.1489 	EXP 	window1: mouseVisible = True
+104.1489 	EXP 	window1: mouseVisible = True
+104.1489 	EXP 	window1: mouseVisible = True
+104.1490 	EXP 	window1: mouseVisible = True
+104.1490 	EXP 	window1: mouseVisible = True
+104.1490 	EXP 	window1: mouseVisible = True
+104.1491 	EXP 	window1: mouseVisible = True
+104.1491 	EXP 	window1: mouseVisible = True
+104.1491 	EXP 	window1: mouseVisible = True
+104.1492 	EXP 	window1: mouseVisible = True
+104.1492 	EXP 	window1: mouseVisible = True
+104.1492 	EXP 	window1: mouseVisible = True
+104.1492 	EXP 	window1: mouseVisible = True
+104.1493 	EXP 	window1: mouseVisible = True
+104.1493 	EXP 	window1: mouseVisible = True
+104.1493 	EXP 	window1: mouseVisible = True
+104.1494 	EXP 	window1: mouseVisible = True
+104.1494 	EXP 	window1: mouseVisible = True
+104.1494 	EXP 	window1: mouseVisible = True
+104.1495 	EXP 	window1: mouseVisible = True
+104.1495 	EXP 	window1: mouseVisible = True
+104.1495 	EXP 	window1: mouseVisible = True
+104.1495 	EXP 	window1: mouseVisible = True
+104.1496 	EXP 	window1: mouseVisible = True
+104.1496 	EXP 	window1: mouseVisible = True
+104.1496 	EXP 	window1: mouseVisible = True
+104.1497 	EXP 	window1: mouseVisible = True
+104.1497 	EXP 	window1: mouseVisible = True
+104.1497 	EXP 	window1: mouseVisible = True
+104.1497 	EXP 	window1: mouseVisible = True
+104.1498 	EXP 	window1: mouseVisible = True
+104.1498 	EXP 	window1: mouseVisible = True
+104.1498 	EXP 	window1: mouseVisible = True
+104.1499 	EXP 	window1: mouseVisible = True
+104.1499 	EXP 	window1: mouseVisible = True
+104.1499 	EXP 	window1: mouseVisible = True
+104.1500 	EXP 	window1: mouseVisible = True
+104.1500 	EXP 	window1: mouseVisible = True
+104.1500 	EXP 	window1: mouseVisible = True
+104.1500 	EXP 	window1: mouseVisible = True
+104.1501 	EXP 	window1: mouseVisible = True
+104.1501 	EXP 	window1: mouseVisible = True
+104.1501 	EXP 	window1: mouseVisible = True
+104.1502 	EXP 	window1: mouseVisible = True
+104.1502 	EXP 	window1: mouseVisible = True
+104.1502 	EXP 	window1: mouseVisible = True
+104.1503 	EXP 	window1: mouseVisible = True
+104.1503 	EXP 	window1: mouseVisible = True
+104.1503 	EXP 	window1: mouseVisible = True
+104.1503 	EXP 	window1: mouseVisible = True
+104.1504 	EXP 	window1: mouseVisible = True
+104.1504 	EXP 	window1: mouseVisible = True
+104.1504 	EXP 	window1: mouseVisible = True
+104.1505 	EXP 	window1: mouseVisible = True
+104.1505 	EXP 	window1: mouseVisible = True
+104.1505 	EXP 	window1: mouseVisible = True
+104.1506 	EXP 	window1: mouseVisible = True
+104.1506 	EXP 	window1: mouseVisible = True
+104.1507 	EXP 	window1: mouseVisible = True
+104.1507 	EXP 	window1: mouseVisible = True
+104.1507 	EXP 	window1: mouseVisible = True
+104.1508 	EXP 	window1: mouseVisible = True
+104.1508 	EXP 	window1: mouseVisible = True
+104.1508 	EXP 	window1: mouseVisible = True
+104.1509 	EXP 	window1: mouseVisible = True
+104.1509 	EXP 	window1: mouseVisible = True
+104.1509 	EXP 	window1: mouseVisible = True
+104.1509 	EXP 	window1: mouseVisible = True
+104.1510 	EXP 	window1: mouseVisible = True
+104.1510 	EXP 	window1: mouseVisible = True
+104.1510 	EXP 	window1: mouseVisible = True
+104.1511 	EXP 	window1: mouseVisible = True
+104.1511 	EXP 	window1: mouseVisible = True
+104.1511 	EXP 	window1: mouseVisible = True
+104.1511 	EXP 	window1: mouseVisible = True
+104.1512 	EXP 	window1: mouseVisible = True
+104.1512 	EXP 	window1: mouseVisible = True
+104.1512 	EXP 	window1: mouseVisible = True
+104.1513 	EXP 	window1: mouseVisible = True
+104.1513 	EXP 	window1: mouseVisible = True
+104.1513 	EXP 	window1: mouseVisible = True
+104.1514 	EXP 	window1: mouseVisible = True
+104.1514 	EXP 	window1: mouseVisible = True
+104.1514 	EXP 	window1: mouseVisible = True
+104.1514 	EXP 	window1: mouseVisible = True
+104.1515 	EXP 	window1: mouseVisible = True
+104.1515 	EXP 	window1: mouseVisible = True
+104.1515 	EXP 	window1: mouseVisible = True
+104.1516 	EXP 	window1: mouseVisible = True
+104.1516 	EXP 	window1: mouseVisible = True
+104.1516 	EXP 	window1: mouseVisible = True
+104.1516 	EXP 	window1: mouseVisible = True
+104.1517 	EXP 	window1: mouseVisible = True
+104.1517 	EXP 	window1: mouseVisible = True
+104.1517 	EXP 	window1: mouseVisible = True
+104.1518 	EXP 	window1: mouseVisible = True
+104.1518 	EXP 	window1: mouseVisible = True
+104.1518 	EXP 	window1: mouseVisible = True
+104.1518 	EXP 	window1: mouseVisible = True
+104.1519 	EXP 	window1: mouseVisible = True
+104.1519 	EXP 	window1: mouseVisible = True
+104.1519 	EXP 	window1: mouseVisible = True
+104.1520 	EXP 	window1: mouseVisible = True
+104.1520 	EXP 	window1: mouseVisible = True
+104.1520 	EXP 	window1: mouseVisible = True
+104.1521 	EXP 	window1: mouseVisible = True
+104.1521 	EXP 	window1: mouseVisible = True
+104.1521 	EXP 	window1: mouseVisible = True
+104.1521 	EXP 	window1: mouseVisible = True
+104.1522 	EXP 	window1: mouseVisible = True
+104.1522 	EXP 	window1: mouseVisible = True
+104.1522 	EXP 	window1: mouseVisible = True
+104.1523 	EXP 	window1: mouseVisible = True
+104.1523 	EXP 	window1: mouseVisible = True
+104.1523 	EXP 	window1: mouseVisible = True
+104.1524 	EXP 	window1: mouseVisible = True
+104.1524 	EXP 	window1: mouseVisible = True
+104.1524 	EXP 	window1: mouseVisible = True
+104.1524 	EXP 	window1: mouseVisible = True
+104.1525 	EXP 	window1: mouseVisible = True
+104.1525 	EXP 	window1: mouseVisible = True
+104.1525 	EXP 	window1: mouseVisible = True
+104.1526 	EXP 	window1: mouseVisible = True
+104.1526 	EXP 	window1: mouseVisible = True
+104.1526 	EXP 	window1: mouseVisible = True
+104.1526 	EXP 	window1: mouseVisible = True
+104.1527 	EXP 	window1: mouseVisible = True
+104.1527 	EXP 	window1: mouseVisible = True
+104.1527 	EXP 	window1: mouseVisible = True
+104.1528 	EXP 	window1: mouseVisible = True
+104.1528 	EXP 	window1: mouseVisible = True
+104.1528 	EXP 	window1: mouseVisible = True
+104.1529 	EXP 	window1: mouseVisible = True
+104.1529 	EXP 	window1: mouseVisible = True
+104.1529 	EXP 	window1: mouseVisible = True
+104.1529 	EXP 	window1: mouseVisible = True
+104.1530 	EXP 	window1: mouseVisible = True
+104.1530 	EXP 	window1: mouseVisible = True
+104.1530 	EXP 	window1: mouseVisible = True
+104.1531 	EXP 	window1: mouseVisible = True
+104.1531 	EXP 	window1: mouseVisible = True
+104.1531 	EXP 	window1: mouseVisible = True
+104.1532 	EXP 	window1: mouseVisible = True
+104.1532 	EXP 	window1: mouseVisible = True
+104.1532 	EXP 	window1: mouseVisible = True
+104.1532 	EXP 	window1: mouseVisible = True
+104.1533 	EXP 	window1: mouseVisible = True
+104.1533 	EXP 	window1: mouseVisible = True
+104.1533 	EXP 	window1: mouseVisible = True
+104.1534 	EXP 	window1: mouseVisible = True
+104.1534 	EXP 	window1: mouseVisible = True
+104.1534 	EXP 	window1: mouseVisible = True
+104.1534 	EXP 	window1: mouseVisible = True
+104.1535 	EXP 	window1: mouseVisible = True
+104.1535 	EXP 	window1: mouseVisible = True
+104.1535 	EXP 	window1: mouseVisible = True
+104.1536 	EXP 	window1: mouseVisible = True
+104.1536 	EXP 	window1: mouseVisible = True
+104.1536 	EXP 	window1: mouseVisible = True
+104.1536 	EXP 	window1: mouseVisible = True
+104.1537 	EXP 	window1: mouseVisible = True
+104.1537 	EXP 	window1: mouseVisible = True
+104.1537 	EXP 	window1: mouseVisible = True
+104.1538 	EXP 	window1: mouseVisible = True
+104.1538 	EXP 	window1: mouseVisible = True
+104.1538 	EXP 	window1: mouseVisible = True
+104.1539 	EXP 	window1: mouseVisible = True
+104.1539 	EXP 	window1: mouseVisible = True
+104.1539 	EXP 	window1: mouseVisible = True
+104.1539 	EXP 	window1: mouseVisible = True
+104.1540 	EXP 	window1: mouseVisible = True
+104.1540 	EXP 	window1: mouseVisible = True
+104.1540 	EXP 	window1: mouseVisible = True
+104.1541 	EXP 	window1: mouseVisible = True
+104.1541 	EXP 	window1: mouseVisible = True
+104.1541 	EXP 	window1: mouseVisible = True
+104.1541 	EXP 	window1: mouseVisible = True
+104.1542 	EXP 	window1: mouseVisible = True
+104.1542 	EXP 	window1: mouseVisible = True
+104.1542 	EXP 	window1: mouseVisible = True
+104.1543 	EXP 	window1: mouseVisible = True
+104.1543 	EXP 	window1: mouseVisible = True
+104.1543 	EXP 	window1: mouseVisible = True
+104.1543 	EXP 	window1: mouseVisible = True
+104.1544 	EXP 	window1: mouseVisible = True
+104.1544 	EXP 	window1: mouseVisible = True
+104.1544 	EXP 	window1: mouseVisible = True
+104.1545 	EXP 	window1: mouseVisible = True
+104.1545 	EXP 	window1: mouseVisible = True
+104.1545 	EXP 	window1: mouseVisible = True
+104.1545 	EXP 	window1: mouseVisible = True
+104.1546 	EXP 	window1: mouseVisible = True
+104.1546 	EXP 	window1: mouseVisible = True
+104.1546 	EXP 	window1: mouseVisible = True
+104.1547 	EXP 	window1: mouseVisible = True
+104.1547 	EXP 	window1: mouseVisible = True
+104.1547 	EXP 	window1: mouseVisible = True
+104.1548 	EXP 	window1: mouseVisible = True
+104.1548 	EXP 	window1: mouseVisible = True
+104.1548 	EXP 	window1: mouseVisible = True
+104.1548 	EXP 	window1: mouseVisible = True
+104.1549 	EXP 	window1: mouseVisible = True
+104.1549 	EXP 	window1: mouseVisible = True
+104.1549 	EXP 	window1: mouseVisible = True
+104.1550 	EXP 	window1: mouseVisible = True
+104.1550 	EXP 	window1: mouseVisible = True
+104.1550 	EXP 	window1: mouseVisible = True
+104.1550 	EXP 	window1: mouseVisible = True
+104.1551 	EXP 	window1: mouseVisible = True
+104.1551 	EXP 	window1: mouseVisible = True
+104.1551 	EXP 	window1: mouseVisible = True
+104.1552 	EXP 	window1: mouseVisible = True
+104.1552 	EXP 	window1: mouseVisible = True
+104.1553 	EXP 	window1: mouseVisible = True
+104.1553 	EXP 	window1: mouseVisible = True
+104.1553 	EXP 	window1: mouseVisible = True
+104.1553 	EXP 	window1: mouseVisible = True
+104.1554 	EXP 	window1: mouseVisible = True
+104.1554 	EXP 	window1: mouseVisible = True
+104.1554 	EXP 	window1: mouseVisible = True
+104.1555 	EXP 	window1: mouseVisible = True
+104.1555 	EXP 	window1: mouseVisible = True
+104.1555 	EXP 	window1: mouseVisible = True
+104.1555 	EXP 	window1: mouseVisible = True
+104.1556 	EXP 	window1: mouseVisible = True
+104.1556 	EXP 	window1: mouseVisible = True
+104.1556 	EXP 	window1: mouseVisible = True
+104.1557 	EXP 	window1: mouseVisible = True
+104.1557 	EXP 	window1: mouseVisible = True
+104.1557 	EXP 	window1: mouseVisible = True
+104.1558 	EXP 	window1: mouseVisible = True
+104.1558 	EXP 	window1: mouseVisible = True
+104.1558 	EXP 	window1: mouseVisible = True
+104.1558 	EXP 	window1: mouseVisible = True
+104.1559 	EXP 	window1: mouseVisible = True
+104.1559 	EXP 	window1: mouseVisible = True
+104.1559 	EXP 	window1: mouseVisible = True
+104.1560 	EXP 	window1: mouseVisible = True
+104.1560 	EXP 	window1: mouseVisible = True
+104.1560 	EXP 	window1: mouseVisible = True
+104.1561 	EXP 	window1: mouseVisible = True
+104.1561 	EXP 	window1: mouseVisible = True
+104.1561 	EXP 	window1: mouseVisible = True
+104.1561 	EXP 	window1: mouseVisible = True
+104.1562 	EXP 	window1: mouseVisible = True
+104.1562 	EXP 	window1: mouseVisible = True
+104.1562 	EXP 	window1: mouseVisible = True
+104.1563 	EXP 	window1: mouseVisible = True
+104.1563 	EXP 	window1: mouseVisible = True
+104.1563 	EXP 	window1: mouseVisible = True
+104.1564 	EXP 	window1: mouseVisible = True
+104.1564 	EXP 	window1: mouseVisible = True
+104.1564 	EXP 	window1: mouseVisible = True
+104.1564 	EXP 	window1: mouseVisible = True
+104.1565 	EXP 	window1: mouseVisible = True
+104.1565 	EXP 	window1: mouseVisible = True
+104.1565 	EXP 	window1: mouseVisible = True
+104.1566 	EXP 	window1: mouseVisible = True
+104.1566 	EXP 	window1: mouseVisible = True
+104.1566 	EXP 	window1: mouseVisible = True
+104.1566 	EXP 	window1: mouseVisible = True
+104.1567 	EXP 	window1: mouseVisible = True
+104.1567 	EXP 	window1: mouseVisible = True
+104.1567 	EXP 	window1: mouseVisible = True
+104.1568 	EXP 	window1: mouseVisible = True
+104.1568 	EXP 	window1: mouseVisible = True
+104.1568 	EXP 	window1: mouseVisible = True
+104.1569 	EXP 	window1: mouseVisible = True
+104.1569 	EXP 	window1: mouseVisible = True
+104.1569 	EXP 	window1: mouseVisible = True
+104.1569 	EXP 	window1: mouseVisible = True
+104.1570 	EXP 	window1: mouseVisible = True
+104.1570 	EXP 	window1: mouseVisible = True
+104.1570 	EXP 	window1: mouseVisible = True
+104.1571 	EXP 	window1: mouseVisible = True
+104.1571 	EXP 	window1: mouseVisible = True
+104.1571 	EXP 	window1: mouseVisible = True
+104.1572 	EXP 	window1: mouseVisible = True
+104.1572 	EXP 	window1: mouseVisible = True
+104.1572 	EXP 	window1: mouseVisible = True
+104.1573 	EXP 	window1: mouseVisible = True
+104.1573 	EXP 	window1: mouseVisible = True
+104.1573 	EXP 	window1: mouseVisible = True
+104.1573 	EXP 	window1: mouseVisible = True
+104.1574 	EXP 	window1: mouseVisible = True
+104.1574 	EXP 	window1: mouseVisible = True
+104.1574 	EXP 	window1: mouseVisible = True
+104.1575 	EXP 	window1: mouseVisible = True
+104.1575 	EXP 	window1: mouseVisible = True
+104.1575 	EXP 	window1: mouseVisible = True
+104.1576 	EXP 	window1: mouseVisible = True
+104.1576 	EXP 	window1: mouseVisible = True
+104.1576 	EXP 	window1: mouseVisible = True
+104.1577 	EXP 	window1: mouseVisible = True
+104.1577 	EXP 	window1: mouseVisible = True
+104.1577 	EXP 	window1: mouseVisible = True
+104.1577 	EXP 	window1: mouseVisible = True
+104.1578 	EXP 	window1: mouseVisible = True
+104.1578 	EXP 	window1: mouseVisible = True
+104.1578 	EXP 	window1: mouseVisible = True
+104.1579 	EXP 	window1: mouseVisible = True
+104.1579 	EXP 	window1: mouseVisible = True
+104.1579 	EXP 	window1: mouseVisible = True
+104.1579 	EXP 	window1: mouseVisible = True
+104.1580 	EXP 	window1: mouseVisible = True
+104.1580 	EXP 	window1: mouseVisible = True
+104.1580 	EXP 	window1: mouseVisible = True
+104.1581 	EXP 	window1: mouseVisible = True
+104.1581 	EXP 	window1: mouseVisible = True
+104.1581 	EXP 	window1: mouseVisible = True
+104.1582 	EXP 	window1: mouseVisible = True
+104.1582 	EXP 	window1: mouseVisible = True
+104.1582 	EXP 	window1: mouseVisible = True
+104.1583 	EXP 	window1: mouseVisible = True
+104.1583 	EXP 	window1: mouseVisible = True
+104.1583 	EXP 	window1: mouseVisible = True
+104.1583 	EXP 	window1: mouseVisible = True
+104.1584 	EXP 	window1: mouseVisible = True
+104.1584 	EXP 	window1: mouseVisible = True
+104.1584 	EXP 	window1: mouseVisible = True
+104.1585 	EXP 	window1: mouseVisible = True
+104.1585 	EXP 	window1: mouseVisible = True
+104.1585 	EXP 	window1: mouseVisible = True
+104.1586 	EXP 	window1: mouseVisible = True
+104.1586 	EXP 	window1: mouseVisible = True
+104.1586 	EXP 	window1: mouseVisible = True
+104.1586 	EXP 	window1: mouseVisible = True
+104.1587 	EXP 	window1: mouseVisible = True
+104.1587 	EXP 	window1: mouseVisible = True
+104.1587 	EXP 	window1: mouseVisible = True
+104.1588 	EXP 	window1: mouseVisible = True
+104.1588 	EXP 	window1: mouseVisible = True
+104.1588 	EXP 	window1: mouseVisible = True
+104.1589 	EXP 	window1: mouseVisible = True
+104.1589 	EXP 	window1: mouseVisible = True
+104.1589 	EXP 	window1: mouseVisible = True
+104.1589 	EXP 	window1: mouseVisible = True
+104.1590 	EXP 	window1: mouseVisible = True
+104.1590 	EXP 	window1: mouseVisible = True
+104.1590 	EXP 	window1: mouseVisible = True
+104.1591 	EXP 	window1: mouseVisible = True
+104.1591 	EXP 	window1: mouseVisible = True
+104.1591 	EXP 	window1: mouseVisible = True
+104.1592 	EXP 	window1: mouseVisible = True
+104.1592 	EXP 	window1: mouseVisible = True
+104.1592 	EXP 	window1: mouseVisible = True
+104.1592 	EXP 	window1: mouseVisible = True
+104.1593 	EXP 	window1: mouseVisible = True
+104.1593 	EXP 	window1: mouseVisible = True
+104.1593 	EXP 	window1: mouseVisible = True
+104.1594 	EXP 	window1: mouseVisible = True
+104.1594 	EXP 	window1: mouseVisible = True
+104.1594 	EXP 	window1: mouseVisible = True
+104.1595 	EXP 	window1: mouseVisible = True
+104.1595 	EXP 	window1: mouseVisible = True
+104.1595 	EXP 	window1: mouseVisible = True
+104.1595 	EXP 	window1: mouseVisible = True
+104.1596 	EXP 	window1: mouseVisible = True
+104.1596 	EXP 	window1: mouseVisible = True
+104.1596 	EXP 	window1: mouseVisible = True
+104.1597 	EXP 	window1: mouseVisible = True
+104.1597 	EXP 	window1: mouseVisible = True
+104.1597 	EXP 	window1: mouseVisible = True
+104.1598 	EXP 	window1: mouseVisible = True
+104.1598 	EXP 	window1: mouseVisible = True
+104.1598 	EXP 	window1: mouseVisible = True
+104.1598 	EXP 	window1: mouseVisible = True
+104.1599 	EXP 	window1: mouseVisible = True
+104.1599 	EXP 	window1: mouseVisible = True
+104.1600 	EXP 	window1: mouseVisible = True
+104.1600 	EXP 	window1: mouseVisible = True
+104.1600 	EXP 	window1: mouseVisible = True
+104.1601 	EXP 	window1: mouseVisible = True
+104.1601 	EXP 	window1: mouseVisible = True
+104.1601 	EXP 	window1: mouseVisible = True
+104.1602 	EXP 	window1: mouseVisible = True
+104.1602 	EXP 	window1: mouseVisible = True
+104.1602 	EXP 	window1: mouseVisible = True
+104.1602 	EXP 	window1: mouseVisible = True
+104.1603 	EXP 	window1: mouseVisible = True
+104.1603 	EXP 	window1: mouseVisible = True
+104.1603 	EXP 	window1: mouseVisible = True
+104.1604 	EXP 	window1: mouseVisible = True
+104.1604 	EXP 	window1: mouseVisible = True
+104.1604 	EXP 	window1: mouseVisible = True
+104.1605 	EXP 	window1: mouseVisible = True
+104.1605 	EXP 	window1: mouseVisible = True
+104.1605 	EXP 	window1: mouseVisible = True
+104.1605 	EXP 	window1: mouseVisible = True
+104.1606 	EXP 	window1: mouseVisible = True
+104.1606 	EXP 	window1: mouseVisible = True
+104.1606 	EXP 	window1: mouseVisible = True
+104.1607 	EXP 	window1: mouseVisible = True
+104.1607 	EXP 	window1: mouseVisible = True
+104.1607 	EXP 	window1: mouseVisible = True
+104.1607 	EXP 	window1: mouseVisible = True
+104.1608 	EXP 	window1: mouseVisible = True
+104.1608 	EXP 	window1: mouseVisible = True
+104.1608 	EXP 	window1: mouseVisible = True
+104.1609 	EXP 	window1: mouseVisible = True
+104.1609 	EXP 	window1: mouseVisible = True
+104.1609 	EXP 	window1: mouseVisible = True
+104.1610 	EXP 	window1: mouseVisible = True
+104.1610 	EXP 	window1: mouseVisible = True
+104.1610 	EXP 	window1: mouseVisible = True
+104.1610 	EXP 	window1: mouseVisible = True
+104.1611 	EXP 	window1: mouseVisible = True
+104.1611 	EXP 	window1: mouseVisible = True
+104.1611 	EXP 	window1: mouseVisible = True
+104.1612 	EXP 	window1: mouseVisible = True
+104.1612 	EXP 	window1: mouseVisible = True
+104.1612 	EXP 	window1: mouseVisible = True
+104.1613 	EXP 	window1: mouseVisible = True
+104.1613 	EXP 	window1: mouseVisible = True
+104.1613 	EXP 	window1: mouseVisible = True
+104.1614 	EXP 	window1: mouseVisible = True
+104.1614 	EXP 	window1: mouseVisible = True
+104.1614 	EXP 	window1: mouseVisible = True
+104.1614 	EXP 	window1: mouseVisible = True
+104.1615 	EXP 	window1: mouseVisible = True
+104.1615 	EXP 	window1: mouseVisible = True
+104.1615 	EXP 	window1: mouseVisible = True
+104.1616 	EXP 	window1: mouseVisible = True
+104.1616 	EXP 	window1: mouseVisible = True
+104.1616 	EXP 	window1: mouseVisible = True
+104.1616 	EXP 	window1: mouseVisible = True
+104.1617 	EXP 	window1: mouseVisible = True
+104.1617 	EXP 	window1: mouseVisible = True
+104.1617 	EXP 	window1: mouseVisible = True
+104.1618 	EXP 	window1: mouseVisible = True
+104.1618 	EXP 	window1: mouseVisible = True
+104.1618 	EXP 	window1: mouseVisible = True
+104.1619 	EXP 	window1: mouseVisible = True
+104.1619 	EXP 	window1: mouseVisible = True
+104.1619 	EXP 	window1: mouseVisible = True
+104.1619 	EXP 	window1: mouseVisible = True
+104.1620 	EXP 	window1: mouseVisible = True
+104.1620 	EXP 	window1: mouseVisible = True
+104.1620 	EXP 	window1: mouseVisible = True
+104.1621 	EXP 	window1: mouseVisible = True
+104.1621 	EXP 	window1: mouseVisible = True
+104.1621 	EXP 	window1: mouseVisible = True
+104.1621 	EXP 	window1: mouseVisible = True
+104.1622 	EXP 	window1: mouseVisible = True
+104.1622 	EXP 	window1: mouseVisible = True
+104.1622 	EXP 	window1: mouseVisible = True
+104.1623 	EXP 	window1: mouseVisible = True
+104.1623 	EXP 	window1: mouseVisible = True
+104.1623 	EXP 	window1: mouseVisible = True
+104.1624 	EXP 	window1: mouseVisible = True
+104.1624 	EXP 	window1: mouseVisible = True
+104.1624 	EXP 	window1: mouseVisible = True
+104.1624 	EXP 	window1: mouseVisible = True
+104.1625 	EXP 	window1: mouseVisible = True
+104.1625 	EXP 	window1: mouseVisible = True
+104.1625 	EXP 	window1: mouseVisible = True
+104.1626 	EXP 	window1: mouseVisible = True
+104.1626 	EXP 	window1: mouseVisible = True
+104.1626 	EXP 	window1: mouseVisible = True
+104.1627 	EXP 	window1: mouseVisible = True
+104.1627 	EXP 	window1: mouseVisible = True
+104.1627 	EXP 	window1: mouseVisible = True
+104.1627 	EXP 	window1: mouseVisible = True
+104.1628 	EXP 	window1: mouseVisible = True
+104.1628 	EXP 	window1: mouseVisible = True
+104.1628 	EXP 	window1: mouseVisible = True
+104.1629 	EXP 	window1: mouseVisible = True
+104.1629 	EXP 	window1: mouseVisible = True
+104.1629 	EXP 	window1: mouseVisible = True
+104.1629 	EXP 	window1: mouseVisible = True
+104.1630 	EXP 	window1: mouseVisible = True
+104.1630 	EXP 	window1: mouseVisible = True
+104.1630 	EXP 	window1: mouseVisible = True
+104.1631 	EXP 	window1: mouseVisible = True
+104.1631 	EXP 	window1: mouseVisible = True
+104.1631 	EXP 	window1: mouseVisible = True
+104.1632 	EXP 	window1: mouseVisible = True
+104.1632 	EXP 	window1: mouseVisible = True
+104.1632 	EXP 	window1: mouseVisible = True
+104.1632 	EXP 	window1: mouseVisible = True
+104.1633 	EXP 	window1: mouseVisible = True
+104.1633 	EXP 	window1: mouseVisible = True
+104.1633 	EXP 	window1: mouseVisible = True
+104.1634 	EXP 	window1: mouseVisible = True
+104.1634 	EXP 	window1: mouseVisible = True
+104.1634 	EXP 	window1: mouseVisible = True
+104.1635 	EXP 	window1: mouseVisible = True
+104.1635 	EXP 	window1: mouseVisible = True
+104.1635 	EXP 	window1: mouseVisible = True
+104.1635 	EXP 	window1: mouseVisible = True
+104.1636 	EXP 	window1: mouseVisible = True
+104.1636 	EXP 	window1: mouseVisible = True
+104.1636 	EXP 	window1: mouseVisible = True
+104.1637 	EXP 	window1: mouseVisible = True
+104.1637 	EXP 	window1: mouseVisible = True
+104.1637 	EXP 	window1: mouseVisible = True
+104.1637 	EXP 	window1: mouseVisible = True
+104.1638 	EXP 	window1: mouseVisible = True
+104.1638 	EXP 	window1: mouseVisible = True
+104.1638 	EXP 	window1: mouseVisible = True
+104.1639 	EXP 	window1: mouseVisible = True
+104.1639 	EXP 	window1: mouseVisible = True
+104.1639 	EXP 	window1: mouseVisible = True
+104.1640 	EXP 	window1: mouseVisible = True
+104.1640 	EXP 	window1: mouseVisible = True
+104.1640 	EXP 	window1: mouseVisible = True
+104.1641 	EXP 	window1: mouseVisible = True
+104.1641 	EXP 	window1: mouseVisible = True
+104.1641 	EXP 	window1: mouseVisible = True
+104.1641 	EXP 	window1: mouseVisible = True
+104.1642 	EXP 	window1: mouseVisible = True
+104.1642 	EXP 	window1: mouseVisible = True
+104.1642 	EXP 	window1: mouseVisible = True
+104.1643 	EXP 	window1: mouseVisible = True
+104.1643 	EXP 	window1: mouseVisible = True
+104.1643 	EXP 	window1: mouseVisible = True
+104.1643 	EXP 	window1: mouseVisible = True
+104.1644 	EXP 	window1: mouseVisible = True
+104.1644 	EXP 	window1: mouseVisible = True
+104.1644 	EXP 	window1: mouseVisible = True
+104.1645 	EXP 	window1: mouseVisible = True
+104.1645 	EXP 	window1: mouseVisible = True
+104.1645 	EXP 	window1: mouseVisible = True
+104.1646 	EXP 	window1: mouseVisible = True
+104.1646 	EXP 	window1: mouseVisible = True
+104.1646 	EXP 	window1: mouseVisible = True
+104.1647 	EXP 	window1: mouseVisible = True
+104.1647 	EXP 	window1: mouseVisible = True
+104.1647 	EXP 	window1: mouseVisible = True
+104.1648 	EXP 	window1: mouseVisible = True
+104.1648 	EXP 	window1: mouseVisible = True
+104.1648 	EXP 	window1: mouseVisible = True
+104.1649 	EXP 	window1: mouseVisible = True
+104.1649 	EXP 	window1: mouseVisible = True
+104.1649 	EXP 	window1: mouseVisible = True
+104.1649 	EXP 	window1: mouseVisible = True
+104.1650 	EXP 	window1: mouseVisible = True
+104.1650 	EXP 	window1: mouseVisible = True
+104.1650 	EXP 	window1: mouseVisible = True
+104.1651 	EXP 	window1: mouseVisible = True
+104.1651 	EXP 	window1: mouseVisible = True
+104.1651 	EXP 	window1: mouseVisible = True
+104.1652 	EXP 	window1: mouseVisible = True
+104.1652 	EXP 	window1: mouseVisible = True
+104.1652 	EXP 	window1: mouseVisible = True
+104.1652 	EXP 	window1: mouseVisible = True
+104.1653 	EXP 	window1: mouseVisible = True
+104.1653 	EXP 	window1: mouseVisible = True
+104.1653 	EXP 	window1: mouseVisible = True
+104.1654 	EXP 	window1: mouseVisible = True
+104.1654 	EXP 	window1: mouseVisible = True
+104.1654 	EXP 	window1: mouseVisible = True
+104.1654 	EXP 	window1: mouseVisible = True
+104.1655 	EXP 	window1: mouseVisible = True
+104.1655 	EXP 	window1: mouseVisible = True
+104.1655 	EXP 	window1: mouseVisible = True
+104.1656 	EXP 	window1: mouseVisible = True
+104.1656 	EXP 	window1: mouseVisible = True
+104.1656 	EXP 	window1: mouseVisible = True
+104.1657 	EXP 	window1: mouseVisible = True
+104.1657 	EXP 	window1: mouseVisible = True
+104.1657 	EXP 	window1: mouseVisible = True
+104.1657 	EXP 	window1: mouseVisible = True
+104.1658 	EXP 	window1: mouseVisible = True
+104.1658 	EXP 	window1: mouseVisible = True
+104.1658 	EXP 	window1: mouseVisible = True
+104.1659 	EXP 	window1: mouseVisible = True
+104.1659 	EXP 	window1: mouseVisible = True
+104.1659 	EXP 	window1: mouseVisible = True
+104.1660 	EXP 	window1: mouseVisible = True
+104.1660 	EXP 	window1: mouseVisible = True
+104.1660 	EXP 	window1: mouseVisible = True
+104.1660 	EXP 	window1: mouseVisible = True
+104.1661 	EXP 	window1: mouseVisible = True
+104.1661 	EXP 	window1: mouseVisible = True
+104.1661 	EXP 	window1: mouseVisible = True
+104.1662 	EXP 	window1: mouseVisible = True
+104.1662 	EXP 	window1: mouseVisible = True
+104.1662 	EXP 	window1: mouseVisible = True
+104.1663 	EXP 	window1: mouseVisible = True
+104.1663 	EXP 	window1: mouseVisible = True
+104.1663 	EXP 	window1: mouseVisible = True
+104.1663 	EXP 	window1: mouseVisible = True
+104.1664 	EXP 	window1: mouseVisible = True
+104.1664 	EXP 	window1: mouseVisible = True
+104.1664 	EXP 	window1: mouseVisible = True
+104.1665 	EXP 	window1: mouseVisible = True
+104.1665 	EXP 	window1: mouseVisible = True
+104.1665 	EXP 	window1: mouseVisible = True
+104.1666 	EXP 	window1: mouseVisible = True
+104.1666 	EXP 	window1: mouseVisible = True
+104.1666 	EXP 	window1: mouseVisible = True
+104.1666 	EXP 	window1: mouseVisible = True
+104.1667 	EXP 	window1: mouseVisible = True
+104.1667 	EXP 	window1: mouseVisible = True
+104.1667 	EXP 	window1: mouseVisible = True
+104.1668 	EXP 	window1: mouseVisible = True
+104.1668 	EXP 	window1: mouseVisible = True
+104.1668 	EXP 	window1: mouseVisible = True
+104.1669 	EXP 	window1: mouseVisible = True
+104.1669 	EXP 	window1: mouseVisible = True
+104.1669 	EXP 	window1: mouseVisible = True
+104.1669 	EXP 	window1: mouseVisible = True
+104.1670 	EXP 	window1: mouseVisible = True
+104.1670 	EXP 	window1: mouseVisible = True
+104.1670 	EXP 	window1: mouseVisible = True
+104.1671 	EXP 	window1: mouseVisible = True
+104.1671 	EXP 	window1: mouseVisible = True
+104.1671 	EXP 	window1: mouseVisible = True
+104.1672 	EXP 	window1: mouseVisible = True
+104.1672 	EXP 	window1: mouseVisible = True
+104.1672 	EXP 	window1: mouseVisible = True
+104.1672 	EXP 	window1: mouseVisible = True
+104.1673 	EXP 	window1: mouseVisible = True
+104.1673 	EXP 	window1: mouseVisible = True
+104.1673 	EXP 	window1: mouseVisible = True
+104.1674 	EXP 	window1: mouseVisible = True
+104.1674 	EXP 	window1: mouseVisible = True
+104.1674 	EXP 	window1: mouseVisible = True
+104.1675 	EXP 	window1: mouseVisible = True
+104.1675 	EXP 	window1: mouseVisible = True
+104.1675 	EXP 	window1: mouseVisible = True
+104.1675 	EXP 	window1: mouseVisible = True
+104.1676 	EXP 	window1: mouseVisible = True
+104.1676 	EXP 	window1: mouseVisible = True
+104.1676 	EXP 	window1: mouseVisible = True
+104.1677 	EXP 	window1: mouseVisible = True
+104.1677 	EXP 	window1: mouseVisible = True
+104.1677 	EXP 	window1: mouseVisible = True
+104.1677 	EXP 	window1: mouseVisible = True
+104.1678 	EXP 	window1: mouseVisible = True
+104.1678 	EXP 	window1: mouseVisible = True
+104.1678 	EXP 	window1: mouseVisible = True
+104.1679 	EXP 	window1: mouseVisible = True
+104.1679 	EXP 	window1: mouseVisible = True
+104.1679 	EXP 	window1: mouseVisible = True
+104.1680 	EXP 	window1: mouseVisible = True
+104.1680 	EXP 	window1: mouseVisible = True
+104.1680 	EXP 	window1: mouseVisible = True
+104.1680 	EXP 	window1: mouseVisible = True
+104.1681 	EXP 	window1: mouseVisible = True
+104.1681 	EXP 	window1: mouseVisible = True
+104.1681 	EXP 	window1: mouseVisible = True
+104.1682 	EXP 	window1: mouseVisible = True
+104.1682 	EXP 	window1: mouseVisible = True
+104.1682 	EXP 	window1: mouseVisible = True
+104.1683 	EXP 	window1: mouseVisible = True
+104.1683 	EXP 	window1: mouseVisible = True
+104.1683 	EXP 	window1: mouseVisible = True
+104.1683 	EXP 	window1: mouseVisible = True
+104.1684 	EXP 	window1: mouseVisible = True
+104.1684 	EXP 	window1: mouseVisible = True
+104.1684 	EXP 	window1: mouseVisible = True
+104.1685 	EXP 	window1: mouseVisible = True
+104.1685 	EXP 	window1: mouseVisible = True
+104.1685 	EXP 	window1: mouseVisible = True
+104.1685 	EXP 	window1: mouseVisible = True
+104.1686 	EXP 	window1: mouseVisible = True
+104.1686 	EXP 	window1: mouseVisible = True
+104.1686 	EXP 	window1: mouseVisible = True
+104.1687 	EXP 	window1: mouseVisible = True
+104.1687 	EXP 	window1: mouseVisible = True
+104.1687 	EXP 	window1: mouseVisible = True
+104.1688 	EXP 	window1: mouseVisible = True
+104.1688 	EXP 	window1: mouseVisible = True
+104.1688 	EXP 	window1: mouseVisible = True
+104.1688 	EXP 	window1: mouseVisible = True
+104.1689 	EXP 	window1: mouseVisible = True
+104.1689 	EXP 	window1: mouseVisible = True
+104.1689 	EXP 	window1: mouseVisible = True
+104.1690 	EXP 	window1: mouseVisible = True
+104.1690 	EXP 	window1: mouseVisible = True
+104.1690 	EXP 	window1: mouseVisible = True
+104.1691 	EXP 	window1: mouseVisible = True
+104.1691 	EXP 	window1: mouseVisible = True
+104.1691 	EXP 	window1: mouseVisible = True
+104.1691 	EXP 	window1: mouseVisible = True
+104.1692 	EXP 	window1: mouseVisible = True
+104.1692 	EXP 	window1: mouseVisible = True
+104.1692 	EXP 	window1: mouseVisible = True
+104.1693 	EXP 	window1: mouseVisible = True
+104.1693 	EXP 	window1: mouseVisible = True
+104.1694 	EXP 	window1: mouseVisible = True
+104.1694 	EXP 	window1: mouseVisible = True
+104.1694 	EXP 	window1: mouseVisible = True
+104.1695 	EXP 	window1: mouseVisible = True
+104.1695 	EXP 	window1: mouseVisible = True
+104.1695 	EXP 	window1: mouseVisible = True
+104.1695 	EXP 	window1: mouseVisible = True
+104.1696 	EXP 	window1: mouseVisible = True
+104.1696 	EXP 	window1: mouseVisible = True
+104.1696 	EXP 	window1: mouseVisible = True
+104.1697 	EXP 	window1: mouseVisible = True
+104.1697 	EXP 	window1: mouseVisible = True
+104.1697 	EXP 	window1: mouseVisible = True
+104.1697 	EXP 	window1: mouseVisible = True
+104.1698 	EXP 	window1: mouseVisible = True
+104.1698 	EXP 	window1: mouseVisible = True
+104.1698 	EXP 	window1: mouseVisible = True
+104.1699 	EXP 	window1: mouseVisible = True
+104.1699 	EXP 	window1: mouseVisible = True
+104.1699 	EXP 	window1: mouseVisible = True
+104.1700 	EXP 	window1: mouseVisible = True
+104.1700 	EXP 	window1: mouseVisible = True
+104.1700 	EXP 	window1: mouseVisible = True
+104.1700 	EXP 	window1: mouseVisible = True
+104.1701 	EXP 	window1: mouseVisible = True
+104.1701 	EXP 	window1: mouseVisible = True
+104.1701 	EXP 	window1: mouseVisible = True
+104.1702 	EXP 	window1: mouseVisible = True
+104.1702 	EXP 	window1: mouseVisible = True
+104.1702 	EXP 	window1: mouseVisible = True
+104.1703 	EXP 	window1: mouseVisible = True
+104.1703 	EXP 	window1: mouseVisible = True
+104.1703 	EXP 	window1: mouseVisible = True
+104.1704 	EXP 	window1: mouseVisible = True
+104.1704 	EXP 	window1: mouseVisible = True
+104.1704 	EXP 	window1: mouseVisible = True
+104.1705 	EXP 	window1: mouseVisible = True
+104.1705 	EXP 	window1: mouseVisible = True
+104.1705 	EXP 	window1: mouseVisible = True
+104.1706 	EXP 	window1: mouseVisible = True
+104.1706 	EXP 	window1: mouseVisible = True
+104.1706 	EXP 	window1: mouseVisible = True
+104.1707 	EXP 	window1: mouseVisible = True
+104.1707 	EXP 	window1: mouseVisible = True
+104.1707 	EXP 	window1: mouseVisible = True
+104.1708 	EXP 	window1: mouseVisible = True
+104.1708 	EXP 	window1: mouseVisible = True
+104.1708 	EXP 	window1: mouseVisible = True
+104.1709 	EXP 	window1: mouseVisible = True
+104.1709 	EXP 	window1: mouseVisible = True
+104.1709 	EXP 	window1: mouseVisible = True
+104.1709 	EXP 	window1: mouseVisible = True
+104.1710 	EXP 	window1: mouseVisible = True
+104.1710 	EXP 	window1: mouseVisible = True
+104.1710 	EXP 	window1: mouseVisible = True
+104.1711 	EXP 	window1: mouseVisible = True
+104.1711 	EXP 	window1: mouseVisible = True
+104.1711 	EXP 	window1: mouseVisible = True
+104.1712 	EXP 	window1: mouseVisible = True
+104.1712 	EXP 	window1: mouseVisible = True
+104.1712 	EXP 	window1: mouseVisible = True
+104.1712 	EXP 	window1: mouseVisible = True
+104.1713 	EXP 	window1: mouseVisible = True
+104.1713 	EXP 	window1: mouseVisible = True
+104.1713 	EXP 	window1: mouseVisible = True
+104.1714 	EXP 	window1: mouseVisible = True
+104.1714 	EXP 	window1: mouseVisible = True
+104.1714 	EXP 	window1: mouseVisible = True
+104.1715 	EXP 	window1: mouseVisible = True
+104.1715 	EXP 	window1: mouseVisible = True
+104.1715 	EXP 	window1: mouseVisible = True
+104.1715 	EXP 	window1: mouseVisible = True
+104.1716 	EXP 	window1: mouseVisible = True
+104.1716 	EXP 	window1: mouseVisible = True
+104.1716 	EXP 	window1: mouseVisible = True
+104.1717 	EXP 	window1: mouseVisible = True
+104.1717 	EXP 	window1: mouseVisible = True
+104.1717 	EXP 	window1: mouseVisible = True
+104.1718 	EXP 	window1: mouseVisible = True
+104.1718 	EXP 	window1: mouseVisible = True
+104.1718 	EXP 	window1: mouseVisible = True
+104.1719 	EXP 	window1: mouseVisible = True
+104.1719 	EXP 	window1: mouseVisible = True
+104.1719 	EXP 	window1: mouseVisible = True
+104.1719 	EXP 	window1: mouseVisible = True
+104.1720 	EXP 	window1: mouseVisible = True
+104.1720 	EXP 	window1: mouseVisible = True
+104.1720 	EXP 	window1: mouseVisible = True
+104.1721 	EXP 	window1: mouseVisible = True
+104.1721 	EXP 	window1: mouseVisible = True
+104.1721 	EXP 	window1: mouseVisible = True
+104.1722 	EXP 	window1: mouseVisible = True
+104.1722 	EXP 	window1: mouseVisible = True
+104.1722 	EXP 	window1: mouseVisible = True
+104.1722 	EXP 	window1: mouseVisible = True
+104.1723 	EXP 	window1: mouseVisible = True
+104.1723 	EXP 	window1: mouseVisible = True
+104.1723 	EXP 	window1: mouseVisible = True
+104.1724 	EXP 	window1: mouseVisible = True
+104.1724 	EXP 	window1: mouseVisible = True
+104.1724 	EXP 	window1: mouseVisible = True
+104.1725 	EXP 	window1: mouseVisible = True
+104.1725 	EXP 	window1: mouseVisible = True
+104.1725 	EXP 	window1: mouseVisible = True
+104.1725 	EXP 	window1: mouseVisible = True
+104.1726 	EXP 	window1: mouseVisible = True
+104.1726 	EXP 	window1: mouseVisible = True
+104.1726 	EXP 	window1: mouseVisible = True
+104.1727 	EXP 	window1: mouseVisible = True
+104.1727 	EXP 	window1: mouseVisible = True
+104.1727 	EXP 	window1: mouseVisible = True
+104.1728 	EXP 	window1: mouseVisible = True
+104.1728 	EXP 	window1: mouseVisible = True
+104.1728 	EXP 	window1: mouseVisible = True
+104.1729 	EXP 	window1: mouseVisible = True
+104.1729 	EXP 	window1: mouseVisible = True
+104.1729 	EXP 	window1: mouseVisible = True
+104.1729 	EXP 	window1: mouseVisible = True
+104.1730 	EXP 	window1: mouseVisible = True
+104.1730 	EXP 	window1: mouseVisible = True
+104.1730 	EXP 	window1: mouseVisible = True
+104.1731 	EXP 	window1: mouseVisible = True
+104.1731 	EXP 	window1: mouseVisible = True
+104.1731 	EXP 	window1: mouseVisible = True
+104.1732 	EXP 	window1: mouseVisible = True
+104.1732 	EXP 	window1: mouseVisible = True
+104.1732 	EXP 	window1: mouseVisible = True
+104.1732 	EXP 	window1: mouseVisible = True
+104.1733 	EXP 	window1: mouseVisible = True
+104.1733 	EXP 	window1: mouseVisible = True
+104.1733 	EXP 	window1: mouseVisible = True
+104.1734 	EXP 	window1: mouseVisible = True
+104.1734 	EXP 	window1: mouseVisible = True
+104.1734 	EXP 	window1: mouseVisible = True
+104.1735 	EXP 	window1: mouseVisible = True
+104.1735 	EXP 	window1: mouseVisible = True
+104.1735 	EXP 	window1: mouseVisible = True
+104.1735 	EXP 	window1: mouseVisible = True
+104.1736 	EXP 	window1: mouseVisible = True
+104.1736 	EXP 	window1: mouseVisible = True
+104.1736 	EXP 	window1: mouseVisible = True
+104.1737 	EXP 	window1: mouseVisible = True
+104.1737 	EXP 	window1: mouseVisible = True
+104.1737 	EXP 	window1: mouseVisible = True
+104.1738 	EXP 	window1: mouseVisible = True
+104.1738 	EXP 	window1: mouseVisible = True
+104.1738 	EXP 	window1: mouseVisible = True
+104.1738 	EXP 	window1: mouseVisible = True
+104.1739 	EXP 	window1: mouseVisible = True
+104.1739 	EXP 	window1: mouseVisible = True
+104.1739 	EXP 	window1: mouseVisible = True
+104.1740 	EXP 	window1: mouseVisible = True
+104.1740 	EXP 	window1: mouseVisible = True
+104.1740 	EXP 	window1: mouseVisible = True
+104.1744 	EXP 	window1: mouseVisible = True
+104.1744 	EXP 	window1: mouseVisible = True
+104.1745 	EXP 	window1: mouseVisible = True
+104.1745 	EXP 	window1: mouseVisible = True
+104.1745 	EXP 	window1: mouseVisible = True
+104.1746 	EXP 	window1: mouseVisible = True
+104.1746 	EXP 	window1: mouseVisible = True
+104.1746 	EXP 	window1: mouseVisible = True
+104.1746 	EXP 	window1: mouseVisible = True
+104.1747 	EXP 	window1: mouseVisible = True
+104.1747 	EXP 	window1: mouseVisible = True
+104.1747 	EXP 	window1: mouseVisible = True
+104.1748 	EXP 	window1: mouseVisible = True
+104.1748 	EXP 	window1: mouseVisible = True
+104.1748 	EXP 	window1: mouseVisible = True
+104.1748 	EXP 	window1: mouseVisible = True
+104.1749 	EXP 	window1: mouseVisible = True
+104.1749 	EXP 	window1: mouseVisible = True
+104.1749 	EXP 	window1: mouseVisible = True
+104.1750 	EXP 	window1: mouseVisible = True
+104.1750 	EXP 	window1: mouseVisible = True
+104.1750 	EXP 	window1: mouseVisible = True
+104.1751 	EXP 	window1: mouseVisible = True
+104.1751 	EXP 	window1: mouseVisible = True
+104.1751 	EXP 	window1: mouseVisible = True
+104.1751 	EXP 	window1: mouseVisible = True
+104.1752 	EXP 	window1: mouseVisible = True
+104.1752 	EXP 	window1: mouseVisible = True
+104.1752 	EXP 	window1: mouseVisible = True
+104.1753 	EXP 	window1: mouseVisible = True
+104.1753 	EXP 	window1: mouseVisible = True
+104.1753 	EXP 	window1: mouseVisible = True
+104.1754 	EXP 	window1: mouseVisible = True
+104.1754 	EXP 	window1: mouseVisible = True
+104.1754 	EXP 	window1: mouseVisible = True
+104.1755 	EXP 	window1: mouseVisible = True
+104.1755 	EXP 	window1: mouseVisible = True
+104.1755 	EXP 	window1: mouseVisible = True
+104.1755 	EXP 	window1: mouseVisible = True
+104.1756 	EXP 	window1: mouseVisible = True
+104.1756 	EXP 	window1: mouseVisible = True
+104.1756 	EXP 	window1: mouseVisible = True
+104.1757 	EXP 	window1: mouseVisible = True
+104.1757 	EXP 	window1: mouseVisible = True
+104.1757 	EXP 	window1: mouseVisible = True
+104.1758 	EXP 	window1: mouseVisible = True
+104.1758 	EXP 	window1: mouseVisible = True
+104.1758 	EXP 	window1: mouseVisible = True
+104.1758 	EXP 	window1: mouseVisible = True
+104.1759 	EXP 	window1: mouseVisible = True
+104.1759 	EXP 	window1: mouseVisible = True
+104.1759 	EXP 	window1: mouseVisible = True
+104.1760 	EXP 	window1: mouseVisible = True
+104.1760 	EXP 	window1: mouseVisible = True
+104.1760 	EXP 	window1: mouseVisible = True
+104.1761 	EXP 	window1: mouseVisible = True
+104.1761 	EXP 	window1: mouseVisible = True
+104.1761 	EXP 	window1: mouseVisible = True
+104.1762 	EXP 	window1: mouseVisible = True
+104.1762 	EXP 	window1: mouseVisible = True
+104.1762 	EXP 	window1: mouseVisible = True
+104.1762 	EXP 	window1: mouseVisible = True
+104.1763 	EXP 	window1: mouseVisible = True
+104.1763 	EXP 	window1: mouseVisible = True
+104.1763 	EXP 	window1: mouseVisible = True
+104.1764 	EXP 	window1: mouseVisible = True
+104.1764 	EXP 	window1: mouseVisible = True
+104.1764 	EXP 	window1: mouseVisible = True
+104.1765 	EXP 	window1: mouseVisible = True
+104.1765 	EXP 	window1: mouseVisible = True
+104.1765 	EXP 	window1: mouseVisible = True
+104.1765 	EXP 	window1: mouseVisible = True
+104.1766 	EXP 	window1: mouseVisible = True
+104.1766 	EXP 	window1: mouseVisible = True
+104.1766 	EXP 	window1: mouseVisible = True
+104.1767 	EXP 	window1: mouseVisible = True
+104.1767 	EXP 	window1: mouseVisible = True
+104.1767 	EXP 	window1: mouseVisible = True
+104.1768 	EXP 	window1: mouseVisible = True
+104.1768 	EXP 	window1: mouseVisible = True
+104.1768 	EXP 	window1: mouseVisible = True
+104.1768 	EXP 	window1: mouseVisible = True
+104.1769 	EXP 	window1: mouseVisible = True
+104.1769 	EXP 	window1: mouseVisible = True
+104.1769 	EXP 	window1: mouseVisible = True
+104.1770 	EXP 	window1: mouseVisible = True
+104.1770 	EXP 	window1: mouseVisible = True
+104.1770 	EXP 	window1: mouseVisible = True
+104.1771 	EXP 	window1: mouseVisible = True
+104.1771 	EXP 	window1: mouseVisible = True
+104.1771 	EXP 	window1: mouseVisible = True
+104.1771 	EXP 	window1: mouseVisible = True
+104.1772 	EXP 	window1: mouseVisible = True
+104.1772 	EXP 	window1: mouseVisible = True
+104.1772 	EXP 	window1: mouseVisible = True
+104.1773 	EXP 	window1: mouseVisible = True
+104.1773 	EXP 	window1: mouseVisible = True
+104.1773 	EXP 	window1: mouseVisible = True
+104.1774 	EXP 	window1: mouseVisible = True
+104.1774 	EXP 	window1: mouseVisible = True
+104.1774 	EXP 	window1: mouseVisible = True
+104.1775 	EXP 	window1: mouseVisible = True
+104.1775 	EXP 	window1: mouseVisible = True
+104.1775 	EXP 	window1: mouseVisible = True
+104.1775 	EXP 	window1: mouseVisible = True
+104.1776 	EXP 	window1: mouseVisible = True
+104.1776 	EXP 	window1: mouseVisible = True
+104.1776 	EXP 	window1: mouseVisible = True
+104.1777 	EXP 	window1: mouseVisible = True
+104.1777 	EXP 	window1: mouseVisible = True
+104.1777 	EXP 	window1: mouseVisible = True
+104.1778 	EXP 	window1: mouseVisible = True
+104.1778 	EXP 	window1: mouseVisible = True
+104.1778 	EXP 	window1: mouseVisible = True
+104.1778 	EXP 	window1: mouseVisible = True
+104.1779 	EXP 	window1: mouseVisible = True
+104.1779 	EXP 	window1: mouseVisible = True
+104.1779 	EXP 	window1: mouseVisible = True
+104.1780 	EXP 	window1: mouseVisible = True
+104.1780 	EXP 	window1: mouseVisible = True
+104.1780 	EXP 	window1: mouseVisible = True
+104.1781 	EXP 	window1: mouseVisible = True
+104.1781 	EXP 	window1: mouseVisible = True
+104.1781 	EXP 	window1: mouseVisible = True
+104.1781 	EXP 	window1: mouseVisible = True
+104.1782 	EXP 	window1: mouseVisible = True
+104.1782 	EXP 	window1: mouseVisible = True
+104.1782 	EXP 	window1: mouseVisible = True
+104.1783 	EXP 	window1: mouseVisible = True
+104.1783 	EXP 	window1: mouseVisible = True
+104.1783 	EXP 	window1: mouseVisible = True
+104.1784 	EXP 	window1: mouseVisible = True
+104.1784 	EXP 	window1: mouseVisible = True
+104.1784 	EXP 	window1: mouseVisible = True
+104.1785 	EXP 	window1: mouseVisible = True
+104.1785 	EXP 	window1: mouseVisible = True
+104.1785 	EXP 	window1: mouseVisible = True
+104.1785 	EXP 	window1: mouseVisible = True
+104.1786 	EXP 	window1: mouseVisible = True
+104.1786 	EXP 	window1: mouseVisible = True
+104.1786 	EXP 	window1: mouseVisible = True
+104.1787 	EXP 	window1: mouseVisible = True
+104.1787 	EXP 	window1: mouseVisible = True
+104.1787 	EXP 	window1: mouseVisible = True
+104.1788 	EXP 	window1: mouseVisible = True
+104.1788 	EXP 	window1: mouseVisible = True
+104.1788 	EXP 	window1: mouseVisible = True
+104.1789 	EXP 	window1: mouseVisible = True
+104.1789 	EXP 	window1: mouseVisible = True
+104.1789 	EXP 	window1: mouseVisible = True
+104.1790 	EXP 	window1: mouseVisible = True
+104.1790 	EXP 	window1: mouseVisible = True
+104.1790 	EXP 	window1: mouseVisible = True
+104.1791 	EXP 	window1: mouseVisible = True
+104.1791 	EXP 	window1: mouseVisible = True
+104.1792 	EXP 	window1: mouseVisible = True
+104.1792 	EXP 	window1: mouseVisible = True
+104.1792 	EXP 	window1: mouseVisible = True
+104.1793 	EXP 	window1: mouseVisible = True
+104.1793 	EXP 	window1: mouseVisible = True
+104.1793 	EXP 	window1: mouseVisible = True
+104.1793 	EXP 	window1: mouseVisible = True
+104.1794 	EXP 	window1: mouseVisible = True
+104.1794 	EXP 	window1: mouseVisible = True
+104.1794 	EXP 	window1: mouseVisible = True
+104.1795 	EXP 	window1: mouseVisible = True
+104.1795 	EXP 	window1: mouseVisible = True
+104.1795 	EXP 	window1: mouseVisible = True
+104.1796 	EXP 	window1: mouseVisible = True
+104.1796 	EXP 	window1: mouseVisible = True
+104.1796 	EXP 	window1: mouseVisible = True
+104.1796 	EXP 	window1: mouseVisible = True
+104.1797 	EXP 	window1: mouseVisible = True
+104.1797 	EXP 	window1: mouseVisible = True
+104.1797 	EXP 	window1: mouseVisible = True
+104.1798 	EXP 	window1: mouseVisible = True
+104.1798 	EXP 	window1: mouseVisible = True
+104.1798 	EXP 	window1: mouseVisible = True
+104.1799 	EXP 	window1: mouseVisible = True
+104.1799 	EXP 	window1: mouseVisible = True
+104.1799 	EXP 	window1: mouseVisible = True
+104.1800 	EXP 	window1: mouseVisible = True
+104.1800 	EXP 	window1: mouseVisible = True
+104.1800 	EXP 	window1: mouseVisible = True
+104.1800 	EXP 	window1: mouseVisible = True
+104.1801 	EXP 	window1: mouseVisible = True
+104.1801 	EXP 	window1: mouseVisible = True
+104.1801 	EXP 	window1: mouseVisible = True
+104.1802 	EXP 	window1: mouseVisible = True
+104.1802 	EXP 	window1: mouseVisible = True
+104.1802 	EXP 	window1: mouseVisible = True
+104.1803 	EXP 	window1: mouseVisible = True
+104.1803 	EXP 	window1: mouseVisible = True
+104.1803 	EXP 	window1: mouseVisible = True
+104.1803 	EXP 	window1: mouseVisible = True
+104.1804 	EXP 	window1: mouseVisible = True
+104.1804 	EXP 	window1: mouseVisible = True

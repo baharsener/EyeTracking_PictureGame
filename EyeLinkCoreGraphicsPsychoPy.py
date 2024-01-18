@@ -1,19 +1,30 @@
 #
-# Copyright (C) 2018-2021 SR Research Ltd.
+# Copyright (c) 1996-2023, SR Research Ltd., All Rights Reserved
 #
-# This program is free software; you can redistribute it and/or modify
-# it under the terms of the GNU General Public License as published by
-# the Free Software Foundation; either version 2 of the License, or (at
-# your option) any later version.
-# This program is distributed in the hope that it will be useful, but
-# WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
-# or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License
-# for more details.
-# You should have received a copy of the GNU General Public License along with
-# this program; if not, write to the Free Software Foundation, Inc., 51
-# Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
-
-# Last updated on 5/13/2021
+# For use by SR Research licencees only. Redistribution and use in source
+# and binary forms, with or without modification, are NOT permitted.
+#
+# Redistributions in binary form must reproduce the above copyright
+# notice, this list of conditions and the following disclaimer in
+# the documentation and/or other materials provided with the distribution.
+#
+# Neither name of SR Research Ltd nor the name of contributors may be used
+# to endorse or promote products derived from this software without
+# specific prior written permission.
+#
+# THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ``AS
+# IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED
+# TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+# PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE REGENTS OR
+# CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+# EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+# PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+# PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+# LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+# NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+# SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+#
+# Last updated on 10/20/2023
 
 from __future__ import division
 from __future__ import print_function
@@ -27,6 +38,7 @@ import numpy
 import psychopy
 from psychopy import visual, event, core, logging, prefs, monitors
 from psychopy.tools.coordinatetools import pol2cart
+from psychopy.hardware import keyboard
 from math import sin, cos, pi
 from PIL import Image, ImageDraw
 from psychopy.sound import Sound
@@ -51,8 +63,8 @@ class EyeLinkCoreGraphicsPsychoPy(pylink.EyeLinkCustomDisplay):
         global DISABLE_AUDIO
         pylink.EyeLinkCustomDisplay.__init__(self)
 
-        self._version = '2021.3.31'
-        self._last_updated = '3/31/2021'
+        self._version = '2023.1.1'
+        self._last_updated = '8/23/2023'
 
         # Calibration background color and target color
         self._backgroundColor = win.color
@@ -81,6 +93,11 @@ class EyeLinkCoreGraphicsPsychoPy(pylink.EyeLinkCustomDisplay):
         # Initial setup for the mouse
         self._mouse = event.Mouse(False)
         self.last_mouse_state = -1
+
+        # Initial setup for the keyboard
+        self._kb = keyboard.Keyboard()
+        self._modifiers = {'lalt':False,'ralt':False,'lctrl':False,'rctrl':False,'lshift':False,'rshift':False}
+        self._keyPressNameList = list()
 
         # Image title & calibration instructions
         self._msgHeight = self._size[1]/16.0
@@ -193,6 +210,11 @@ class EyeLinkCoreGraphicsPsychoPy(pylink.EyeLinkCustomDisplay):
         """ Get the foreground color """
 
         return self._backgroundColor
+        
+    def getAbortKeyPressed(self):
+        """ Get the abort key pressed status """
+
+        return self._abortKeyPressed
 
     def setCalibrationColors(self, foreground_color, background_color):
         """ Set calibration background and foreground colors
@@ -226,7 +248,7 @@ class EyeLinkCoreGraphicsPsychoPy(pylink.EyeLinkCustomDisplay):
 
         self._calTarget = type
 
-    def setMoiveTarget(self, movie_target):
+    def setMovieTarget(self, movie_target):
         """ Set the movie file to use as the calibration target """
 
         self._movieTarget = movie_target
@@ -336,9 +358,17 @@ class EyeLinkCoreGraphicsPsychoPy(pylink.EyeLinkCustomDisplay):
         self._calibInst.autoDraw = True
         self._animatedTarget = False
         self.update_cal_target()
+        self._display.mouseVisible = False
         
     def clear_cal_display(self):
         """ Clear the calibration display""" 
+
+        # Check if the units have changed to something different than pix
+        # If so, log the unit type so we can change back when finished 
+        # and then set the unit type to pix
+        if self._display.units != 'pix':
+            self._units = self._display.units
+            self._display.setUnits('pix')
 
         self._calibInst.autoDraw = False
         self._title.autoDraw = False
@@ -346,8 +376,10 @@ class EyeLinkCoreGraphicsPsychoPy(pylink.EyeLinkCustomDisplay):
         self._camImgRect.autoDraw = False
 
         self._display.color = self._backgroundColor
+        self._display.mouseVisible = False
         self._display.flip()
         self._display.color = self._backgroundColor
+        self._display.mouseVisible = False
 
     def exit_cal_display(self):
         """ Exit the calibration/validation routine, set the screen
@@ -375,7 +407,7 @@ class EyeLinkCoreGraphicsPsychoPy(pylink.EyeLinkCustomDisplay):
 
     def draw_cal_target(self, x, y):
         """ Draw the calibration/validation & drift-check  target""" 
-
+        
         self._calibInst.autoDraw = False
 
         self.clear_cal_display()
@@ -451,7 +483,7 @@ class EyeLinkCoreGraphicsPsychoPy(pylink.EyeLinkCustomDisplay):
 
     def draw_line(self, x1, y1, x2, y2, colorindex):
         """ Draw a line. This is used for drawing crosshairs/squares""" 
-
+        
         color = self.getColorFromIndex(colorindex)
 
         if self._size[0] > 192:
@@ -464,6 +496,7 @@ class EyeLinkCoreGraphicsPsychoPy(pylink.EyeLinkCustomDisplay):
         # draw the line
         if not any([x < 0 for x in [x1, x2, y1, y2]]):
             self._img.line([(x1, y1), (x2, y2)], color)
+
 
     def draw_lozenge(self, x, y, width, height, colorindex):
         """ Draw a lozenge to show the defined search limits
@@ -527,8 +560,20 @@ class EyeLinkCoreGraphicsPsychoPy(pylink.EyeLinkCustomDisplay):
             self._display.flip()
         
         ky = []
-        for keycode, modifier in event.getKeys(modifiers=True):
-            self._display.mouseVisible = False  # set mouse cursor invisible
+        #check for key presses 
+        keyPressList = self._kb.getKeys(keyList = None, waitRelease = False, clear = False)
+        #this will store any new key press names
+        newKeyPressList = list()
+        for keyPress in keyPressList:
+            keyPressName = keyPress.name
+            if keyPressName not in self._keyPressNameList:
+                self._keyPressNameList.append(keyPressName)
+                newKeyPressList.append(keyPressName)
+                if keyPressName in ['lctrl','rctrl','lalt','ralt','lshift','rshift']:
+                    self._modifiers[keyPressName] = True
+
+        #go through all new key presses
+        for keycode in newKeyPressList:
             k = pylink.JUNK_KEY
             if keycode == 'f1':
                 k = pylink.F1_KEY
@@ -595,17 +640,25 @@ class EyeLinkCoreGraphicsPsychoPy(pylink.EyeLinkCustomDisplay):
 
             # Handles key modifier, we can send Ctrl-C, Alt-F4
             # to break out trials, or terminate tasks
-            if modifier['alt'] is True:
+            if self._modifiers['lalt'] is True or self._modifiers['ralt'] is True:
                 mod = 256
-            elif modifier['ctrl'] is True:
+            elif self._modifiers['lctrl'] is True or self._modifiers['rctrl'] is True:
                 mod = 64
-            elif modifier['shift'] is True:
+            elif self._modifiers['lshift'] is True or self._modifiers['rshift'] is True:
                 mod = 1
             else:
                 mod = 0
 
-            ky.append(pylink.KeyInput(k, mod))
-
+            ky.append(pylink.KeyInput(k,mod))
+            
+        #check for key releases
+        keyReleaseList = self._kb.getKeys(keyList = None, waitRelease = True, clear = True)
+        for keyRelease in keyReleaseList:
+            keyReleaseName = keyRelease.name
+            if keyReleaseName in self._keyPressNameList:
+                self._keyPressNameList.remove(keyReleaseName)
+                if keyReleaseName in ['lctrl','rctrl','lalt','ralt','lshift','rshift']:
+                    self._modifiers[keyReleaseName] = False
         return ky
 
     def exit_image_display(self):
@@ -615,6 +668,7 @@ class EyeLinkCoreGraphicsPsychoPy(pylink.EyeLinkCustomDisplay):
         self._title.autoDraw = False
         self._msgMouseSim.autoDraw = False
         self._camImgRect.autoDraw = False
+        self._display.mouseVisible = False
         self._display.flip()
 
     def alert_printf(self, msg):
@@ -627,10 +681,12 @@ class EyeLinkCoreGraphicsPsychoPy(pylink.EyeLinkCustomDisplay):
         the size is 384 x 320 pixels""" 
 
         self.last_mouse_state = -1
+        self._display.mouseVisible = False
         self._calibInst.autoDraw = True
         self._title.autoDraw = True
         self._msgMouseSim.autoDraw = False
         self._camImgRect.autoDraw = False
+
 
         self._size = (width, height)
 
@@ -648,7 +704,6 @@ class EyeLinkCoreGraphicsPsychoPy(pylink.EyeLinkCustomDisplay):
 
     def draw_image_line(self, width, line, totlines, buff):
         """ Display image pixel by pixel, line by line""" 
-
         i = 0
         for i in range(width):
             try:
@@ -657,7 +712,7 @@ class EyeLinkCoreGraphicsPsychoPy(pylink.EyeLinkCustomDisplay):
                 pass
 
         if line == totlines:
-            bufferv = self._imagebuffer.tostring()
+            bufferv = self._imagebuffer.tobytes()
             img = Image.frombytes("RGBX", (width, totlines), bufferv)
             self._img = ImageDraw.Draw(img)
             self.draw_cross_hair()

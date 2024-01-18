@@ -1,0 +1,35 @@
+3.7473 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+11.4104 	WARNING 	User requested fullscreen with size [800 600], but screen is actually [1280, 1024]. Using actual size
+12.1388 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002374F4127B8>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000002374F37FF28>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1280, 1024]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+12.1391 	EXP 	window1: mouseVisible = True
+12.1391 	EXP 	window1: recordFrameIntervals = False
+12.3051 	EXP 	window1: recordFrameIntervals = True
+12.4885 	EXP 	window1: recordFrameIntervals = False
+142.3193 	WARNING 	Monitor specification not found. Creating a temporary one...
+142.3333 	WARNING 	User requested fullscreen with size [800 600], but screen is actually [1280, 1024]. Using actual size
+142.8871 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002374F4127B8>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000023755AD49B0>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1280, 1024]), stencilBits=0, stereo=False, units='pix', useFBO=False, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+142.8872 	EXP 	window1: mouseVisible = True
+142.8875 	EXP 	window1: mouseVisible = False
+142.8875 	EXP 	window1: mouseVisible = False
+143.0077 	EXP 	Sound sound_pop set volume 1.000
+143.0078 	EXP 	Sound sound_pop2 set volume 1.000
+143.0078 	EXP 	Sound sound_pop3 set volume 1.000
+143.1149 	EXP 	Sound sound_pop4 set volume 1.000
+143.1149 	EXP 	Sound sound_pop5 set volume 1.000
+143.1149 	EXP 	Sound sound_pop6 set volume 1.000
+143.1221 	EXP 	Sound clickedSound set volume 1.000
+143.1251 	EXP 	Sound sound_pop7 set volume 1.000
+143.1346 	EXP 	Sound clickedSound set volume 1.000
+143.1618 	EXP 	Sound sound_pop set volume 1.000
+143.1619 	EXP 	Sound sound_pop2 set volume 1.000
+143.1619 	EXP 	Sound sound_pop3 set volume 1.000
+143.2641 	EXP 	Sound sound_pop4 set volume 1.000
+143.2641 	EXP 	Sound sound_pop5 set volume 1.000
+143.2641 	EXP 	Sound sound_pop6 set volume 1.000
+143.2709 	EXP 	Sound clickedSound set volume 1.000
+143.2738 	EXP 	Sound sound_pop7 set volume 1.000
+143.2823 	EXP 	Sound clickedSound set volume 1.000
+143.3439 	EXP 	Created sequence: random, trialTypes=1, nReps=2, seed=None
+143.3440 	EXP 	New trial (rep=0, index=0): None
+148.9538 	DATA 	Keypress: escape
+149.1313 	EXP 	window1: mouseVisible = True
