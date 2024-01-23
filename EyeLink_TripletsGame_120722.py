@@ -349,7 +349,7 @@ def terminate_task():
     # close the PsychoPy window
     win.close()
     # End the eyetracker session
-    terminate_task()
+   # terminate_task()
     # quit PsychoPy
     #save psychopy
     thisExp.saveAsWideText(filename+'.csv', delim=',')
@@ -1500,7 +1500,7 @@ for thisEncodingTrial in EncodingTrials:
                 Triplet3.frameNStop = frameN  # exact frame index
                 win.timeOnFlip(Triplet3, 'tStopRefresh')  # time at next scr refresh
                 Triplet3.setAutoDraw(False)
-                
+                print("got here")
         # start/stop sound_pop
         if sound_pop.status == NOT_STARTED and tThisFlip >= 0-frameTolerance:
             # keep track of start time/frame for later

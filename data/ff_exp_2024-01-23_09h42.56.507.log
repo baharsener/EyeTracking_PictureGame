@@ -1,0 +1,1230 @@
+5.8345 	WARNING 	Monitor specification not found. Creating a temporary one...
+5.8572 	WARNING 	User requested fullscreen with size [800 600], but screen is actually [1280, 1024]. Using actual size
+6.6624 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000298BEA26D00>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000298BEA26CA0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000298BEA26AC0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x00000298C3E4A3A0>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1280, 1024]), stencilBits=0, stereo=False, title='PsychoPy', units='pix', useFBO=False, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+6.6625 	EXP 	window1: mouseVisible = True
+6.6625 	EXP 	window1: backgroundImage = None
+6.6625 	EXP 	window1: backgroundFit = 'cover'
+6.6634 	EXP 	window1: mouseVisible = False
+7.5410 	DATA 	Keypress: space
+9.3425 	EXP 	window1: units = 'pix'
+9.3430 	DATA 	Keypress: p
+9.3431 	DATA 	Keypress: o
+9.3806 	WARNING 	User requested fullscreen with size [1280  720], but screen is actually [1280, 1024]. Using actual size
+9.8964 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000298BEA26D00>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000298BEA26CA0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000298BEA26AC0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x00000298CA3EFA60>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1280, 1024]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+9.8965 	EXP 	window1: mouseVisible = True
+9.8965 	EXP 	window1: backgroundImage = None
+9.8965 	EXP 	window1: backgroundFit = 'cover'
+9.8978 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+9.8978 	EXP 	window1: recordFrameIntervals = False
+10.0628 	EXP 	window1: recordFrameIntervals = True
+10.2459 	EXP 	Screen (0) actual frame rate measured at 60.13Hz
+10.2459 	EXP 	window1: recordFrameIntervals = False
+10.2461 	EXP 	window1: mouseVisible = True
+10.2577 	EXP 	Created Instructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='Instructions', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.2578 	EXP 	window1: mouseVisible = True
+10.2623 	EXP 	Created Triplet1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Triplet1', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.25, 0.25]), texRes=128, units='height', win=Window(...))
+10.2623 	EXP 	window1: mouseVisible = True
+10.2658 	EXP 	Created Triplet2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Triplet2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.25, 0.25]), texRes=128, units='height', win=Window(...))
+10.2658 	EXP 	window1: mouseVisible = True
+10.2704 	EXP 	Created Triplet3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Triplet3', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.25, 0.25]), texRes=128, units='height', win=Window(...))
+10.2793 	EXP 	Sound sound_pop set volume 1.000
+10.2881 	EXP 	Sound sound_pop2 set volume 1.000
+10.2971 	EXP 	Sound sound_pop3 set volume 1.000
+10.2972 	EXP 	window1: mouseVisible = True
+10.3196 	EXP 	Created fix = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='images/fixation.png', interpolate=True, mask=None, maskParams=None, name='fix', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1 , 0.05]), texRes=128, units='height', win=Window(...))
+10.3197 	EXP 	window1: mouseVisible = True
+10.4049 	EXP 	Created Mask = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='images/Mask.png', interpolate=True, mask=None, maskParams=None, name='Mask', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.5, 0.5]), texRes=128, units='height', win=Window(...))
+10.4050 	EXP 	window1: mouseVisible = True
+10.4101 	EXP 	Created img1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='img1', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.25, 0.25]), texRes=128, units='height', win=Window(...))
+10.4102 	EXP 	window1: mouseVisible = True
+10.4152 	EXP 	Created img2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='img2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.25, 0.25]), texRes=128, units='height', win=Window(...))
+10.4152 	EXP 	window1: mouseVisible = True
+10.4200 	EXP 	Created img3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='img3', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.25, 0.25]), texRes=128, units='height', win=Window(...))
+10.4289 	EXP 	Sound sound_pop4 set volume 1.000
+10.4377 	EXP 	Sound sound_pop5 set volume 1.000
+10.4467 	EXP 	Sound sound_pop6 set volume 1.000
+10.4468 	EXP 	window1: mouseVisible = True
+10.4516 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.4517 	EXP 	window1: mouseVisible = True
+10.4548 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.4549 	EXP 	window1: mouseVisible = True
+10.4558 	EXP 	Created sameText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='sameText', opacity=1.0, ori=0, pos=array([-0.2, -0.3]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+10.4559 	EXP 	window1: mouseVisible = True
+10.4569 	EXP 	Created diffText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='diffText', opacity=1.0, ori=0, pos=array([ 0.2, -0.3]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+10.4569 	EXP 	window1: mouseVisible = True
+10.4583 	EXP 	Created leftCL = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-4.0, draggable=False, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=3, name='leftCL', opacity=0.5, ori=0.0, pos=array([-0.2, -0.3]), size=array([-0.2, -0.2]), units='height', vertices=ndarray(...), win=Window(...))
+10.4584 	EXP 	window1: mouseVisible = True
+10.4597 	EXP 	Created rightCL = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-5.0, draggable=False, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=3, name='rightCL', opacity=0.5, ori=0.0, pos=array([ 0.2, -0.3]), size=array([0.2, 0.2]), units='height', vertices=ndarray(...), win=Window(...))
+10.4598 	EXP 	window1: mouseVisible = True
+10.4602 	EXP 	Sound clickedSound set volume 1.000
+10.4603 	EXP 	window1: mouseVisible = True
+10.4643 	EXP 	Created retIMG = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='retIMG', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.25, 0.25]), texRes=128, units='height', win=Window(...))
+10.4731 	EXP 	Sound sound_pop7 set volume 1.000
+10.4732 	EXP 	window1: mouseVisible = True
+10.4762 	EXP 	Created question_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='question_text', opacity=1.0, ori=0, pos=array([0. , 0.3]), rgb=UNKNOWN, text='When did you see this object?', units='height', win=Window(...), wrapWidth=1)
+10.4762 	EXP 	window1: mouseVisible = True
+10.4788 	EXP 	Created decisionQ_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='decisionQ_2', opacity=1.0, ori=0, pos=array([0. , 0.3]), rgb=UNKNOWN, text='When did you see this object?', units='height', win=Window(...), wrapWidth=1)
+10.4789 	EXP 	window1: mouseVisible = True
+10.4799 	EXP 	Created first_left = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=3, name='first_left', opacity=0.5, ori=0.0, pos=array([0. , 0.1]), size=array([0.15, 0.15]), units='height', vertices=ndarray(...), win=Window(...))
+10.4799 	EXP 	window1: mouseVisible = True
+10.4808 	EXP 	Created second_middle = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=3, name='second_middle', opacity=0.5, ori=0.0, pos=array([ 0. , -0.1]), size=array([0.15, 0.15]), units='height', vertices=ndarray(...), win=Window(...))
+10.4809 	EXP 	window1: mouseVisible = True
+10.4819 	EXP 	Created third_right = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-4.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=3, name='third_right', opacity=0.5, ori=0.0, pos=array([ 0. , -0.3]), size=array([0.15, 0.15]), units='height', vertices=ndarray(...), win=Window(...))
+10.4819 	EXP 	window1: mouseVisible = True
+10.4850 	EXP 	Created First = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='First', opacity=1.0, ori=0, pos=array([0. , 0.1]), rgb=UNKNOWN, text='First', units='height', win=Window(...), wrapWidth=1)
+10.4850 	EXP 	window1: mouseVisible = True
+10.4875 	EXP 	Created Second = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-6.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='Second', opacity=1.0, ori=0, pos=array([ 0. , -0.1]), rgb=UNKNOWN, text='Second', units='height', win=Window(...), wrapWidth=1)
+10.4875 	EXP 	window1: mouseVisible = True
+10.4899 	EXP 	Created Third = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-7.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='Third', opacity=1.0, ori=0, pos=array([ 0. , -0.3]), rgb=UNKNOWN, text='Third', units='height', win=Window(...), wrapWidth=1)
+10.4900 	EXP 	window1: mouseVisible = True
+10.4904 	EXP 	Sound clickedSound set volume 1.000
+10.4905 	EXP 	window1: mouseVisible = True
+10.4970 	EXP 	Created BlockBreak = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='BlockBreak', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.4970 	EXP 	window1: mouseVisible = True
+10.5102 	EXP 	Created text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='text_4', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.5103 	EXP 	window1: mouseVisible = True
+10.5142 	EXP 	Created Triplet1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Triplet1', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.25, 0.25]), texRes=128, units='height', win=Window(...))
+10.5142 	EXP 	window1: mouseVisible = True
+10.5190 	EXP 	Created Triplet2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Triplet2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.25, 0.25]), texRes=128, units='height', win=Window(...))
+10.5191 	EXP 	window1: mouseVisible = True
+10.5237 	EXP 	Created Triplet3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Triplet3', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.25, 0.25]), texRes=128, units='height', win=Window(...))
+10.5326 	EXP 	Sound sound_pop set volume 1.000
+10.5415 	EXP 	Sound sound_pop2 set volume 1.000
+10.5504 	EXP 	Sound sound_pop3 set volume 1.000
+10.5506 	EXP 	window1: mouseVisible = True
+10.5718 	EXP 	Created fix = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='images/fixation.png', interpolate=True, mask=None, maskParams=None, name='fix', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1 , 0.05]), texRes=128, units='height', win=Window(...))
+10.5719 	EXP 	window1: mouseVisible = True
+10.6563 	EXP 	Created Mask = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='images/Mask.png', interpolate=True, mask=None, maskParams=None, name='Mask', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.5, 0.5]), texRes=128, units='height', win=Window(...))
+10.6564 	EXP 	window1: mouseVisible = True
+10.6617 	EXP 	Created img1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='img1', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.25, 0.25]), texRes=128, units='height', win=Window(...))
+10.6618 	EXP 	window1: mouseVisible = True
+10.6665 	EXP 	Created img2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='img2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.25, 0.25]), texRes=128, units='height', win=Window(...))
+10.6665 	EXP 	window1: mouseVisible = True
+10.6711 	EXP 	Created img3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='img3', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.25, 0.25]), texRes=128, units='height', win=Window(...))
+10.6800 	EXP 	Sound sound_pop4 set volume 1.000
+10.6888 	EXP 	Sound sound_pop5 set volume 1.000
+10.6978 	EXP 	Sound sound_pop6 set volume 1.000
+10.6980 	EXP 	window1: mouseVisible = True
+10.7019 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.7020 	EXP 	window1: mouseVisible = True
+10.7049 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.7050 	EXP 	window1: mouseVisible = True
+10.7060 	EXP 	Created sameText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='sameText', opacity=1.0, ori=0, pos=array([-0.2, -0.3]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+10.7061 	EXP 	window1: mouseVisible = True
+10.7070 	EXP 	Created diffText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='diffText', opacity=1.0, ori=0, pos=array([ 0.2, -0.3]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+10.7071 	EXP 	window1: mouseVisible = True
+10.7085 	EXP 	Created leftCL = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-4.0, draggable=False, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=3, name='leftCL', opacity=0.5, ori=0.0, pos=array([-0.2, -0.3]), size=array([-0.2, -0.2]), units='height', vertices=ndarray(...), win=Window(...))
+10.7086 	EXP 	window1: mouseVisible = True
+10.7099 	EXP 	Created rightCL = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-5.0, draggable=False, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=3, name='rightCL', opacity=0.5, ori=0.0, pos=array([ 0.2, -0.3]), size=array([0.2, 0.2]), units='height', vertices=ndarray(...), win=Window(...))
+10.7100 	EXP 	window1: mouseVisible = True
+10.7104 	EXP 	Sound clickedSound set volume 1.000
+10.7105 	EXP 	window1: mouseVisible = True
+10.7146 	EXP 	Created retIMG = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='retIMG', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.25, 0.25]), texRes=128, units='height', win=Window(...))
+10.7235 	EXP 	Sound sound_pop7 set volume 1.000
+10.7237 	EXP 	window1: mouseVisible = True
+10.7266 	EXP 	Created question_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='question_text', opacity=1.0, ori=0, pos=array([0. , 0.3]), rgb=UNKNOWN, text='When did you see this object?', units='height', win=Window(...), wrapWidth=1)
+10.7267 	EXP 	window1: mouseVisible = True
+10.7293 	EXP 	Created decisionQ_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='decisionQ_2', opacity=1.0, ori=0, pos=array([0. , 0.3]), rgb=UNKNOWN, text='When did you see this object?', units='height', win=Window(...), wrapWidth=1)
+10.7294 	EXP 	window1: mouseVisible = True
+10.7304 	EXP 	Created first_left = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=3, name='first_left', opacity=0.5, ori=0.0, pos=array([0. , 0.1]), size=array([0.15, 0.15]), units='height', vertices=ndarray(...), win=Window(...))
+10.7304 	EXP 	window1: mouseVisible = True
+10.7313 	EXP 	Created second_middle = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=3, name='second_middle', opacity=0.5, ori=0.0, pos=array([ 0. , -0.1]), size=array([0.15, 0.15]), units='height', vertices=ndarray(...), win=Window(...))
+10.7314 	EXP 	window1: mouseVisible = True
+10.7323 	EXP 	Created third_right = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-4.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=3, name='third_right', opacity=0.5, ori=0.0, pos=array([ 0. , -0.3]), size=array([0.15, 0.15]), units='height', vertices=ndarray(...), win=Window(...))
+10.7324 	EXP 	window1: mouseVisible = True
+10.7350 	EXP 	Created First = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='First', opacity=1.0, ori=0, pos=array([0. , 0.1]), rgb=UNKNOWN, text='First', units='height', win=Window(...), wrapWidth=1)
+10.7352 	EXP 	window1: mouseVisible = True
+10.7376 	EXP 	Created Second = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-6.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='Second', opacity=1.0, ori=0, pos=array([ 0. , -0.1]), rgb=UNKNOWN, text='Second', units='height', win=Window(...), wrapWidth=1)
+10.7377 	EXP 	window1: mouseVisible = True
+10.7401 	EXP 	Created Third = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-7.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='Third', opacity=1.0, ori=0, pos=array([ 0. , -0.3]), rgb=UNKNOWN, text='Third', units='height', win=Window(...), wrapWidth=1)
+10.7402 	EXP 	window1: mouseVisible = True
+10.7406 	EXP 	Sound clickedSound set volume 1.000
+10.7407 	EXP 	window1: mouseVisible = True
+10.7440 	EXP 	Created end = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='end', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.7480 	EXP 	Instructions: autoDraw = True
+11.3293 	EXP 	Created sequence: random, trialTypes=1, nReps=2, seed=None
+11.3295 	EXP 	New trial (rep=0, index=0): None
+11.4910 	DATA 	Keypress: space
+11.4935 	EXP 	Instructions: autoDraw = False
+11.4935 	EXP 	fix: autoDraw = True
+13.1950 	EXP 	Sound sound_pop started
+13.1828 	EXP 	fix: autoDraw = False
+13.1828 	EXP 	fix: autoDraw = False
+13.1828 	EXP 	Triplet1: image = 'images/OBJ_22.png'
+13.1828 	EXP 	Triplet2: image = 'images/OBJ_197.png'
+13.1828 	EXP 	Triplet3: image = 'images/OBJ_70.png'
+13.1828 	EXP 	Triplet1: image = 'images/OBJ_22.png'
+13.1828 	EXP 	Triplet2: image = 'images/OBJ_197.png'
+13.1828 	EXP 	Triplet3: image = 'images/OBJ_70.png'
+13.1828 	EXP 	Triplet1: autoDraw = True
+13.1995 	EXP 	Sound sound_pop started
+13.2117 	EXP 	Sound sound_pop started
+13.2283 	EXP 	Sound sound_pop started
+13.2450 	EXP 	Sound sound_pop started
+13.2617 	EXP 	Sound sound_pop started
+13.2783 	EXP 	Sound sound_pop started
+13.2955 	EXP 	Sound sound_pop started
+13.3121 	EXP 	Sound sound_pop started
+13.3288 	EXP 	Sound sound_pop started
+13.3455 	EXP 	Sound sound_pop started
+13.3618 	EXP 	Sound sound_pop started
+13.3783 	EXP 	Sound sound_pop started
+13.3950 	EXP 	Sound sound_pop started
+13.4116 	EXP 	Sound sound_pop started
+13.4283 	EXP 	Sound sound_pop started
+13.4449 	EXP 	Sound sound_pop started
+13.4616 	EXP 	Sound sound_pop started
+13.4784 	EXP 	Sound sound_pop started
+13.4950 	EXP 	Sound sound_pop started
+13.5116 	EXP 	Sound sound_pop started
+13.5283 	EXP 	Sound sound_pop started
+13.5454 	EXP 	Sound sound_pop started
+13.5621 	EXP 	Sound sound_pop started
+13.5787 	EXP 	Sound sound_pop started
+13.5954 	EXP 	Sound sound_pop started
+13.6116 	EXP 	Sound sound_pop started
+13.6282 	EXP 	Sound sound_pop started
+13.6449 	EXP 	Sound sound_pop started
+13.6616 	EXP 	Sound sound_pop started
+13.6783 	EXP 	Sound sound_pop started
+13.6949 	EXP 	Sound sound_pop started
+13.7116 	EXP 	Sound sound_pop started
+13.7282 	EXP 	Sound sound_pop started
+13.7449 	EXP 	Sound sound_pop started
+13.7616 	EXP 	Sound sound_pop started
+13.7782 	EXP 	Sound sound_pop started
+13.7949 	EXP 	Sound sound_pop started
+13.8115 	EXP 	Sound sound_pop started
+13.8286 	EXP 	Sound sound_pop started
+13.8453 	EXP 	Sound sound_pop started
+13.8615 	EXP 	Sound sound_pop started
+13.8781 	EXP 	Sound sound_pop started
+13.8948 	EXP 	Sound sound_pop started
+13.9121 	EXP 	Sound sound_pop started
+13.9281 	EXP 	Sound sound_pop started
+13.9448 	EXP 	Sound sound_pop started
+13.9614 	EXP 	Sound sound_pop started
+13.9782 	EXP 	Sound sound_pop started
+13.9948 	EXP 	Sound sound_pop started
+14.0115 	EXP 	Sound sound_pop started
+14.0282 	EXP 	Sound sound_pop started
+14.0448 	EXP 	Sound sound_pop started
+14.0615 	EXP 	Sound sound_pop started
+14.0787 	EXP 	Sound sound_pop started
+14.0953 	EXP 	Sound sound_pop started
+14.1114 	EXP 	Sound sound_pop started
+14.1281 	EXP 	Sound sound_pop started
+14.1448 	EXP 	Sound sound_pop started
+14.1614 	EXP 	Sound sound_pop started
+14.1780 	EXP 	Sound sound_pop started
+14.1948 	EXP 	Sound sound_pop started
+14.2114 	EXP 	Sound sound_pop started
+14.2281 	EXP 	Sound sound_pop started
+14.2447 	EXP 	Sound sound_pop started
+14.2614 	EXP 	Sound sound_pop started
+14.2780 	EXP 	Sound sound_pop started
+14.2947 	EXP 	Sound sound_pop started
+14.3114 	EXP 	Sound sound_pop started
+14.3285 	EXP 	Sound sound_pop started
+14.3452 	EXP 	Sound sound_pop started
+14.3614 	EXP 	Sound sound_pop started
+14.3780 	EXP 	Sound sound_pop started
+14.3947 	EXP 	Sound sound_pop started
+14.4114 	EXP 	Sound sound_pop started
+14.4281 	EXP 	Sound sound_pop started
+14.4447 	EXP 	Sound sound_pop started
+14.4613 	EXP 	Sound sound_pop started
+14.4780 	EXP 	Sound sound_pop started
+14.4947 	EXP 	Sound sound_pop started
+14.5113 	EXP 	Sound sound_pop started
+14.5280 	EXP 	Sound sound_pop started
+14.5447 	EXP 	Sound sound_pop started
+14.5613 	EXP 	Sound sound_pop started
+14.5784 	EXP 	Sound sound_pop started
+14.5951 	EXP 	Sound sound_pop started
+14.6113 	EXP 	Sound sound_pop started
+14.6279 	EXP 	Sound sound_pop started
+14.6446 	EXP 	Sound sound_pop started
+14.6613 	EXP 	Sound sound_pop started
+14.6780 	EXP 	Sound sound_pop started
+14.6946 	EXP 	Sound sound_pop started
+14.6946 	EXP 	Triplet1: autoDraw = False
+14.7113 	EXP 	Sound sound_pop started
+14.7282 	EXP 	Sound sound_pop started
+14.7446 	EXP 	Sound sound_pop started
+14.7612 	EXP 	Sound sound_pop started
+14.7779 	EXP 	Sound sound_pop started
+14.7945 	EXP 	Sound sound_pop started
+14.8111 	EXP 	Sound sound_pop started
+14.8278 	EXP 	Sound sound_pop started
+14.8450 	EXP 	Sound sound_pop started
+14.8612 	EXP 	Sound sound_pop started
+14.8779 	EXP 	Sound sound_pop started
+14.8947 	EXP 	Sound sound_pop started
+14.9113 	EXP 	Sound sound_pop started
+14.9278 	EXP 	Sound sound_pop started
+14.9445 	EXP 	Sound sound_pop started
+14.9612 	EXP 	Sound sound_pop started
+14.9778 	EXP 	Sound sound_pop started
+14.9945 	EXP 	Sound sound_pop started
+15.0112 	EXP 	Sound sound_pop started
+15.0279 	EXP 	Sound sound_pop started
+15.0445 	EXP 	Sound sound_pop started
+15.0616 	EXP 	Sound sound_pop started
+15.0783 	EXP 	Sound sound_pop started
+15.0950 	EXP 	Sound sound_pop started
+15.1111 	EXP 	Sound sound_pop started
+15.1278 	EXP 	Sound sound_pop started
+15.1445 	EXP 	Sound sound_pop started
+15.1611 	EXP 	Sound sound_pop started
+15.1778 	EXP 	Sound sound_pop started
+15.1778 	EXP 	Sound sound_pop2 started
+15.1779 	EXP 	Triplet2: autoDraw = True
+15.1945 	EXP 	Sound sound_pop started
+15.1945 	EXP 	Sound sound_pop2 started
+15.2111 	EXP 	Sound sound_pop started
+15.2111 	EXP 	Sound sound_pop2 started
+15.2278 	EXP 	Sound sound_pop started
+15.2278 	EXP 	Sound sound_pop2 started
+15.2445 	EXP 	Sound sound_pop started
+15.2445 	EXP 	Sound sound_pop2 started
+15.2612 	EXP 	Sound sound_pop started
+15.2612 	EXP 	Sound sound_pop2 started
+15.2778 	EXP 	Sound sound_pop started
+15.2778 	EXP 	Sound sound_pop2 started
+15.2945 	EXP 	Sound sound_pop started
+15.2945 	EXP 	Sound sound_pop2 started
+15.3116 	EXP 	Sound sound_pop started
+15.3116 	EXP 	Sound sound_pop2 started
+15.3278 	EXP 	Sound sound_pop started
+15.3278 	EXP 	Sound sound_pop2 started
+15.3449 	EXP 	Sound sound_pop started
+15.3449 	EXP 	Sound sound_pop2 started
+15.3616 	EXP 	Sound sound_pop started
+15.3616 	EXP 	Sound sound_pop2 started
+15.3777 	EXP 	Sound sound_pop started
+15.3777 	EXP 	Sound sound_pop2 started
+15.3944 	EXP 	Sound sound_pop started
+15.3944 	EXP 	Sound sound_pop2 started
+15.4110 	EXP 	Sound sound_pop started
+15.4110 	EXP 	Sound sound_pop2 started
+15.4277 	EXP 	Sound sound_pop started
+15.4277 	EXP 	Sound sound_pop2 started
+15.4444 	EXP 	Sound sound_pop started
+15.4444 	EXP 	Sound sound_pop2 started
+15.4610 	EXP 	Sound sound_pop started
+15.4610 	EXP 	Sound sound_pop2 started
+15.4776 	EXP 	Sound sound_pop started
+15.4776 	EXP 	Sound sound_pop2 started
+15.4943 	EXP 	Sound sound_pop started
+15.4943 	EXP 	Sound sound_pop2 started
+15.5110 	EXP 	Sound sound_pop started
+15.5110 	EXP 	Sound sound_pop2 started
+15.5277 	EXP 	Sound sound_pop started
+15.5277 	EXP 	Sound sound_pop2 started
+15.5443 	EXP 	Sound sound_pop started
+15.5443 	EXP 	Sound sound_pop2 started
+15.5615 	EXP 	Sound sound_pop started
+15.5615 	EXP 	Sound sound_pop2 started
+15.5777 	EXP 	Sound sound_pop started
+15.5777 	EXP 	Sound sound_pop2 started
+15.5948 	EXP 	Sound sound_pop started
+15.5948 	EXP 	Sound sound_pop2 started
+15.6115 	EXP 	Sound sound_pop started
+15.6115 	EXP 	Sound sound_pop2 started
+15.6276 	EXP 	Sound sound_pop started
+15.6276 	EXP 	Sound sound_pop2 started
+15.6443 	EXP 	Sound sound_pop started
+15.6443 	EXP 	Sound sound_pop2 started
+15.6615 	EXP 	Sound sound_pop started
+15.6615 	EXP 	Sound sound_pop2 started
+15.6776 	EXP 	Sound sound_pop started
+15.6776 	EXP 	Sound sound_pop2 started
+15.6943 	EXP 	Sound sound_pop started
+15.6943 	EXP 	Sound sound_pop2 started
+15.7110 	EXP 	Sound sound_pop started
+15.7110 	EXP 	Sound sound_pop2 started
+15.7276 	EXP 	Sound sound_pop started
+15.7276 	EXP 	Sound sound_pop2 started
+15.7443 	EXP 	Sound sound_pop started
+15.7443 	EXP 	Sound sound_pop2 started
+15.7609 	EXP 	Sound sound_pop started
+15.7609 	EXP 	Sound sound_pop2 started
+15.7776 	EXP 	Sound sound_pop started
+15.7776 	EXP 	Sound sound_pop2 started
+15.7942 	EXP 	Sound sound_pop started
+15.7942 	EXP 	Sound sound_pop2 started
+15.8109 	EXP 	Sound sound_pop started
+15.8109 	EXP 	Sound sound_pop2 started
+15.8282 	EXP 	Sound sound_pop started
+15.8282 	EXP 	Sound sound_pop2 started
+15.8448 	EXP 	Sound sound_pop started
+15.8448 	EXP 	Sound sound_pop2 started
+15.8609 	EXP 	Sound sound_pop started
+15.8609 	EXP 	Sound sound_pop2 started
+15.8775 	EXP 	Sound sound_pop started
+15.8775 	EXP 	Sound sound_pop2 started
+15.8942 	EXP 	Sound sound_pop started
+15.8942 	EXP 	Sound sound_pop2 started
+15.9110 	EXP 	Sound sound_pop started
+15.9110 	EXP 	Sound sound_pop2 started
+15.9276 	EXP 	Sound sound_pop started
+15.9276 	EXP 	Sound sound_pop2 started
+15.9443 	EXP 	Sound sound_pop started
+15.9443 	EXP 	Sound sound_pop2 started
+15.9609 	EXP 	Sound sound_pop started
+15.9609 	EXP 	Sound sound_pop2 started
+15.9775 	EXP 	Sound sound_pop started
+15.9775 	EXP 	Sound sound_pop2 started
+15.9943 	EXP 	Sound sound_pop started
+15.9943 	EXP 	Sound sound_pop2 started
+16.0109 	EXP 	Sound sound_pop started
+16.0109 	EXP 	Sound sound_pop2 started
+16.0276 	EXP 	Sound sound_pop started
+16.0276 	EXP 	Sound sound_pop2 started
+16.0443 	EXP 	Sound sound_pop started
+16.0443 	EXP 	Sound sound_pop2 started
+16.0614 	EXP 	Sound sound_pop started
+16.0614 	EXP 	Sound sound_pop2 started
+16.0781 	EXP 	Sound sound_pop started
+16.0781 	EXP 	Sound sound_pop2 started
+16.0947 	EXP 	Sound sound_pop started
+16.0947 	EXP 	Sound sound_pop2 started
+16.1109 	EXP 	Sound sound_pop started
+16.1109 	EXP 	Sound sound_pop2 started
+16.1276 	EXP 	Sound sound_pop started
+16.1276 	EXP 	Sound sound_pop2 started
+16.1442 	EXP 	Sound sound_pop started
+16.1442 	EXP 	Sound sound_pop2 started
+16.1609 	EXP 	Sound sound_pop started
+16.1609 	EXP 	Sound sound_pop2 started
+16.1775 	EXP 	Sound sound_pop started
+16.1775 	EXP 	Sound sound_pop2 started
+16.1942 	EXP 	Sound sound_pop started
+16.1942 	EXP 	Sound sound_pop2 started
+16.2109 	EXP 	Sound sound_pop started
+16.2109 	EXP 	Sound sound_pop2 started
+16.2275 	EXP 	Sound sound_pop started
+16.2275 	EXP 	Sound sound_pop2 started
+16.2442 	EXP 	Sound sound_pop started
+16.2442 	EXP 	Sound sound_pop2 started
+16.2609 	EXP 	Sound sound_pop started
+16.2609 	EXP 	Sound sound_pop2 started
+16.2774 	EXP 	Sound sound_pop started
+16.2774 	EXP 	Sound sound_pop2 started
+16.2941 	EXP 	Sound sound_pop started
+16.2941 	EXP 	Sound sound_pop2 started
+16.3112 	EXP 	Sound sound_pop started
+16.3112 	EXP 	Sound sound_pop2 started
+16.3279 	EXP 	Sound sound_pop started
+16.3279 	EXP 	Sound sound_pop2 started
+16.3446 	EXP 	Sound sound_pop started
+16.3446 	EXP 	Sound sound_pop2 started
+16.3612 	EXP 	Sound sound_pop started
+16.3612 	EXP 	Sound sound_pop2 started
+16.3774 	EXP 	Sound sound_pop started
+16.3774 	EXP 	Sound sound_pop2 started
+16.3941 	EXP 	Sound sound_pop started
+16.3941 	EXP 	Sound sound_pop2 started
+16.4107 	EXP 	Sound sound_pop started
+16.4107 	EXP 	Sound sound_pop2 started
+16.4274 	EXP 	Sound sound_pop started
+16.4274 	EXP 	Sound sound_pop2 started
+16.4442 	EXP 	Sound sound_pop started
+16.4442 	EXP 	Sound sound_pop2 started
+16.4613 	EXP 	Sound sound_pop started
+16.4613 	EXP 	Sound sound_pop2 started
+16.4774 	EXP 	Sound sound_pop started
+16.4774 	EXP 	Sound sound_pop2 started
+16.4942 	EXP 	Sound sound_pop started
+16.4942 	EXP 	Sound sound_pop2 started
+16.5107 	EXP 	Sound sound_pop started
+16.5107 	EXP 	Sound sound_pop2 started
+16.5274 	EXP 	Sound sound_pop started
+16.5274 	EXP 	Sound sound_pop2 started
+16.5440 	EXP 	Sound sound_pop started
+16.5440 	EXP 	Sound sound_pop2 started
+16.5607 	EXP 	Sound sound_pop started
+16.5607 	EXP 	Sound sound_pop2 started
+16.5778 	EXP 	Sound sound_pop started
+16.5778 	EXP 	Sound sound_pop2 started
+16.5945 	EXP 	Sound sound_pop started
+16.5945 	EXP 	Sound sound_pop2 started
+16.6112 	EXP 	Sound sound_pop started
+16.6112 	EXP 	Sound sound_pop2 started
+16.6274 	EXP 	Sound sound_pop started
+16.6274 	EXP 	Sound sound_pop2 started
+16.6441 	EXP 	Sound sound_pop started
+16.6441 	EXP 	Sound sound_pop2 started
+16.6607 	EXP 	Sound sound_pop started
+16.6607 	EXP 	Sound sound_pop2 started
+16.6774 	EXP 	Sound sound_pop started
+16.6774 	EXP 	Sound sound_pop2 started
+16.6774 	EXP 	Triplet2: autoDraw = False
+16.6940 	EXP 	Sound sound_pop started
+16.6940 	EXP 	Sound sound_pop2 started
+16.7107 	EXP 	Sound sound_pop started
+16.7107 	EXP 	Sound sound_pop2 started
+16.7274 	EXP 	Sound sound_pop started
+16.7274 	EXP 	Sound sound_pop2 started
+16.7440 	EXP 	Sound sound_pop started
+16.7440 	EXP 	Sound sound_pop2 started
+16.7607 	EXP 	Sound sound_pop started
+16.7607 	EXP 	Sound sound_pop2 started
+16.7774 	EXP 	Sound sound_pop started
+16.7774 	EXP 	Sound sound_pop2 started
+16.7940 	EXP 	Sound sound_pop started
+16.7940 	EXP 	Sound sound_pop2 started
+16.8112 	EXP 	Sound sound_pop started
+16.8112 	EXP 	Sound sound_pop2 started
+16.8278 	EXP 	Sound sound_pop started
+16.8278 	EXP 	Sound sound_pop2 started
+16.8441 	EXP 	Sound sound_pop started
+16.8441 	EXP 	Sound sound_pop2 started
+16.8612 	EXP 	Sound sound_pop started
+16.8612 	EXP 	Sound sound_pop2 started
+16.8773 	EXP 	Sound sound_pop started
+16.8773 	EXP 	Sound sound_pop2 started
+16.8941 	EXP 	Sound sound_pop started
+16.8941 	EXP 	Sound sound_pop2 started
+16.9107 	EXP 	Sound sound_pop started
+16.9107 	EXP 	Sound sound_pop2 started
+16.9273 	EXP 	Sound sound_pop started
+16.9273 	EXP 	Sound sound_pop2 started
+16.9440 	EXP 	Sound sound_pop started
+16.9440 	EXP 	Sound sound_pop2 started
+16.9606 	EXP 	Sound sound_pop started
+16.9606 	EXP 	Sound sound_pop2 started
+16.9773 	EXP 	Sound sound_pop started
+16.9773 	EXP 	Sound sound_pop2 started
+16.9940 	EXP 	Sound sound_pop started
+16.9940 	EXP 	Sound sound_pop2 started
+17.0106 	EXP 	Sound sound_pop started
+17.0106 	EXP 	Sound sound_pop2 started
+17.0273 	EXP 	Sound sound_pop started
+17.0273 	EXP 	Sound sound_pop2 started
+17.0440 	EXP 	Sound sound_pop started
+17.0440 	EXP 	Sound sound_pop2 started
+17.0611 	EXP 	Sound sound_pop started
+17.0611 	EXP 	Sound sound_pop2 started
+17.0778 	EXP 	Sound sound_pop started
+17.0778 	EXP 	Sound sound_pop2 started
+17.0940 	EXP 	Sound sound_pop started
+17.0940 	EXP 	Sound sound_pop2 started
+17.1111 	EXP 	Sound sound_pop started
+17.1111 	EXP 	Sound sound_pop2 started
+17.1272 	EXP 	Sound sound_pop started
+17.1272 	EXP 	Sound sound_pop2 started
+17.1439 	EXP 	Sound sound_pop started
+17.1439 	EXP 	Sound sound_pop2 started
+17.1606 	EXP 	Sound sound_pop started
+17.1606 	EXP 	Sound sound_pop2 started
+17.1772 	EXP 	Sound sound_pop started
+17.1772 	EXP 	Sound sound_pop2 started
+17.1772 	EXP 	Sound sound_pop3 started
+17.1772 	EXP 	Triplet3: autoDraw = True
+17.1939 	EXP 	Sound sound_pop started
+17.1939 	EXP 	Sound sound_pop2 started
+17.1939 	EXP 	Sound sound_pop3 started
+17.2105 	EXP 	Sound sound_pop started
+17.2105 	EXP 	Sound sound_pop2 started
+17.2105 	EXP 	Sound sound_pop3 started
+17.2272 	EXP 	Sound sound_pop started
+17.2272 	EXP 	Sound sound_pop2 started
+17.2272 	EXP 	Sound sound_pop3 started
+17.2438 	EXP 	Sound sound_pop started
+17.2438 	EXP 	Sound sound_pop2 started
+17.2438 	EXP 	Sound sound_pop3 started
+17.2605 	EXP 	Sound sound_pop started
+17.2605 	EXP 	Sound sound_pop2 started
+17.2605 	EXP 	Sound sound_pop3 started
+17.2772 	EXP 	Sound sound_pop started
+17.2772 	EXP 	Sound sound_pop2 started
+17.2772 	EXP 	Sound sound_pop3 started
+17.2938 	EXP 	Sound sound_pop started
+17.2938 	EXP 	Sound sound_pop2 started
+17.2938 	EXP 	Sound sound_pop3 started
+17.3110 	EXP 	Sound sound_pop started
+17.3110 	EXP 	Sound sound_pop2 started
+17.3110 	EXP 	Sound sound_pop3 started
+17.3277 	EXP 	Sound sound_pop started
+17.3277 	EXP 	Sound sound_pop2 started
+17.3277 	EXP 	Sound sound_pop3 started
+17.3443 	EXP 	Sound sound_pop started
+17.3443 	EXP 	Sound sound_pop2 started
+17.3443 	EXP 	Sound sound_pop3 started
+17.3610 	EXP 	Sound sound_pop started
+17.3610 	EXP 	Sound sound_pop2 started
+17.3610 	EXP 	Sound sound_pop3 started
+17.3771 	EXP 	Sound sound_pop started
+17.3771 	EXP 	Sound sound_pop2 started
+17.3771 	EXP 	Sound sound_pop3 started
+17.3944 	EXP 	Sound sound_pop started
+17.3944 	EXP 	Sound sound_pop2 started
+17.3944 	EXP 	Sound sound_pop3 started
+17.4105 	EXP 	Sound sound_pop started
+17.4105 	EXP 	Sound sound_pop2 started
+17.4105 	EXP 	Sound sound_pop3 started
+17.4271 	EXP 	Sound sound_pop started
+17.4271 	EXP 	Sound sound_pop2 started
+17.4271 	EXP 	Sound sound_pop3 started
+17.4438 	EXP 	Sound sound_pop started
+17.4438 	EXP 	Sound sound_pop2 started
+17.4438 	EXP 	Sound sound_pop3 started
+17.4604 	EXP 	Sound sound_pop started
+17.4604 	EXP 	Sound sound_pop2 started
+17.4604 	EXP 	Sound sound_pop3 started
+17.4771 	EXP 	Sound sound_pop started
+17.4771 	EXP 	Sound sound_pop2 started
+17.4771 	EXP 	Sound sound_pop3 started
+17.4937 	EXP 	Sound sound_pop started
+17.4937 	EXP 	Sound sound_pop2 started
+17.4937 	EXP 	Sound sound_pop3 started
+17.5104 	EXP 	Sound sound_pop started
+17.5104 	EXP 	Sound sound_pop2 started
+17.5104 	EXP 	Sound sound_pop3 started
+17.5271 	EXP 	Sound sound_pop started
+17.5271 	EXP 	Sound sound_pop2 started
+17.5271 	EXP 	Sound sound_pop3 started
+17.5437 	EXP 	Sound sound_pop started
+17.5437 	EXP 	Sound sound_pop2 started
+17.5437 	EXP 	Sound sound_pop3 started
+17.5604 	EXP 	Sound sound_pop started
+17.5604 	EXP 	Sound sound_pop2 started
+17.5604 	EXP 	Sound sound_pop3 started
+17.5772 	EXP 	Sound sound_pop started
+17.5772 	EXP 	Sound sound_pop2 started
+17.5772 	EXP 	Sound sound_pop3 started
+17.5944 	EXP 	Sound sound_pop started
+17.5944 	EXP 	Sound sound_pop2 started
+17.5944 	EXP 	Sound sound_pop3 started
+17.6105 	EXP 	Sound sound_pop started
+17.6105 	EXP 	Sound sound_pop2 started
+17.6105 	EXP 	Sound sound_pop3 started
+17.6271 	EXP 	Sound sound_pop started
+17.6271 	EXP 	Sound sound_pop2 started
+17.6271 	EXP 	Sound sound_pop3 started
+17.6438 	EXP 	Sound sound_pop started
+17.6438 	EXP 	Sound sound_pop2 started
+17.6438 	EXP 	Sound sound_pop3 started
+17.6604 	EXP 	Sound sound_pop started
+17.6604 	EXP 	Sound sound_pop2 started
+17.6604 	EXP 	Sound sound_pop3 started
+17.6771 	EXP 	Sound sound_pop started
+17.6771 	EXP 	Sound sound_pop2 started
+17.6771 	EXP 	Sound sound_pop3 started
+17.6938 	EXP 	Sound sound_pop started
+17.6938 	EXP 	Sound sound_pop2 started
+17.6938 	EXP 	Sound sound_pop3 started
+17.7104 	EXP 	Sound sound_pop started
+17.7104 	EXP 	Sound sound_pop2 started
+17.7104 	EXP 	Sound sound_pop3 started
+17.7271 	EXP 	Sound sound_pop started
+17.7271 	EXP 	Sound sound_pop2 started
+17.7271 	EXP 	Sound sound_pop3 started
+17.7438 	EXP 	Sound sound_pop started
+17.7438 	EXP 	Sound sound_pop2 started
+17.7438 	EXP 	Sound sound_pop3 started
+17.7604 	EXP 	Sound sound_pop started
+17.7604 	EXP 	Sound sound_pop2 started
+17.7604 	EXP 	Sound sound_pop3 started
+17.7770 	EXP 	Sound sound_pop started
+17.7770 	EXP 	Sound sound_pop2 started
+17.7770 	EXP 	Sound sound_pop3 started
+17.7937 	EXP 	Sound sound_pop started
+17.7937 	EXP 	Sound sound_pop2 started
+17.7937 	EXP 	Sound sound_pop3 started
+17.8103 	EXP 	Sound sound_pop started
+17.8103 	EXP 	Sound sound_pop2 started
+17.8103 	EXP 	Sound sound_pop3 started
+17.8270 	EXP 	Sound sound_pop started
+17.8270 	EXP 	Sound sound_pop2 started
+17.8270 	EXP 	Sound sound_pop3 started
+17.8443 	EXP 	Sound sound_pop started
+17.8443 	EXP 	Sound sound_pop2 started
+17.8443 	EXP 	Sound sound_pop3 started
+17.8604 	EXP 	Sound sound_pop started
+17.8604 	EXP 	Sound sound_pop2 started
+17.8604 	EXP 	Sound sound_pop3 started
+17.8770 	EXP 	Sound sound_pop started
+17.8770 	EXP 	Sound sound_pop2 started
+17.8770 	EXP 	Sound sound_pop3 started
+17.8937 	EXP 	Sound sound_pop started
+17.8937 	EXP 	Sound sound_pop2 started
+17.8937 	EXP 	Sound sound_pop3 started
+17.9103 	EXP 	Sound sound_pop started
+17.9103 	EXP 	Sound sound_pop2 started
+17.9103 	EXP 	Sound sound_pop3 started
+17.9270 	EXP 	Sound sound_pop started
+17.9270 	EXP 	Sound sound_pop2 started
+17.9270 	EXP 	Sound sound_pop3 started
+17.9437 	EXP 	Sound sound_pop started
+17.9437 	EXP 	Sound sound_pop2 started
+17.9437 	EXP 	Sound sound_pop3 started
+17.9604 	EXP 	Sound sound_pop started
+17.9604 	EXP 	Sound sound_pop2 started
+17.9604 	EXP 	Sound sound_pop3 started
+17.9770 	EXP 	Sound sound_pop started
+17.9770 	EXP 	Sound sound_pop2 started
+17.9770 	EXP 	Sound sound_pop3 started
+17.9937 	EXP 	Sound sound_pop started
+17.9937 	EXP 	Sound sound_pop2 started
+17.9937 	EXP 	Sound sound_pop3 started
+18.0104 	EXP 	Sound sound_pop started
+18.0104 	EXP 	Sound sound_pop2 started
+18.0104 	EXP 	Sound sound_pop3 started
+18.0270 	EXP 	Sound sound_pop started
+18.0270 	EXP 	Sound sound_pop2 started
+18.0270 	EXP 	Sound sound_pop3 started
+18.0438 	EXP 	Sound sound_pop started
+18.0438 	EXP 	Sound sound_pop2 started
+18.0438 	EXP 	Sound sound_pop3 started
+18.0603 	EXP 	Sound sound_pop started
+18.0603 	EXP 	Sound sound_pop2 started
+18.0603 	EXP 	Sound sound_pop3 started
+18.0770 	EXP 	Sound sound_pop started
+18.0770 	EXP 	Sound sound_pop2 started
+18.0770 	EXP 	Sound sound_pop3 started
+18.0941 	EXP 	Sound sound_pop started
+18.0941 	EXP 	Sound sound_pop2 started
+18.0941 	EXP 	Sound sound_pop3 started
+18.1107 	EXP 	Sound sound_pop started
+18.1107 	EXP 	Sound sound_pop2 started
+18.1107 	EXP 	Sound sound_pop3 started
+18.1269 	EXP 	Sound sound_pop started
+18.1269 	EXP 	Sound sound_pop2 started
+18.1269 	EXP 	Sound sound_pop3 started
+18.1436 	EXP 	Sound sound_pop started
+18.1436 	EXP 	Sound sound_pop2 started
+18.1436 	EXP 	Sound sound_pop3 started
+18.1602 	EXP 	Sound sound_pop started
+18.1602 	EXP 	Sound sound_pop2 started
+18.1602 	EXP 	Sound sound_pop3 started
+18.1769 	EXP 	Sound sound_pop started
+18.1769 	EXP 	Sound sound_pop2 started
+18.1769 	EXP 	Sound sound_pop3 started
+18.1936 	EXP 	Sound sound_pop started
+18.1936 	EXP 	Sound sound_pop2 started
+18.1936 	EXP 	Sound sound_pop3 started
+18.2102 	EXP 	Sound sound_pop started
+18.2102 	EXP 	Sound sound_pop2 started
+18.2102 	EXP 	Sound sound_pop3 started
+18.2269 	EXP 	Sound sound_pop started
+18.2269 	EXP 	Sound sound_pop2 started
+18.2269 	EXP 	Sound sound_pop3 started
+18.2441 	EXP 	Sound sound_pop started
+18.2441 	EXP 	Sound sound_pop2 started
+18.2441 	EXP 	Sound sound_pop3 started
+18.2604 	EXP 	Sound sound_pop started
+18.2604 	EXP 	Sound sound_pop2 started
+18.2604 	EXP 	Sound sound_pop3 started
+18.2772 	EXP 	Sound sound_pop started
+18.2772 	EXP 	Sound sound_pop2 started
+18.2772 	EXP 	Sound sound_pop3 started
+18.2939 	EXP 	Sound sound_pop started
+18.2939 	EXP 	Sound sound_pop2 started
+18.2939 	EXP 	Sound sound_pop3 started
+18.3105 	EXP 	Sound sound_pop started
+18.3105 	EXP 	Sound sound_pop2 started
+18.3105 	EXP 	Sound sound_pop3 started
+18.3272 	EXP 	Sound sound_pop started
+18.3272 	EXP 	Sound sound_pop2 started
+18.3272 	EXP 	Sound sound_pop3 started
+18.3439 	EXP 	Sound sound_pop started
+18.3439 	EXP 	Sound sound_pop2 started
+18.3439 	EXP 	Sound sound_pop3 started
+18.3605 	EXP 	Sound sound_pop started
+18.3605 	EXP 	Sound sound_pop2 started
+18.3605 	EXP 	Sound sound_pop3 started
+18.3772 	EXP 	Sound sound_pop started
+18.3772 	EXP 	Sound sound_pop2 started
+18.3772 	EXP 	Sound sound_pop3 started
+18.3938 	EXP 	Sound sound_pop started
+18.3938 	EXP 	Sound sound_pop2 started
+18.3938 	EXP 	Sound sound_pop3 started
+18.4105 	EXP 	Sound sound_pop started
+18.4105 	EXP 	Sound sound_pop2 started
+18.4105 	EXP 	Sound sound_pop3 started
+18.4272 	EXP 	Sound sound_pop started
+18.4272 	EXP 	Sound sound_pop2 started
+18.4272 	EXP 	Sound sound_pop3 started
+18.4438 	EXP 	Sound sound_pop started
+18.4438 	EXP 	Sound sound_pop2 started
+18.4438 	EXP 	Sound sound_pop3 started
+18.4605 	EXP 	Sound sound_pop started
+18.4605 	EXP 	Sound sound_pop2 started
+18.4605 	EXP 	Sound sound_pop3 started
+18.4772 	EXP 	Sound sound_pop started
+18.4772 	EXP 	Sound sound_pop2 started
+18.4772 	EXP 	Sound sound_pop3 started
+18.4939 	EXP 	Sound sound_pop started
+18.4939 	EXP 	Sound sound_pop2 started
+18.4939 	EXP 	Sound sound_pop3 started
+18.5105 	EXP 	Sound sound_pop started
+18.5105 	EXP 	Sound sound_pop2 started
+18.5105 	EXP 	Sound sound_pop3 started
+18.5272 	EXP 	Sound sound_pop started
+18.5272 	EXP 	Sound sound_pop2 started
+18.5272 	EXP 	Sound sound_pop3 started
+18.5438 	EXP 	Sound sound_pop started
+18.5438 	EXP 	Sound sound_pop2 started
+18.5438 	EXP 	Sound sound_pop3 started
+18.5605 	EXP 	Sound sound_pop started
+18.5605 	EXP 	Sound sound_pop2 started
+18.5605 	EXP 	Sound sound_pop3 started
+18.5771 	EXP 	Sound sound_pop started
+18.5771 	EXP 	Sound sound_pop2 started
+18.5771 	EXP 	Sound sound_pop3 started
+18.5938 	EXP 	Sound sound_pop started
+18.5938 	EXP 	Sound sound_pop2 started
+18.5938 	EXP 	Sound sound_pop3 started
+18.6104 	EXP 	Sound sound_pop started
+18.6104 	EXP 	Sound sound_pop2 started
+18.6104 	EXP 	Sound sound_pop3 started
+18.6271 	EXP 	Sound sound_pop started
+18.6271 	EXP 	Sound sound_pop2 started
+18.6271 	EXP 	Sound sound_pop3 started
+18.6438 	EXP 	Sound sound_pop started
+18.6438 	EXP 	Sound sound_pop2 started
+18.6438 	EXP 	Sound sound_pop3 started
+18.6604 	EXP 	Sound sound_pop started
+18.6604 	EXP 	Sound sound_pop2 started
+18.6604 	EXP 	Sound sound_pop3 started
+18.6771 	EXP 	Sound sound_pop started
+18.6771 	EXP 	Sound sound_pop2 started
+18.6771 	EXP 	Sound sound_pop3 started
+18.6771 	EXP 	Triplet3: autoDraw = False
+18.6937 	EXP 	Sound sound_pop started
+18.6937 	EXP 	Sound sound_pop2 started
+18.6937 	EXP 	Sound sound_pop3 started
+18.7104 	EXP 	Sound sound_pop started
+18.7104 	EXP 	Sound sound_pop2 started
+18.7104 	EXP 	Sound sound_pop3 started
+18.7271 	EXP 	Sound sound_pop started
+18.7271 	EXP 	Sound sound_pop2 started
+18.7271 	EXP 	Sound sound_pop3 started
+18.7438 	EXP 	Sound sound_pop started
+18.7438 	EXP 	Sound sound_pop2 started
+18.7438 	EXP 	Sound sound_pop3 started
+18.7604 	EXP 	Sound sound_pop started
+18.7604 	EXP 	Sound sound_pop2 started
+18.7604 	EXP 	Sound sound_pop3 started
+18.7771 	EXP 	Sound sound_pop started
+18.7771 	EXP 	Sound sound_pop2 started
+18.7771 	EXP 	Sound sound_pop3 started
+18.7938 	EXP 	Sound sound_pop started
+18.7938 	EXP 	Sound sound_pop2 started
+18.7938 	EXP 	Sound sound_pop3 started
+18.8105 	EXP 	Sound sound_pop started
+18.8105 	EXP 	Sound sound_pop2 started
+18.8105 	EXP 	Sound sound_pop3 started
+18.8271 	EXP 	Sound sound_pop started
+18.8271 	EXP 	Sound sound_pop2 started
+18.8271 	EXP 	Sound sound_pop3 started
+18.8437 	EXP 	Sound sound_pop started
+18.8437 	EXP 	Sound sound_pop2 started
+18.8437 	EXP 	Sound sound_pop3 started
+18.8604 	EXP 	Sound sound_pop started
+18.8604 	EXP 	Sound sound_pop2 started
+18.8604 	EXP 	Sound sound_pop3 started
+18.8770 	EXP 	Sound sound_pop started
+18.8770 	EXP 	Sound sound_pop2 started
+18.8770 	EXP 	Sound sound_pop3 started
+18.8937 	EXP 	Sound sound_pop started
+18.8937 	EXP 	Sound sound_pop2 started
+18.8937 	EXP 	Sound sound_pop3 started
+18.9103 	EXP 	Sound sound_pop started
+18.9103 	EXP 	Sound sound_pop2 started
+18.9103 	EXP 	Sound sound_pop3 started
+18.9270 	EXP 	Sound sound_pop started
+18.9270 	EXP 	Sound sound_pop2 started
+18.9270 	EXP 	Sound sound_pop3 started
+18.9437 	EXP 	Sound sound_pop started
+18.9437 	EXP 	Sound sound_pop2 started
+18.9437 	EXP 	Sound sound_pop3 started
+18.9603 	EXP 	Sound sound_pop started
+18.9603 	EXP 	Sound sound_pop2 started
+18.9603 	EXP 	Sound sound_pop3 started
+18.9770 	EXP 	Sound sound_pop started
+18.9770 	EXP 	Sound sound_pop2 started
+18.9770 	EXP 	Sound sound_pop3 started
+18.9937 	EXP 	Sound sound_pop started
+18.9937 	EXP 	Sound sound_pop2 started
+18.9937 	EXP 	Sound sound_pop3 started
+19.0103 	EXP 	Sound sound_pop started
+19.0103 	EXP 	Sound sound_pop2 started
+19.0103 	EXP 	Sound sound_pop3 started
+19.0269 	EXP 	Sound sound_pop started
+19.0269 	EXP 	Sound sound_pop2 started
+19.0269 	EXP 	Sound sound_pop3 started
+19.0437 	EXP 	Sound sound_pop started
+19.0437 	EXP 	Sound sound_pop2 started
+19.0437 	EXP 	Sound sound_pop3 started
+19.0604 	EXP 	Sound sound_pop started
+19.0604 	EXP 	Sound sound_pop2 started
+19.0604 	EXP 	Sound sound_pop3 started
+19.0770 	EXP 	Sound sound_pop started
+19.0770 	EXP 	Sound sound_pop2 started
+19.0770 	EXP 	Sound sound_pop3 started
+19.0937 	EXP 	Sound sound_pop started
+19.0937 	EXP 	Sound sound_pop2 started
+19.0937 	EXP 	Sound sound_pop3 started
+19.1103 	EXP 	Sound sound_pop started
+19.1103 	EXP 	Sound sound_pop2 started
+19.1103 	EXP 	Sound sound_pop3 started
+19.1270 	EXP 	Sound sound_pop started
+19.1270 	EXP 	Sound sound_pop2 started
+19.1270 	EXP 	Sound sound_pop3 started
+19.1436 	EXP 	Sound sound_pop started
+19.1436 	EXP 	Sound sound_pop2 started
+19.1436 	EXP 	Sound sound_pop3 started
+19.1603 	EXP 	Sound sound_pop started
+19.1603 	EXP 	Sound sound_pop2 started
+19.1603 	EXP 	Sound sound_pop3 started
+19.1770 	EXP 	Sound sound_pop started
+19.1770 	EXP 	Sound sound_pop2 started
+19.1770 	EXP 	Sound sound_pop3 started
+19.1936 	EXP 	Sound sound_pop started
+19.1936 	EXP 	Sound sound_pop2 started
+19.1936 	EXP 	Sound sound_pop3 started
+19.2103 	EXP 	Sound sound_pop started
+19.2103 	EXP 	Sound sound_pop2 started
+19.2103 	EXP 	Sound sound_pop3 started
+19.2269 	EXP 	Sound sound_pop started
+19.2269 	EXP 	Sound sound_pop2 started
+19.2269 	EXP 	Sound sound_pop3 started
+19.2436 	EXP 	Sound sound_pop started
+19.2436 	EXP 	Sound sound_pop2 started
+19.2436 	EXP 	Sound sound_pop3 started
+19.2602 	EXP 	Sound sound_pop started
+19.2602 	EXP 	Sound sound_pop2 started
+19.2602 	EXP 	Sound sound_pop3 started
+19.2769 	EXP 	Sound sound_pop started
+19.2769 	EXP 	Sound sound_pop2 started
+19.2769 	EXP 	Sound sound_pop3 started
+19.2936 	EXP 	Sound sound_pop started
+19.2936 	EXP 	Sound sound_pop2 started
+19.2936 	EXP 	Sound sound_pop3 started
+19.3102 	EXP 	Sound sound_pop started
+19.3102 	EXP 	Sound sound_pop2 started
+19.3102 	EXP 	Sound sound_pop3 started
+19.3269 	EXP 	Sound sound_pop started
+19.3269 	EXP 	Sound sound_pop2 started
+19.3269 	EXP 	Sound sound_pop3 started
+19.3435 	EXP 	Sound sound_pop started
+19.3435 	EXP 	Sound sound_pop2 started
+19.3435 	EXP 	Sound sound_pop3 started
+19.3602 	EXP 	Sound sound_pop started
+19.3602 	EXP 	Sound sound_pop2 started
+19.3602 	EXP 	Sound sound_pop3 started
+19.3769 	EXP 	Sound sound_pop started
+19.3769 	EXP 	Sound sound_pop2 started
+19.3769 	EXP 	Sound sound_pop3 started
+19.3936 	EXP 	Sound sound_pop started
+19.3936 	EXP 	Sound sound_pop2 started
+19.3936 	EXP 	Sound sound_pop3 started
+19.4102 	EXP 	Sound sound_pop started
+19.4102 	EXP 	Sound sound_pop2 started
+19.4102 	EXP 	Sound sound_pop3 started
+19.4268 	EXP 	Sound sound_pop started
+19.4268 	EXP 	Sound sound_pop2 started
+19.4268 	EXP 	Sound sound_pop3 started
+19.4435 	EXP 	Sound sound_pop started
+19.4435 	EXP 	Sound sound_pop2 started
+19.4435 	EXP 	Sound sound_pop3 started
+19.4602 	EXP 	Sound sound_pop started
+19.4602 	EXP 	Sound sound_pop2 started
+19.4602 	EXP 	Sound sound_pop3 started
+19.4769 	EXP 	Sound sound_pop started
+19.4769 	EXP 	Sound sound_pop2 started
+19.4769 	EXP 	Sound sound_pop3 started
+19.4935 	EXP 	Sound sound_pop started
+19.4935 	EXP 	Sound sound_pop2 started
+19.4935 	EXP 	Sound sound_pop3 started
+19.5102 	EXP 	Sound sound_pop started
+19.5102 	EXP 	Sound sound_pop2 started
+19.5102 	EXP 	Sound sound_pop3 started
+19.5269 	EXP 	Sound sound_pop started
+19.5269 	EXP 	Sound sound_pop2 started
+19.5269 	EXP 	Sound sound_pop3 started
+19.5435 	EXP 	Sound sound_pop started
+19.5435 	EXP 	Sound sound_pop2 started
+19.5435 	EXP 	Sound sound_pop3 started
+19.5602 	EXP 	Sound sound_pop started
+19.5602 	EXP 	Sound sound_pop2 started
+19.5602 	EXP 	Sound sound_pop3 started
+19.5768 	EXP 	Sound sound_pop started
+19.5768 	EXP 	Sound sound_pop2 started
+19.5768 	EXP 	Sound sound_pop3 started
+19.5935 	EXP 	Sound sound_pop started
+19.5935 	EXP 	Sound sound_pop2 started
+19.5935 	EXP 	Sound sound_pop3 started
+19.6101 	EXP 	Sound sound_pop started
+19.6101 	EXP 	Sound sound_pop2 started
+19.6101 	EXP 	Sound sound_pop3 started
+19.6268 	EXP 	Sound sound_pop started
+19.6268 	EXP 	Sound sound_pop2 started
+19.6268 	EXP 	Sound sound_pop3 started
+19.6435 	EXP 	Sound sound_pop started
+19.6435 	EXP 	Sound sound_pop2 started
+19.6435 	EXP 	Sound sound_pop3 started
+19.6601 	EXP 	Sound sound_pop started
+19.6601 	EXP 	Sound sound_pop2 started
+19.6601 	EXP 	Sound sound_pop3 started
+19.6768 	EXP 	Sound sound_pop started
+19.6768 	EXP 	Sound sound_pop2 started
+19.6768 	EXP 	Sound sound_pop3 started
+19.6934 	EXP 	Sound sound_pop started
+19.6934 	EXP 	Sound sound_pop2 started
+19.6934 	EXP 	Sound sound_pop3 started
+19.7101 	EXP 	Sound sound_pop started
+19.7101 	EXP 	Sound sound_pop2 started
+19.7101 	EXP 	Sound sound_pop3 started
+19.7268 	EXP 	Sound sound_pop started
+19.7268 	EXP 	Sound sound_pop2 started
+19.7268 	EXP 	Sound sound_pop3 started
+19.7434 	EXP 	Sound sound_pop started
+19.7434 	EXP 	Sound sound_pop2 started
+19.7434 	EXP 	Sound sound_pop3 started
+19.7601 	EXP 	Sound sound_pop started
+19.7601 	EXP 	Sound sound_pop2 started
+19.7601 	EXP 	Sound sound_pop3 started
+19.7768 	EXP 	Sound sound_pop started
+19.7768 	EXP 	Sound sound_pop2 started
+19.7768 	EXP 	Sound sound_pop3 started
+19.7934 	EXP 	Sound sound_pop started
+19.7934 	EXP 	Sound sound_pop2 started
+19.7934 	EXP 	Sound sound_pop3 started
+19.8099 	EXP 	Sound sound_pop started
+19.8099 	EXP 	Sound sound_pop2 started
+19.8099 	EXP 	Sound sound_pop3 started
+19.8268 	EXP 	Sound sound_pop started
+19.8268 	EXP 	Sound sound_pop2 started
+19.8268 	EXP 	Sound sound_pop3 started
+19.8434 	EXP 	Sound sound_pop started
+19.8434 	EXP 	Sound sound_pop2 started
+19.8434 	EXP 	Sound sound_pop3 started
+19.8601 	EXP 	Sound sound_pop started
+19.8601 	EXP 	Sound sound_pop2 started
+19.8601 	EXP 	Sound sound_pop3 started
+19.8767 	EXP 	Sound sound_pop started
+19.8767 	EXP 	Sound sound_pop2 started
+19.8767 	EXP 	Sound sound_pop3 started
+19.8934 	EXP 	Sound sound_pop started
+19.8934 	EXP 	Sound sound_pop2 started
+19.8934 	EXP 	Sound sound_pop3 started
+19.9101 	EXP 	Sound sound_pop started
+19.9101 	EXP 	Sound sound_pop2 started
+19.9101 	EXP 	Sound sound_pop3 started
+19.9267 	EXP 	Sound sound_pop started
+19.9267 	EXP 	Sound sound_pop2 started
+19.9267 	EXP 	Sound sound_pop3 started
+19.9434 	EXP 	Sound sound_pop started
+19.9434 	EXP 	Sound sound_pop2 started
+19.9434 	EXP 	Sound sound_pop3 started
+19.9600 	EXP 	Sound sound_pop started
+19.9600 	EXP 	Sound sound_pop2 started
+19.9600 	EXP 	Sound sound_pop3 started
+19.9767 	EXP 	Sound sound_pop started
+19.9767 	EXP 	Sound sound_pop2 started
+19.9767 	EXP 	Sound sound_pop3 started
+19.9934 	EXP 	Sound sound_pop started
+19.9934 	EXP 	Sound sound_pop2 started
+19.9934 	EXP 	Sound sound_pop3 started
+20.0101 	EXP 	Sound sound_pop started
+20.0101 	EXP 	Sound sound_pop2 started
+20.0101 	EXP 	Sound sound_pop3 started
+20.0267 	EXP 	Sound sound_pop started
+20.0267 	EXP 	Sound sound_pop2 started
+20.0267 	EXP 	Sound sound_pop3 started
+20.0433 	EXP 	Sound sound_pop started
+20.0433 	EXP 	Sound sound_pop2 started
+20.0433 	EXP 	Sound sound_pop3 started
+20.0600 	EXP 	Sound sound_pop started
+20.0600 	EXP 	Sound sound_pop2 started
+20.0600 	EXP 	Sound sound_pop3 started
+20.0767 	EXP 	Sound sound_pop started
+20.0767 	EXP 	Sound sound_pop2 started
+20.0767 	EXP 	Sound sound_pop3 started
+20.0933 	EXP 	Sound sound_pop started
+20.0933 	EXP 	Sound sound_pop2 started
+20.0933 	EXP 	Sound sound_pop3 started
+20.1100 	EXP 	Sound sound_pop started
+20.1100 	EXP 	Sound sound_pop2 started
+20.1100 	EXP 	Sound sound_pop3 started
+20.1267 	EXP 	Sound sound_pop started
+20.1267 	EXP 	Sound sound_pop2 started
+20.1267 	EXP 	Sound sound_pop3 started
+20.1433 	EXP 	Sound sound_pop started
+20.1433 	EXP 	Sound sound_pop2 started
+20.1433 	EXP 	Sound sound_pop3 started
+20.1600 	EXP 	Sound sound_pop started
+20.1600 	EXP 	Sound sound_pop2 started
+20.1600 	EXP 	Sound sound_pop3 started
+20.1767 	EXP 	Sound sound_pop started
+20.1767 	EXP 	Sound sound_pop2 started
+20.1767 	EXP 	Sound sound_pop3 started
+20.1933 	EXP 	Sound sound_pop started
+20.1933 	EXP 	Sound sound_pop2 started
+20.1933 	EXP 	Sound sound_pop3 started
+20.2100 	EXP 	Sound sound_pop started
+20.2100 	EXP 	Sound sound_pop2 started
+20.2100 	EXP 	Sound sound_pop3 started
+20.2266 	EXP 	Sound sound_pop started
+20.2266 	EXP 	Sound sound_pop2 started
+20.2266 	EXP 	Sound sound_pop3 started
+20.2433 	EXP 	Sound sound_pop started
+20.2433 	EXP 	Sound sound_pop2 started
+20.2433 	EXP 	Sound sound_pop3 started
+20.2599 	EXP 	Sound sound_pop started
+20.2599 	EXP 	Sound sound_pop2 started
+20.2599 	EXP 	Sound sound_pop3 started
+20.2766 	EXP 	Sound sound_pop started
+20.2766 	EXP 	Sound sound_pop2 started
+20.2766 	EXP 	Sound sound_pop3 started
+20.2933 	EXP 	Sound sound_pop started
+20.2933 	EXP 	Sound sound_pop2 started
+20.2933 	EXP 	Sound sound_pop3 started
+20.3100 	EXP 	Sound sound_pop started
+20.3100 	EXP 	Sound sound_pop2 started
+20.3100 	EXP 	Sound sound_pop3 started
+20.3267 	EXP 	Sound sound_pop started
+20.3267 	EXP 	Sound sound_pop2 started
+20.3267 	EXP 	Sound sound_pop3 started
+20.3433 	EXP 	Sound sound_pop started
+20.3433 	EXP 	Sound sound_pop2 started
+20.3433 	EXP 	Sound sound_pop3 started
+20.3600 	EXP 	Sound sound_pop started
+20.3600 	EXP 	Sound sound_pop2 started
+20.3600 	EXP 	Sound sound_pop3 started
+20.3766 	EXP 	Sound sound_pop started
+20.3766 	EXP 	Sound sound_pop2 started
+20.3766 	EXP 	Sound sound_pop3 started
+20.3933 	EXP 	Sound sound_pop started
+20.3933 	EXP 	Sound sound_pop2 started
+20.3933 	EXP 	Sound sound_pop3 started
+20.4100 	EXP 	Sound sound_pop started
+20.4100 	EXP 	Sound sound_pop2 started
+20.4100 	EXP 	Sound sound_pop3 started
+20.4266 	EXP 	Sound sound_pop started
+20.4266 	EXP 	Sound sound_pop2 started
+20.4266 	EXP 	Sound sound_pop3 started
+20.4433 	EXP 	Sound sound_pop started
+20.4433 	EXP 	Sound sound_pop2 started
+20.4433 	EXP 	Sound sound_pop3 started
+20.4599 	EXP 	Sound sound_pop started
+20.4599 	EXP 	Sound sound_pop2 started
+20.4599 	EXP 	Sound sound_pop3 started
+20.4766 	EXP 	Sound sound_pop started
+20.4766 	EXP 	Sound sound_pop2 started
+20.4766 	EXP 	Sound sound_pop3 started
+20.4932 	EXP 	Sound sound_pop started
+20.4932 	EXP 	Sound sound_pop2 started
+20.4932 	EXP 	Sound sound_pop3 started
+20.5099 	EXP 	Sound sound_pop started
+20.5099 	EXP 	Sound sound_pop2 started
+20.5099 	EXP 	Sound sound_pop3 started
+20.5266 	EXP 	Sound sound_pop started
+20.5266 	EXP 	Sound sound_pop2 started
+20.5266 	EXP 	Sound sound_pop3 started
+20.5432 	EXP 	Sound sound_pop started
+20.5432 	EXP 	Sound sound_pop2 started
+20.5432 	EXP 	Sound sound_pop3 started
+20.5599 	EXP 	Sound sound_pop started
+20.5599 	EXP 	Sound sound_pop2 started
+20.5599 	EXP 	Sound sound_pop3 started
+20.5765 	EXP 	Sound sound_pop started
+20.5765 	EXP 	Sound sound_pop2 started
+20.5765 	EXP 	Sound sound_pop3 started
+20.5932 	EXP 	Sound sound_pop started
+20.5932 	EXP 	Sound sound_pop2 started
+20.5932 	EXP 	Sound sound_pop3 started
+20.6099 	EXP 	Sound sound_pop started
+20.6099 	EXP 	Sound sound_pop2 started
+20.6099 	EXP 	Sound sound_pop3 started
+20.6265 	EXP 	Sound sound_pop started
+20.6265 	EXP 	Sound sound_pop2 started
+20.6265 	EXP 	Sound sound_pop3 started
+20.6432 	EXP 	Sound sound_pop started
+20.6432 	EXP 	Sound sound_pop2 started
+20.6432 	EXP 	Sound sound_pop3 started
+20.6599 	EXP 	Sound sound_pop started
+20.6599 	EXP 	Sound sound_pop2 started
+20.6599 	EXP 	Sound sound_pop3 started
+20.6766 	EXP 	Sound sound_pop started
+20.6766 	EXP 	Sound sound_pop2 started
+20.6766 	EXP 	Sound sound_pop3 started
+20.6932 	EXP 	Sound sound_pop started
+20.6932 	EXP 	Sound sound_pop2 started
+20.6932 	EXP 	Sound sound_pop3 started
+20.7098 	EXP 	Sound sound_pop started
+20.7098 	EXP 	Sound sound_pop2 started
+20.7098 	EXP 	Sound sound_pop3 started
+20.7266 	EXP 	Sound sound_pop started
+20.7266 	EXP 	Sound sound_pop2 started
+20.7266 	EXP 	Sound sound_pop3 started
+20.7432 	EXP 	Sound sound_pop started
+20.7432 	EXP 	Sound sound_pop2 started
+20.7432 	EXP 	Sound sound_pop3 started
+20.7597 	EXP 	Sound sound_pop started
+20.7597 	EXP 	Sound sound_pop2 started
+20.7597 	EXP 	Sound sound_pop3 started
+20.7765 	EXP 	Sound sound_pop started
+20.7765 	EXP 	Sound sound_pop2 started
+20.7765 	EXP 	Sound sound_pop3 started
+20.7931 	EXP 	Sound sound_pop started
+20.7931 	EXP 	Sound sound_pop2 started
+20.7931 	EXP 	Sound sound_pop3 started
+20.8098 	EXP 	Sound sound_pop started
+20.8098 	EXP 	Sound sound_pop2 started
+20.8098 	EXP 	Sound sound_pop3 started
+20.8265 	EXP 	Sound sound_pop started
+20.8265 	EXP 	Sound sound_pop2 started
+20.8265 	EXP 	Sound sound_pop3 started
+20.8430 	EXP 	Sound sound_pop started
+20.8430 	EXP 	Sound sound_pop2 started
+20.8430 	EXP 	Sound sound_pop3 started
+20.8598 	EXP 	Sound sound_pop started
+20.8598 	EXP 	Sound sound_pop2 started
+20.8598 	EXP 	Sound sound_pop3 started
+20.8764 	EXP 	Sound sound_pop started
+20.8764 	EXP 	Sound sound_pop2 started
+20.8764 	EXP 	Sound sound_pop3 started
+20.8931 	EXP 	Sound sound_pop started
+20.8931 	EXP 	Sound sound_pop2 started
+20.8931 	EXP 	Sound sound_pop3 started
+20.9098 	EXP 	Sound sound_pop started
+20.9098 	EXP 	Sound sound_pop2 started
+20.9098 	EXP 	Sound sound_pop3 started
+20.9265 	EXP 	Sound sound_pop started
+20.9265 	EXP 	Sound sound_pop2 started
+20.9265 	EXP 	Sound sound_pop3 started
+20.9432 	EXP 	Sound sound_pop started
+20.9432 	EXP 	Sound sound_pop2 started
+20.9432 	EXP 	Sound sound_pop3 started
+20.9598 	EXP 	Sound sound_pop started
+20.9598 	EXP 	Sound sound_pop2 started
+20.9598 	EXP 	Sound sound_pop3 started
+20.9764 	EXP 	Sound sound_pop started
+20.9764 	EXP 	Sound sound_pop2 started
+20.9764 	EXP 	Sound sound_pop3 started
+20.9604 	DATA 	Keypress: escape
+20.9931 	EXP 	Sound sound_pop started
+20.9931 	EXP 	Sound sound_pop2 started
+20.9931 	EXP 	Sound sound_pop3 started
+21.0098 	EXP 	Sound sound_pop started
+21.0098 	EXP 	Sound sound_pop2 started
+21.0098 	EXP 	Sound sound_pop3 started
+21.0265 	EXP 	Sound sound_pop started
+21.0265 	EXP 	Sound sound_pop2 started
+21.0265 	EXP 	Sound sound_pop3 started
+21.0431 	EXP 	Sound sound_pop started
+21.0431 	EXP 	Sound sound_pop2 started
+21.0431 	EXP 	Sound sound_pop3 started
+21.0598 	EXP 	Sound sound_pop started
+21.0598 	EXP 	Sound sound_pop2 started
+21.0598 	EXP 	Sound sound_pop3 started
+21.0764 	EXP 	Sound sound_pop started
+21.0764 	EXP 	Sound sound_pop2 started
+21.0764 	EXP 	Sound sound_pop3 started
+21.7249 	EXP 	window1: mouseVisible = True
