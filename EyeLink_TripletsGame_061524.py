@@ -1350,6 +1350,11 @@ for thisEncodingTrial in EncodingTrials:
     for thisComponent in fixComponents:
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
+<<<<<<< HEAD
+=======
+#    EncodingTrials.addData('fixation.started', fix.tStartRefresh)
+#    EncodingTrials.addData('fixation.stopped', fix.tStopRefresh)
+>>>>>>> 4ea6bb48264907b6c83b9915d94d22d9a30cc43f
     el_tracker.sendMessage('fixationEnd %s' % fixClock.getTime())
     
     
@@ -1405,6 +1410,13 @@ for thisEncodingTrial in EncodingTrials:
     triplet1 = 'images/'+encodingPics1[eTrials][0]+'.png'
     triplet2 = 'images/'+encodingPics1[eTrials][1]+'.png'
     triplet3 = 'images/'+encodingPics1[eTrials][2]+'.png'
+<<<<<<< HEAD
+=======
+ #   EncodingTrials.addData ("trialOrder", trialType)
+ #   thisExp.addData("triplet1", triplet1)
+ #   thisExp.addData("triplet2", triplet2)
+ #   thisExp.addData("triplet3", triplet3)
+>>>>>>> 4ea6bb48264907b6c83b9915d94d22d9a30cc43f
     
     EncodingTrials.addData ("Trial_Order", trialType)
     thisExp.addData("triplet1", triplet1)
@@ -1556,9 +1568,27 @@ for thisEncodingTrial in EncodingTrials:
     for thisComponent in first_viewComponents:
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
+<<<<<<< HEAD
     sound_pop.stop()  # ensure sound has stopped at end of routine)
     sound_pop2.stop()  # ensure sound has stopped at end of routine
     sound_pop3.stop()  # ensure sound has stopped at end of routine
+=======
+#    EncodingTrials.addData('Triplet1.started', Triplet1.tStartRefresh)
+#    EncodingTrials.addData('Triplet1.stopped', Triplet1.tStopRefresh)
+#    EncodingTrials.addData('Triplet2.started', Triplet2.tStartRefresh)
+#    EncodingTrials.addData('Triplet2.stopped', Triplet2.tStopRefresh)
+#    EncodingTrials.addData('Triplet3.started', Triplet3.tStartRefresh)
+#    EncodingTrials.addData('Triplet3.stopped', Triplet3.tStopRefresh)
+    sound_pop.stop()  # ensure sound has stopped at end of routine
+#    EncodingTrials.addData('sound_pop.started', sound_pop.tStartRefresh)
+#    EncodingTrials.addData('sound_pop.stopped', sound_pop.tStopRefresh)
+    sound_pop2.stop()  # ensure sound has stopped at end of routine
+#    EncodingTrials.addData('sound_pop2.started', sound_pop2.tStartRefresh)
+#    EncodingTrials.addData('sound_pop2.stopped', sound_pop2.tStopRefresh)
+    sound_pop3.stop()  # ensure sound has stopped at end of routine
+#    EncodingTrials.addData('sound_pop3.started', sound_pop3.tStartRefresh)
+#    EncodingTrials.addData('sound_pop3.stopped', sound_pop3.tStopRefresh)
+>>>>>>> 4ea6bb48264907b6c83b9915d94d22d9a30cc43f
     el_tracker.sendMessage('firstviewEnding %s' % first_viewClock.getTime())
     # stop recording eye movements
    
@@ -1637,15 +1667,28 @@ for thisEncodingTrial in EncodingTrials:
     for thisComponent in maskComponents:
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
+<<<<<<< HEAD
+=======
+#    EncodingTrials.addData('Mask.started', Mask.tStartRefresh)
+#    EncodingTrials.addData('Mask.stopped', Mask.tStopRefresh)
+>>>>>>> 4ea6bb48264907b6c83b9915d94d22d9a30cc43f
     el_tracker.sendMessage('maskEnd %s' % maskClock.getTime()) 
     # ------Prepare to start Routine "second_view"-------
     continueRoutine = True
     # update component parameters for each repeat
+<<<<<<< HEAD
+=======
+    #randPos = random.random() #same or different trials used to be based on random number, now commented out
+>>>>>>> 4ea6bb48264907b6c83b9915d94d22d9a30cc43f
     if method_Trial == "same":
         list = [0,1,2]
         random.shuffle(list)
         samePics.append(encodingPics1[eTrials][list[0]])
         EncodingTrials.addData("encodingType","same")
+<<<<<<< HEAD
+=======
+    #    EncodingTrials.addData("encodingType","same")
+>>>>>>> 4ea6bb48264907b6c83b9915d94d22d9a30cc43f
         encodingType = 'same'
     else:
         nextTrial = random.choice(diffTrials)
@@ -1662,6 +1705,33 @@ for thisEncodingTrial in EncodingTrials:
         EncodingTrials.addData("encodingType","diff")
         encodingType = 'diff'
         
+<<<<<<< HEAD
+=======
+#    if randPos > 0.2:
+#        methodAns = ['leftCL'] #same
+#        list = [0,1,2]
+#        random.shuffle(list)
+ #       samePics.append(encodingPics[eTrials][list[0]])
+     #   samePics.append(encodingPics[eTrials][1])
+     #  samePics.append(encodingPics[eTrials][2])
+ #       EncodingTrials.addData("encodingType","same")
+  #      encodingType = "same"
+  #  else:
+   #     nextTrial = random.choice(diffTrials)
+   #     while nextTrial == trialType:
+   #         nextTrial = random.choice(diffTrials)
+    #        end
+    
+    #trialType = nextTrial
+    #    methodAns = ['rightCL'] #different
+     #   list = [0,1,2]
+     #   random.shuffle(list)
+     #   triplet1 = 'images/'+encodingPics[eTrials][list[0]]+'.png'
+     #   triplet2 = 'images/'+encodingPics[eTrials][list[1]]+'.png'
+     #   triplet3 = 'images/'+encodingPics[eTrials][list[2]]+'.png'
+     #   EncodingTrials.addData("encodingType","diff")
+     #   encodingType = "diff"
+>>>>>>> 4ea6bb48264907b6c83b9915d94d22d9a30cc43f
     el_tracker.sendMessage('!V TRIAL_VAR encodingType %s' %encodingType)
     el_tracker.sendMessage('!V TRIAL_VAR nextTrial %s' %nextTrial)
     el_tracker.sendMessage('!V TRIAL_VAR triplet1 %s' %triplet1)
@@ -1839,9 +1909,27 @@ for thisEncodingTrial in EncodingTrials:
     eTrials = eTrials + 1
     TRIAL_INDEX = TRIAL_INDEX + 1
     el_tracker.sendMessage('!V TRIAL_VAR eTrials %d' %eTrials) 
+<<<<<<< HEAD
     sound_pop4.stop()  # ensure sound has stopped at end of routine
     sound_pop5.stop()  # ensure sound has stopped at end of routine
     sound_pop6.stop()  # ensure sound has stopped at end of routine
+=======
+#    EncodingTrials.addData('img1.started', img1.tStartRefresh)
+#    EncodingTrials.addData('img1.stopped', img1.tStopRefresh)
+#    EncodingTrials.addData('img2.started', img2.tStartRefresh)
+#    EncodingTrials.addData('img2.stopped', img2.tStopRefresh)
+#    EncodingTrials.addData('img3.started', img3.tStartRefresh)
+#    EncodingTrials.addData('img3.stopped', img3.tStopRefresh)
+    sound_pop4.stop()  # ensure sound has stopped at end of routine
+#    EncodingTrials.addData('sound_pop4.started', sound_pop4.tStartRefresh)
+#    EncodingTrials.addData('sound_pop4.stopped', sound_pop4.tStopRefresh)
+    sound_pop5.stop()  # ensure sound has stopped at end of routine
+#    EncodingTrials.addData('sound_pop5.started', sound_pop5.tStartRefresh)
+#    EncodingTrials.addData('sound_pop5.stopped', sound_pop5.tStopRefresh)
+    sound_pop6.stop()  # ensure sound has stopped at end of routine
+#    EncodingTrials.addData('sound_pop6.started', sound_pop6.tStartRefresh)
+#    EncodingTrials.addData('sound_pop6.stopped', sound_pop6.tStopRefresh)
+>>>>>>> 4ea6bb48264907b6c83b9915d94d22d9a30cc43f
     el_tracker.sendMessage('secondviewEnding %s' % second_viewClock.getTime())
     
     # the Routine "second_view" was not non-slip safe, so reset the non-slip timer
@@ -1919,6 +2007,11 @@ for thisEncodingTrial in EncodingTrials:
     for thisComponent in methodQTextComponents:
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
+<<<<<<< HEAD
+=======
+#    EncodingTrials.addData('text_2.started', text_2.tStartRefresh)
+#    EncodingTrials.addData('text_2.stopped', text_2.tStopRefresh)
+>>>>>>> 4ea6bb48264907b6c83b9915d94d22d9a30cc43f
     el_tracker.sendMessage('methodtextEnding %s' % methodQTextClock.getTime())
     
     # ------Prepare to start Routine "MethodCheck"-------
@@ -2073,13 +2166,35 @@ for thisEncodingTrial in EncodingTrials:
     #store whether or not they answered correctly for the "same" or "different" trial type.
     thisExp.addData("Method Clicked", MethodMouse.clicked_name);
     el_tracker.sendMessage('methodEnding %s' % MethodCheckClock.getTime())
+<<<<<<< HEAD
 
     # store data for EncodingTrials (TrialHandler)
+=======
+#    EncodingTrials.addData('text.started', text.tStartRefresh)
+#    EncodingTrials.addData('text.stopped', text.tStopRefresh)
+#    EncodingTrials.addData('sameText.started', sameText.tStartRefresh)
+#    EncodingTrials.addData('sameText.stopped', sameText.tStopRefresh)
+#    EncodingTrials.addData('diffText.started', diffText.tStartRefresh)
+#    EncodingTrials.addData('diffText.stopped', diffText.tStopRefresh)
+#    EncodingTrials.addData('leftCL.started', leftCL.tStartRefresh)
+#    EncodingTrials.addData('leftCL.stopped', leftCL.tStopRefresh)
+#    EncodingTrials.addData('rightCL.started', rightCL.tStartRefresh)
+#    EncodingTrials.addData('rightCL.stopped', rightCL.tStopRefresh)
+   
+    # store data for EncodingTrials (TrialHandler)
+    #: EncodingTrials.addData('MethodMouse.x', MethodMouse.x[0])
+    #if len(MethodMouse.y): EncodingTrials.addData('MethodMouse.y', MethodMouse.y[0])
+>>>>>>> 4ea6bb48264907b6c83b9915d94d22d9a30cc43f
     if len(MethodMouse.leftButton): EncodingTrials.addData('MethodMouse.leftButton', MethodMouse.leftButton[0])
     if len(MethodMouse.midButton): EncodingTrials.addData('MethodMouse.midButton', MethodMouse.midButton[0])
     if len(MethodMouse.rightButton): EncodingTrials.addData('MethodMouse.rightButton', MethodMouse.rightButton[0])
     if len(MethodMouse.time): EncodingTrials.addData('MethodMouse.time', MethodMouse.time[0])
     if len(MethodMouse.clicked_name): EncodingTrials.addData('MethodMouse.clicked_name', MethodMouse.clicked_name[0])
+<<<<<<< HEAD
+=======
+#    EncodingTrials.addData('MethodMouse.started', MethodMouse.tStart)
+#    EncodingTrials.addData('MethodMouse.stopped', MethodMouse.tStop)
+>>>>>>> 4ea6bb48264907b6c83b9915d94d22d9a30cc43f
     el_tracker.sendMessage('!V TRIAL_VAR methodCheck %s' %methodCheck)
     el_tracker.sendMessage('!V TRIAL_VAR methodClicked %s' %MethodMouse.clicked_name)
 
@@ -2303,17 +2418,301 @@ for thisComponent in break_2Components:
         thisComponent.setAutoDraw(False)
 thisExp.addData('BlockBreak.started', BlockBreak.tStartRefresh)
 thisExp.addData('BlockBreak.stopped', BlockBreak.tStopRefresh)
+<<<<<<< HEAD
+=======
+#thisExp.addData('text_4.started', text_4.tStartRefresh)
+#thisExp.addData('text_4.stopped', text_4.tStopRefresh)
+>>>>>>> 4ea6bb48264907b6c83b9915d94d22d9a30cc43f
 # check responses
 if start2.keys in ['', [], None]:  # No response was made
     start2.keys = None
 #thisExp.addData('start2.keys',start2.keys)
 if start2.keys != None:  # we had a response
+<<<<<<< HEAD
+=======
+#    thisExp.addData('start2.rt', start2.rt)
+#thisExp.addData('start2.started', start2.tStartRefresh)
+#thisExp.addData('start2.stopped', start2.tStopRefresh)
+>>>>>>> 4ea6bb48264907b6c83b9915d94d22d9a30cc43f
     el_tracker.sendMessage('breakEnding %s' % break_2Clock.getTime())
 thisExp.nextEntry()
 # the Routine "break_2" was not non-slip safe, so reset the non-slip timer
 routineTimer.reset()
 
 #Recalibrate after the break
+<<<<<<< HEAD
+=======
+# Optional tracking parameters
+# Sample rate, 250, 500, 1000, or 2000, check your tracker specification
+if eyelink_ver > 2:
+    el_tracker.sendCommand("sample_rate 500")
+# Choose a calibration type, H3, HV3, HV5, HV13 (HV = horizontal/vertical),
+el_tracker.sendCommand("calibration_type = HV9")
+# Set a gamepad button to accept calibration/drift check target
+# You need a supported gamepad/button box that is connected to the Host PC
+el_tracker.sendCommand("button_function 5 'accept_target_fixation'")
+
+# Step 4: set up a graphics environment for calibration
+#
+# Open a window, be sure to specify monitor parameters
+mon = monitors.Monitor('myMonitor', width=53.0, distance=70.0)
+win = visual.Window(fullscr=full_screen,
+                    monitor=mon,
+                    winType='pyglet',
+                    units='pix')
+
+# get the native screen resolution used by PsychoPy
+scn_width, scn_height = win.size
+# resolution fix for Mac retina displays
+if 'Darwin' in platform.system():
+    if use_retina:
+        scn_width = int(scn_width/2.0)
+        scn_height = int(scn_height/2.0)
+
+# Pass the display pixel coordinates (left, top, right, bottom) to the tracker
+# see the EyeLink Installation Guide, "Customizing Screen Settings"
+el_coords = "screen_pixel_coords = 0 0 %d %d" % (scn_width - 1, scn_height - 1)
+el_tracker.sendCommand(el_coords)
+
+# Write a DISPLAY_COORDS message to the EDF file
+# Data Viewer needs this piece of info for proper visualization, see Data
+# Viewer User Manual, "Protocol for EyeLink Data to Viewer Integration"
+dv_coords = "DISPLAY_COORDS  0 0 %d %d" % (scn_width - 1, scn_height - 1)
+el_tracker.sendMessage(dv_coords)
+
+# Configure a graphics environment (genv) for tracker calibration
+genv = EyeLinkCoreGraphicsPsychoPy(el_tracker, win)
+print(genv)  # print out the version number of the CoreGraphics library
+
+# Set background and foreground colors for the calibration target
+# in PsychoPy, (-1, -1, -1)=black, (1, 1, 1)=white, (0, 0, 0)=mid-gray
+foreground_color = (-1, -1, -1)
+background_color = win.color
+genv.setCalibrationColors(foreground_color, background_color)
+
+# Set up the calibration target
+#
+# The target could be a "circle" (default), a "picture", a "movie" clip,
+# or a rotating "spiral". To configure the type of calibration target, set
+# genv.setTargetType to "circle", "picture", "movie", or "spiral", e.g.,
+# genv.setTargetType('picture')
+#
+# Use gen.setPictureTarget() to set a "picture" target
+# genv.setPictureTarget(os.path.join('images', 'fixTarget.bmp'))
+#
+# Use genv.setMovieTarget() to set a "movie" target
+# genv.setMovieTarget(os.path.join('videos', 'calibVid.mov'))
+
+# Use a picture as the calibration target
+genv.setTargetType('picture')
+genv.setPictureTarget(os.path.join('images', 'fixTarget.bmp'))
+
+# Configure the size of the calibration target (in pixels)
+# this option applies only to "circle" and "spiral" targets
+# genv.setTargetSize(24)
+
+# Beeps to play during calibration, validation and drift correction
+# parameters: target, good, error
+#     target -- sound to play when target moves
+#     good -- sound to play on successful operation
+#     error -- sound to play on failure or interruption
+# Each parameter could be ''--default sound, 'off'--no sound, or a wav file
+genv.setCalibrationSounds('', '', '')
+
+# resolution fix for macOS retina display issues
+if use_retina:
+    genv.fixMacRetinaDisplay()
+
+# Request Pylink to use the PsychoPy window we opened above for calibration
+pylink.openGraphicsEx(genv)
+    
+    
+# define a few helper functions for trial handling
+
+
+def clear_screen(win):
+    """ clear up the PsychoPy window"""
+
+    win.fillColor = genv.getBackgroundColor()
+    win.flip()
+
+
+def show_msg(win, text, wait_for_keypress=True):
+    """ Show task instructions on screen"""
+
+    msg = visual.TextStim(win, text,
+                          color=genv.getForegroundColor(),
+                          wrapWidth=scn_width/2)
+    clear_screen(win)
+    msg.draw()
+    win.flip()
+
+    # wait indefinitely, terminates upon any key press
+    if wait_for_keypress:
+        event.waitKeys()
+        clear_screen(win)
+
+
+def terminate_task():
+    """ Terminate the task gracefully and retrieve the EDF data file
+    file_to_retrieve: The EDF on the Host that we would like to download
+    win: the current window used by the experimental script
+    """
+
+    el_tracker = pylink.getEYELINK()
+
+    if el_tracker.isConnected():
+        # Terminate the current trial first if the task terminated prematurely
+        error = el_tracker.isRecording()
+        if error == pylink.TRIAL_OK:
+            abort_trial()
+
+        # Put tracker in Offline mode
+        el_tracker.setOfflineMode()
+
+        # Clear the Host PC screen and wait for 500 ms
+        el_tracker.sendCommand('clear_screen 0')
+        pylink.msecDelay(500)
+        # Close the edf data file on the Host
+        el_tracker.closeDataFile()
+
+        # Show a file transfer message on the screen
+        #msg = 'EDF data is transferring from EyeLink Host PC...'
+        #show_msg(win, msg, wait_for_keypress=False)
+
+        # Download the EDF data file from the Host PC to a local data folder
+        # parameters: source_file_on_the_host, destination_file_on_local_drive
+        local_edf = os.path.join(session_folder, session_identifier + '.EDF')
+        try:
+            el_tracker.receiveDataFile(edf_file, local_edf)
+        except RuntimeError as error:
+            print('ERROR:', error)
+
+        # Close the link to the tracker.
+        el_tracker.close()
+        print('closed')
+
+    # close the PsychoPy window
+    win.close()
+    # End the eyetracker session
+   # terminate_task()
+    # quit PsychoPy
+    #save psychopy
+    thisExp.saveAsWideText(filename+'.csv', delim=',')
+    thisExp.saveAsPickle(filename)
+    logging.flush()
+    core.quit()
+    
+    sys.exit()
+
+
+def abort_trial():
+    """Ends recording """
+
+    el_tracker = pylink.getEYELINK()
+
+    # Stop recording
+    if el_tracker.isRecording():
+        # add 100 ms to catch final trial events
+        pylink.pumpDelay(100)
+        el_tracker.stopRecording()
+
+    # clear the screen
+    clear_screen(win)
+    # Send a message to clear the Data Viewer screen
+    bgcolor_RGB = (116, 116, 116)
+    el_tracker.sendMessage('!V CLEAR %d %d %d' % bgcolor_RGB)
+
+    # send a message to mark trial end
+    el_tracker.sendMessage('TRIAL_RESULT %d' % pylink.TRIAL_ERROR)
+
+    return pylink.TRIAL_ERROR
+
+def start_eye_tracker(trial_index, trial_type):
+    # get a reference to the currently active EyeLink connection
+    el_tracker = pylink.getEYELINK()
+    # put the tracker in the offline mode first
+    el_tracker.setOfflineMode()
+    # clear the host screen before we draw the backdrop
+    el_tracker.sendCommand('clear_screen 0')
+    # send a "TRIALID" message to mark the start of a trial, see Data
+    # Viewer User Manual, "Protocol for EyeLink Data to Viewer Integration"
+    if trial_type=='encoding':    
+        el_tracker.sendMessage('trialIndex %d' % trial_index)
+        # record_status_message : show some info on the Host PC
+        # here we show how many trial has been tested
+        status_msg = 'eTrial number %d' % trial_index
+        print(status_msg)
+    elif trial_type=='retrieval':
+        el_tracker.sendMessage('trialIndex %d' % rtrial_index)
+        # record_status_message : show some info on the Host PC
+        # here we show how many trial has been tested
+        status_msg = 'retTrial number %d' % rtrial_index
+        print(status_msg)
+
+    el_tracker.sendCommand("record_status_message '%s'" % status_msg)
+    
+    #messages for when the images appear
+
+    
+    # drift check
+    # we recommend drift-check at the beginning of each trial
+    # the doDriftCorrect() function requires target position in integers
+    # the last two arguments:
+    # draw_target (1-default, 0-draw the target then call doDriftCorrect)
+    # allow_setup (1-press ESCAPE to recalibrate, 0-not allowed)
+    #
+    # Skip drift-check if running the script in Dummy Mode
+    while not dummy_mode:
+        # terminate the task if no longer connected to the tracker or
+        # user pressed Ctrl-C to terminate the task
+        if (not el_tracker.isConnected()) or el_tracker.breakPressed():
+            terminate_task()
+            return pylink.ABORT_EXPT
+        break
+        # # drift-check and re-do camera setup if ESCAPE is pressed
+        # try:
+        #     error = el_tracker.doDriftCorrect(int(scn_width/2.0),
+        #                                       int(scn_height/2.0), 1, 1)
+        #     print('2')
+
+        #     # break following a success drift-check
+        #     if error is not pylink.ESC_KEY:
+        #         break
+        # except:
+        #     pass
+
+    # put tracker in idle/offline mode before recording
+    el_tracker.setOfflineMode()
+
+    # Start recording
+    # arguments: sample_to_file, events_to_file, sample_over_link,
+    # event_over_link (1-yes, 0-no)
+    try:
+        el_tracker.startRecording(1, 1, 1, 1)
+
+    except RuntimeError as error:
+        print("ERROR:", error)
+        abort_trial()
+        return pylink.TRIAL_ERROR
+
+    # Allocate some time for the tracker to cache some samples
+    pylink.pumpDelay(100)
+   # print('are things working fine')
+    
+
+# Step 5: Set up the camera and calibrate the tracker
+
+# Show the task instructions
+task_msg = 'In the task, you may press the SPACEBAR to end a trial\n' + \
+    '\nPress Ctrl-C to if you need to quit the task early\n'
+if dummy_mode:
+    task_msg = task_msg + '\nNow, press ENTER to start the task'
+else:
+    task_msg = task_msg + '\nNow, press ENTER twice to calibrate tracker'
+show_msg(win, task_msg)
+
+>>>>>>> 4ea6bb48264907b6c83b9915d94d22d9a30cc43f
 # skip this step if running the script in Dummy Mode
 if not dummy_mode:
     try:
@@ -2321,7 +2720,28 @@ if not dummy_mode:
     except RuntimeError as err:
         print('ERROR:', err)
         el_tracker.exitCalibration()
+<<<<<<< HEAD
 
+=======
+    
+# Start Code - component code to be run after the window creation
+# Setup the Window
+win = visual.Window(
+    size=[1280, 720], fullscr=True, screen=0, 
+    winType='pyglet', allowGUI=False, allowStencil=False,
+    monitor='testMonitor', color=[0,0,0], colorSpace='rgb',
+    blendMode='avg', useFBO=True, 
+    units='height')
+# store frame rate of monitor if we can measure it
+expInfo['frameRate'] = win.getActualFrameRate()
+if expInfo['frameRate'] != None:
+    frameDur = 1.0 / round(expInfo['frameRate'])
+else:
+    frameDur = 1.0 / 60.0  # could not measure, so guess
+
+# create a default keyboard (e.g. to check for escape)
+defaultKeyboard = keyboard.Keyboard()
+>>>>>>> 4ea6bb48264907b6c83b9915d94d22d9a30cc43f
     
 #First retrieval block:
 # ------Prepare to start Routine "initRecallPics"-------
@@ -2521,8 +2941,17 @@ for thisRetrievalTrial in RetrievalTrials:
     for thisComponent in RetrievalImageComponents:
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
+<<<<<<< HEAD
     el_tracker.sendMessage('retimgEnding %s' % RetrievalImageClock.getTime())
     sound_pop7.stop()  # ensure sound has stopped at end of routine
+=======
+#    RetrievalTrials.addData('retIMG.started', retIMG.tStartRefresh)
+#    RetrievalTrials.addData('retIMG.stopped', retIMG.tStopRefresh)
+    el_tracker.sendMessage('retimgEnding %s' % RetrievalImageClock.getTime())
+    sound_pop7.stop()  # ensure sound has stopped at end of routine
+#    RetrievalTrials.addData('sound_pop7.started', sound_pop7.tStartRefresh)
+ #   RetrievalTrials.addData('sound_pop7.stopped', sound_pop7.tStopRefresh)
+>>>>>>> 4ea6bb48264907b6c83b9915d94d22d9a30cc43f
     el_tracker.sendMessage('!V TRIAL_VAR retIMG %s' %retrievalImage)
  #   RetrievalTrials.addData('retIMG', str(retIMG))
     RetrievalTrials.addData('retIMG', str(retrievalImage))
@@ -2600,6 +3029,11 @@ for thisRetrievalTrial in RetrievalTrials:
     for thisComponent in Q2TextComponents:
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
+<<<<<<< HEAD
+=======
+#    RetrievalTrials.addData('question_text.started', question_text.tStartRefresh)
+#    RetrievalTrials.addData('question_text.stopped', question_text.tStopRefresh)
+>>>>>>> 4ea6bb48264907b6c83b9915d94d22d9a30cc43f
     el_tracker.sendMessage('textEnding %s' % Q2TextClock.getTime())
     
     # ------Prepare to start Routine "Decision"-------
@@ -2750,6 +3184,23 @@ for thisRetrievalTrial in RetrievalTrials:
     RetrievalTrials.addData("retTrials", str(retTrials))
     RetrievalTrials.addData("TRIAL_INDEX", str(TRIAL_INDEX))
     thisExp.addData("TRIAL_INDEX", str(TRIAL_INDEX))
+<<<<<<< HEAD
+=======
+#    RetrievalTrials.addData('decisionQ_2.started', decisionQ_2.tStartRefresh)
+#    RetrievalTrials.addData('decisionQ_2.stopped', decisionQ_2.tStopRefresh)
+#    RetrievalTrials.addData('first_left.started', first_left.tStartRefresh)
+#    RetrievalTrials.addData('first_left.stopped', first_left.tStopRefresh)
+#    RetrievalTrials.addData('second_middle.started', second_middle.tStartRefresh)
+#    RetrievalTrials.addData('second_middle.stopped', second_middle.tStopRefresh)
+#    RetrievalTrials.addData('third_right.started', third_right.tStartRefresh)
+#    RetrievalTrials.addData('third_right.stopped', third_right.tStopRefresh)
+#    RetrievalTrials.addData('First.started', First.tStartRefresh)
+#    RetrievalTrials.addData('First.stopped', First.tStopRefresh)
+#    RetrievalTrials.addData('Second.started', Second.tStartRefresh)
+#    RetrievalTrials.addData('Second.stopped', Second.tStopRefresh)
+#    RetrievalTrials.addData('Third.started', Third.tStartRefresh)
+#    RetrievalTrials.addData('Third.stopped', Third.tStopRefresh)
+>>>>>>> 4ea6bb48264907b6c83b9915d94d22d9a30cc43f
     el_tracker.sendMessage('decisionClock %s' % DecisionClock)
     # store data for RetrievalTrials (TrialHandler)
     x, y = Order_Position_Response.getPos()
@@ -2761,11 +3212,21 @@ for thisRetrievalTrial in RetrievalTrials:
             if obj.contains(Order_Position_Response):
                 gotValidClick = True
                 Order_Position_Response.clicked_name.append(obj.name)
+<<<<<<< HEAD
+=======
+#    RetrievalTrials.addData('Order_Position_Response.x', x)
+#    RetrievalTrials.addData('Order_Position_Response.y', y)
+>>>>>>> 4ea6bb48264907b6c83b9915d94d22d9a30cc43f
     RetrievalTrials.addData('Order_Position_Response.leftButton', buttons[0])
     RetrievalTrials.addData('Order_Position_Response.midButton', buttons[1])
     RetrievalTrials.addData('Order_Position_Response.rightButton', buttons[2])
     if len(Order_Position_Response.clicked_name):
         RetrievalTrials.addData('Order_Position_Response.clicked_name', Order_Position_Response.clicked_name[0])
+<<<<<<< HEAD
+=======
+#    RetrievalTrials.addData('Order_Position_Response.started', Order_Position_Response.tStart)
+#    RetrievalTrials.addData('Order_Position_Response.stopped', Order_Position_Response.tStop)
+>>>>>>> 4ea6bb48264907b6c83b9915d94d22d9a30cc43f
     
     # the Routine "Decision" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset()
@@ -2841,6 +3302,11 @@ for thisRetrievalTrial in RetrievalTrials:
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
     clickedSound.stop()  # ensure sound has stopped at end of routine
+<<<<<<< HEAD
+=======
+#    RetrievalTrials.addData('clickedSound.started', clickedSound.tStartRefresh)
+#    RetrievalTrials.addData('clickedSound.stopped', clickedSound.tStopRefresh)
+>>>>>>> 4ea6bb48264907b6c83b9915d94d22d9a30cc43f
     thisExp.nextEntry()
     
 #store eye-tracking related data in edf
@@ -2860,6 +3326,7 @@ el_tracker.sendMessage('TRIAL_RESULT %d' % pylink.TRIAL_OK)
 # completed numRetrieval repeats of 'RetrievalTrials'
 
 #Second encoding block initialization
+<<<<<<< HEAD
 #Initialization routine2
 # ------Prepare to start Routine "init2"-------
 continueRoutine = True
@@ -2960,6 +3427,8 @@ for thisComponent in initCodeComponents:
 # the Routine "initCode" was not non-slip safe, so reset the non-slip timer
 routineTimer.reset()
 
+=======
+>>>>>>> 4ea6bb48264907b6c83b9915d94d22d9a30cc43f
 # ------Prepare to start Routine "trial"-------
 continueRoutine = True
 # update component parameters for each repeat
@@ -3045,10 +3514,61 @@ while continueRoutine:
 for thisComponent in trialComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
+<<<<<<< HEAD
+=======
+#thisExp.addData('Instructions.started', Instructions.tStartRefresh)
+#thisExp.addData('Instructions.stopped', Instructions.tStopRefresh)
+>>>>>>> 4ea6bb48264907b6c83b9915d94d22d9a30cc43f
 
 # the Routine "trial" was not non-slip safe, so reset the non-slip timer
 routineTimer.reset()
 
+<<<<<<< HEAD
+=======
+#Starting Encoding Block 2 after the break!
+#resetting same and different trial type lists. 
+sameDiff2 = ["same","same","same","same","same","same","same","same","same","same","same","same","same","same","same","same","same","same","same","same","diff","diff","diff","diff","diff"];
+shuffle(sameDiff2)
+
+#So for the same trials:
+# Define the strings
+fixed_strings = ['LMR', 'RML']  # These will occur 7 times each
+other_strings = ['MLR', 'MRL', 'LRM', 'RLM']  # These will be randomly selected to have total of 7 also
+
+# Select 7 strings from other_strings with repetitions
+selected_strings = random.choices(other_strings, k=9)
+
+# Create a list to store the strings
+sameTrials2 = fixed_strings * 9  # Repeating fixed_strings 9 times
+sameTrials2 += selected_strings  # Adding the selected 9 strings
+
+# Shuffle the list
+random.shuffle(sameTrials2)
+
+# Print the randomized list
+print("Randomized string list:")
+print(sameTrials) #now this should be a list of 27 that we will run 20 of, but because it is indexed by eTrials, there needs to be more than 25 items. 
+
+#for the different trials:
+diffTrials2 = fixed_strings * 9  # Repeating fixed_strings 9 times
+diffTrials2 += selected_strings  # Adding the selected 9 strings
+
+# Shuffle the list
+random.shuffle(diffTrials2)
+
+# Print the selected strings)
+print(diffTrials2) #because these are indexed by eTrials while they select the images, they need to be more than 25 items
+
+#hard-coded names of all images and trial types (counterbalanced).
+numItems = 210
+#numTotencoding = 50
+numEncodingBlock1 = 3
+numEncodingBlock2 = 3
+numTotretrieval = 4
+numRetrieval1 = 2
+numRetrieval2 = 2
+eTrials2 = 0
+>>>>>>> 4ea6bb48264907b6c83b9915d94d22d9a30cc43f
 # set up handler to look after randomisation of conditions etc
 EncodingBlock2 = data.TrialHandler(nReps=numEncodingBlock2, method='random', 
     extraInfo=expInfo, originPath=-1,
@@ -3056,6 +3576,11 @@ EncodingBlock2 = data.TrialHandler(nReps=numEncodingBlock2, method='random',
     seed=None, name='EncodingBlock2')
 thisExp.addLoop(EncodingBlock2)  # add the loop to the experiment
 thisEncodingBlock2 = EncodingBlock2.trialList[0]  # so we can initialise stimuli with some values
+<<<<<<< HEAD
+=======
+
+    
+>>>>>>> 4ea6bb48264907b6c83b9915d94d22d9a30cc43f
 # abbreviate parameter names if possible (e.g. rgb = thisEncodingBlock2.rgb)
 if thisEncodingBlock2 != None:
     for paramName in thisEncodingBlock2:
@@ -3151,6 +3676,11 @@ for thisEncodingBlock2 in EncodingBlock2:
     for thisComponent in fixComponents:
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
+<<<<<<< HEAD
+=======
+#    EncodingTrials.addData('fixation.started', fix.tStartRefresh)
+#    EncodingTrials.addData('fixation.stopped', fix.tStopRefresh)
+>>>>>>> 4ea6bb48264907b6c83b9915d94d22d9a30cc43f
     el_tracker.sendMessage('fixationEnd %s' % fixClock.getTime())
     
     
@@ -3344,9 +3874,27 @@ for thisEncodingBlock2 in EncodingBlock2:
     for thisComponent in first_viewComponents:
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
+<<<<<<< HEAD
     sound_pop.stop()  # ensure sound has stopped at end of routine
     sound_pop2.stop()  # ensure sound has stopped at end of routine
     sound_pop3.stop()  # ensure sound has stopped at end of routine
+=======
+#    EncodingBlock2.addData('Triplet1.started', Triplet1.tStartRefresh)
+#    EncodingBlock2.addData('Triplet1.stopped', Triplet1.tStopRefresh)
+#    EncodingBlock2.addData('Triplet2.started', Triplet2.tStartRefresh)
+#    EncodingBlock2.addData('Triplet2.stopped', Triplet2.tStopRefresh)
+#    EncodingBlock2.addData('Triplet3.started', Triplet3.tStartRefresh)
+#    EncodingBlock2.addData('Triplet3.stopped', Triplet3.tStopRefresh)
+    sound_pop.stop()  # ensure sound has stopped at end of routine
+#    EncodingBlock2.addData('sound_pop.started', sound_pop.tStartRefresh)
+#    EncodingBlock2.addData('sound_pop.stopped', sound_pop.tStopRefresh)
+    sound_pop2.stop()  # ensure sound has stopped at end of routine
+#    EncodingBlock2.addData('sound_pop2.started', sound_pop2.tStartRefresh)
+#    EncodingBlock2.addData('sound_pop2.stopped', sound_pop2.tStopRefresh)
+    sound_pop3.stop()  # ensure sound has stopped at end of routine
+#    EncodingBlock2.addData('sound_pop3.started', sound_pop3.tStartRefresh)
+#    EncodingBlock2.addData('sound_pop3.stopped', sound_pop3.tStopRefresh)
+>>>>>>> 4ea6bb48264907b6c83b9915d94d22d9a30cc43f
     el_tracker.sendMessage('firstviewEnding %s' % first_viewClock.getTime())
     # the Routine "first_view" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset()
@@ -3422,6 +3970,11 @@ for thisEncodingBlock2 in EncodingBlock2:
     for thisComponent in maskComponents:
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
+<<<<<<< HEAD
+=======
+#    EncodingBlock2.addData('Mask.started', Mask.tStartRefresh)
+#    EncodingBlock2.addData('Mask.stopped', Mask.tStopRefresh)
+>>>>>>> 4ea6bb48264907b6c83b9915d94d22d9a30cc43f
     el_tracker.sendMessage('maskEnding %s' % maskClock.getTime())
     # ------Prepare to start Routine "second_view"-------
     continueRoutine = True
@@ -3448,7 +4001,35 @@ for thisEncodingBlock2 in EncodingBlock2:
         triplet3 = 'images/'+encodingPics2[eTrials2][list[2]]+'.png'
         EncodingBlock2.addData("encodingType","diff")
         encodingType = 'diff'
+<<<<<<< HEAD
 
+=======
+            
+# if randPos > 0.2:
+#        methodAns = ['leftCL'] #same
+#        list = [0,1,2]
+#        random.shuffle(list)
+#        samePics2.append(encodingPics[eTrials][list[0]])
+       # samePics2.append(encodingPics[eTrials][1])
+       # samePics2.append(encodingPics[eTrials][2])
+ #       EncodingTrials.addData("encodingType","same")
+ #       EncodingTrials.addData("encodingType","same")
+ #       encodingType = 'same'
+ #   else:
+ #       nextTrial = random.choice(diffTrials)
+ #       while nextTrial == trialType:
+ #           nextTrial = random.choice(diffTrials)
+ #           end
+ #       trialType = nextTrial
+  #      methodAns = ['rightCL'] #different
+   #     list = [0,1,2]
+   #     random.shuffle(list)
+   #     triplet1 = 'images/'+encodingPics[eTrials][list[0]]+'.png'
+   #     triplet2 = 'images/'+encodingPics[eTrials][list[1]]+'.png'
+   #     triplet3 = 'images/'+encodingPics[eTrials][list[2]]+'.png'
+   #     EncodingTrials.addData("encodingType","diff")
+   #     encodingType = 'diff'
+>>>>>>> 4ea6bb48264907b6c83b9915d94d22d9a30cc43f
     el_tracker.sendMessage('!V TRIAL_VAR encodingType %s' %encodingType)
     el_tracker.sendMessage('!V TRIAL_VAR nextTrial %s' %nextTrial)
     el_tracker.sendMessage('!V TRIAL_VAR triplet1 %s' %triplet1)
@@ -3627,10 +4208,28 @@ for thisEncodingBlock2 in EncodingBlock2:
     #EncodingBlock2.addData("encodingTrials", str(eTrials2))
     #EncodingBlock2.addData("TRIAL_INDEX", str(TRIAL_INDEX))
     print(eTrials2)
+<<<<<<< HEAD
 #EncodingBlock2.addData('img3.stopped', img3.tStopRefresh)
     sound_pop4.stop()  # ensure sound has stopped at end of routine
     sound_pop5.stop()  # ensure sound has stopped at end of routine)
     sound_pop6.stop()  # ensure sound has stopped at end of routine
+=======
+#    EncodingBlock2.addData('img1.started', img1.tStartRefresh)
+#    EncodingBlock2.addData('img1.stopped', img1.tStopRefresh)
+#    EncodingBlock2.addData('img2.started', img2.tStartRefresh)
+#    EncodingBlock2.addData('img2.stopped', img2.tStopRefresh)
+#    EncodingBlock2.addData('img3.started', img3.tStartRefresh)
+#EncodingBlock2.addData('img3.stopped', img3.tStopRefresh)
+    sound_pop4.stop()  # ensure sound has stopped at end of routine
+#    EncodingBlock2.addData('sound_pop4.started', sound_pop4.tStartRefresh)
+#    EncodingBlock2.addData('sound_pop4.stopped', sound_pop4.tStopRefresh)
+    sound_pop5.stop()  # ensure sound has stopped at end of routine
+#    EncodingBlock2.addData('sound_pop5.started', sound_pop5.tStartRefresh)
+#    EncodingBlock2.addData('sound_pop5.stopped', sound_pop5.tStopRefresh)
+    sound_pop6.stop()  # ensure sound has stopped at end of routine
+#    EncodingBlock2.addData('sound_pop6.started', sound_pop6.tStartRefresh)
+#    EncodingBlock2.addData('sound_pop6.stopped', sound_pop6.tStopRefresh)
+>>>>>>> 4ea6bb48264907b6c83b9915d94d22d9a30cc43f
     el_tracker.sendMessage('secondviewEnding %s' % second_viewClock.getTime())
     # the Routine "second_view" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset()
@@ -3706,6 +4305,11 @@ for thisEncodingBlock2 in EncodingBlock2:
     for thisComponent in methodQTextComponents:
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
+<<<<<<< HEAD
+=======
+#    EncodingBlock2.addData('text_2.started', text_2.tStartRefresh)
+#    EncodingBlock2.addData('text_2.stopped', text_2.tStopRefresh)
+>>>>>>> 4ea6bb48264907b6c83b9915d94d22d9a30cc43f
     el_tracker.sendMessage('methodtextEnding %s' % methodQTextClock.getTime())
     
     # ------Prepare to start Routine "MethodCheck"-------
@@ -3857,14 +4461,36 @@ for thisEncodingBlock2 in EncodingBlock2:
 
     #store whether or not they answered correctly for the "same" or "different" trial type.
     thisExp.addData("Method Clicked", MethodMouse.clicked_name);
+<<<<<<< HEAD
     el_tracker.sendMessage('methodCheckClock %s' % MethodCheckClock)
     # store data for EncodingBlock2 (TrialHandler)
+=======
+#    EncodingBlock2.addData('text.started', text.tStartRefresh)
+#    EncodingBlock2.addData('text.stopped', text.tStopRefresh)
+#    EncodingBlock2.addData('sameText.started', sameText.tStartRefresh)
+#    EncodingBlock2.addData('sameText.stopped', sameText.tStopRefresh)
+#    EncodingBlock2.addData('diffText.started', diffText.tStartRefresh)
+#    EncodingBlock2.addData('diffText.stopped', diffText.tStopRefresh)
+#    EncodingBlock2.addData('leftCL.started', leftCL.tStartRefresh)
+#    EncodingBlock2.addData('leftCL.stopped', leftCL.tStopRefresh)
+#    EncodingBlock2.addData('rightCL.started', rightCL.tStartRefresh)
+#    EncodingBlock2.addData('rightCL.stopped', rightCL.tStopRefresh)
+    el_tracker.sendMessage('methodCheckClock %s' % MethodCheckClock)
+    # store data for EncodingBlock2 (TrialHandler)
+ #   if len(MethodMouse.x): EncodingBlock2.addData('MethodMouse.x', MethodMouse.x[0])
+ #   if len(MethodMouse.y): EncodingBlock2.addData('MethodMouse.y', MethodMouse.y[0])
+>>>>>>> 4ea6bb48264907b6c83b9915d94d22d9a30cc43f
     if len(MethodMouse.leftButton): EncodingBlock2.addData('MethodMouse.leftButton', MethodMouse.leftButton[0])
     if len(MethodMouse.midButton): EncodingBlock2.addData('MethodMouse.midButton', MethodMouse.midButton[0])
     if len(MethodMouse.rightButton): EncodingBlock2.addData('MethodMouse.rightButton', MethodMouse.rightButton[0])
     if len(MethodMouse.time): EncodingBlock2.addData('MethodMouse.time', MethodMouse.time[0])
     if len(MethodMouse.clicked_name): EncodingBlock2.addData('MethodMouse.clicked_name', MethodMouse.clicked_name[0])
     
+<<<<<<< HEAD
+=======
+#    EncodingBlock2.addData('MethodMouse.started', MethodMouse.tStart)
+#    EncodingBlock2.addData('MethodMouse.stopped', MethodMouse.tStop)
+>>>>>>> 4ea6bb48264907b6c83b9915d94d22d9a30cc43f
     el_tracker.sendMessage('!V TRIAL_VAR methodCheck %s' %methodCheck)
     EncodingBlock2.addData('methodCheck',str(methodCheck))
     el_tracker.sendMessage('!V TRIAL_VAR methodClicked %s' %MethodMouse.clicked_name)
@@ -3942,6 +4568,11 @@ for thisEncodingBlock2 in EncodingBlock2:
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
     clickedSound.stop()  # ensure sound has stopped at end of routine
+<<<<<<< HEAD
+=======
+#    EncodingBlock2.addData('clickedSound.started', clickedSound.tStartRefresh)
+#    EncodingBlock2.addData('clickedSound.stopped', clickedSound.tStopRefresh)
+>>>>>>> 4ea6bb48264907b6c83b9915d94d22d9a30cc43f
     thisExp.nextEntry()
     
 #store eye-tracking related data in edf
@@ -4085,17 +4716,305 @@ while continueRoutine:
 for thisComponent in break_2Components:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
+<<<<<<< HEAD
+=======
+#thisExp.addData('BlockBreak.started', BlockBreak.tStartRefresh)
+#thisExp.addData('BlockBreak.stopped', BlockBreak.tStopRefresh)
+#thisExp.addData('text_4.started', text_4.tStartRefresh)
+#thisExp.addData('text_4.stopped', text_4.tStopRefresh)
+>>>>>>> 4ea6bb48264907b6c83b9915d94d22d9a30cc43f
 # check responses
 if start2.keys in ['', [], None]:  # No response was made
     start2.keys = None
 #thisExp.addData('start2.keys',start2.keys)
 if start2.keys != None:  # we had a response
+<<<<<<< HEAD
+=======
+    #thisExp.addData('start2.rt', start2.rt)
+#thisExp.addData('start2.started', start2.tStartRefresh)
+#thisExp.addData('start2.stopped', start2.tStopRefresh)
+>>>>>>> 4ea6bb48264907b6c83b9915d94d22d9a30cc43f
     el_tracker.sendMessage('breakEnding %s' % break_2Clock.getTime())
 thisExp.nextEntry()
 # the Routine "break_2" was not non-slip safe, so reset the non-slip timer
 routineTimer.reset()
 
 #Recalibrate after the break
+<<<<<<< HEAD
+=======
+
+# Optional tracking parameters
+# Optional tracking parameters
+# Sample rate, 250, 500, 1000, or 2000, check your tracker specification
+if eyelink_ver > 2:
+    el_tracker.sendCommand("sample_rate 500")
+# Choose a calibration type, H3, HV3, HV5, HV13 (HV = horizontal/vertical),
+el_tracker.sendCommand("calibration_type = HV9")
+# Set a gamepad button to accept calibration/drift check target
+# You need a supported gamepad/button box that is connected to the Host PC
+el_tracker.sendCommand("button_function 5 'accept_target_fixation'")
+
+# Step 4: set up a graphics environment for calibration
+#
+# Open a window, be sure to specify monitor parameters
+mon = monitors.Monitor('myMonitor', width=53.0, distance=70.0)
+win = visual.Window(fullscr=full_screen,
+                    monitor=mon,
+                    winType='pyglet',
+                    units='pix')
+
+# get the native screen resolution used by PsychoPy
+scn_width, scn_height = win.size
+# resolution fix for Mac retina displays
+if 'Darwin' in platform.system():
+    if use_retina:
+        scn_width = int(scn_width/2.0)
+        scn_height = int(scn_height/2.0)
+
+# Pass the display pixel coordinates (left, top, right, bottom) to the tracker
+# see the EyeLink Installation Guide, "Customizing Screen Settings"
+el_coords = "screen_pixel_coords = 0 0 %d %d" % (scn_width - 1, scn_height - 1)
+el_tracker.sendCommand(el_coords)
+
+# Write a DISPLAY_COORDS message to the EDF file
+# Data Viewer needs this piece of info for proper visualization, see Data
+# Viewer User Manual, "Protocol for EyeLink Data to Viewer Integration"
+dv_coords = "DISPLAY_COORDS  0 0 %d %d" % (scn_width - 1, scn_height - 1)
+el_tracker.sendMessage(dv_coords)
+
+# Configure a graphics environment (genv) for tracker calibration
+genv = EyeLinkCoreGraphicsPsychoPy(el_tracker, win)
+print(genv)  # print out the version number of the CoreGraphics library
+
+# Set background and foreground colors for the calibration target
+# in PsychoPy, (-1, -1, -1)=black, (1, 1, 1)=white, (0, 0, 0)=mid-gray
+foreground_color = (-1, -1, -1)
+background_color = win.color
+genv.setCalibrationColors(foreground_color, background_color)
+
+# Set up the calibration target
+#
+# The target could be a "circle" (default), a "picture", a "movie" clip,
+# or a rotating "spiral". To configure the type of calibration target, set
+# genv.setTargetType to "circle", "picture", "movie", or "spiral", e.g.,
+# genv.setTargetType('picture')
+#
+# Use gen.setPictureTarget() to set a "picture" target
+# genv.setPictureTarget(os.path.join('images', 'fixTarget.bmp'))
+#
+# Use genv.setMovieTarget() to set a "movie" target
+# genv.setMovieTarget(os.path.join('videos', 'calibVid.mov'))
+
+# Use a picture as the calibration target
+genv.setTargetType('picture')
+genv.setPictureTarget(os.path.join('images', 'fixTarget.bmp'))
+
+# Configure the size of the calibration target (in pixels)
+# this option applies only to "circle" and "spiral" targets
+# genv.setTargetSize(24)
+
+# Beeps to play during calibration, validation and drift correction
+# parameters: target, good, error
+#     target -- sound to play when target moves
+#     good -- sound to play on successful operation
+#     error -- sound to play on failure or interruption
+# Each parameter could be ''--default sound, 'off'--no sound, or a wav file
+genv.setCalibrationSounds('', '', '')
+
+# resolution fix for macOS retina display issues
+if use_retina:
+    genv.fixMacRetinaDisplay()
+
+# Request Pylink to use the PsychoPy window we opened above for calibration
+pylink.openGraphicsEx(genv)
+    
+    
+# define a few helper functions for trial handling
+
+
+def clear_screen(win):
+    """ clear up the PsychoPy window"""
+
+    win.fillColor = genv.getBackgroundColor()
+    win.flip()
+
+
+def show_msg(win, text, wait_for_keypress=True):
+    """ Show task instructions on screen"""
+
+    msg = visual.TextStim(win, text,
+                          color=genv.getForegroundColor(),
+                          wrapWidth=scn_width/2)
+    clear_screen(win)
+    msg.draw()
+    win.flip()
+
+    # wait indefinitely, terminates upon any key press
+    if wait_for_keypress:
+        event.waitKeys()
+        clear_screen(win)
+
+
+def terminate_task():
+    """ Terminate the task gracefully and retrieve the EDF data file
+    file_to_retrieve: The EDF on the Host that we would like to download
+    win: the current window used by the experimental script
+    """
+
+    el_tracker = pylink.getEYELINK()
+
+    if el_tracker.isConnected():
+        # Terminate the current trial first if the task terminated prematurely
+        error = el_tracker.isRecording()
+        if error == pylink.TRIAL_OK:
+            abort_trial()
+
+        # Put tracker in Offline mode
+        el_tracker.setOfflineMode()
+
+        # Clear the Host PC screen and wait for 500 ms
+        el_tracker.sendCommand('clear_screen 0')
+        pylink.msecDelay(500)
+        # Close the edf data file on the Host
+        el_tracker.closeDataFile()
+
+        # Show a file transfer message on the screen
+        #msg = 'EDF data is transferring from EyeLink Host PC...'
+        #show_msg(win, msg, wait_for_keypress=False)
+
+        # Download the EDF data file from the Host PC to a local data folder
+        # parameters: source_file_on_the_host, destination_file_on_local_drive
+        local_edf = os.path.join(session_folder, session_identifier + '.EDF')
+        try:
+            el_tracker.receiveDataFile(edf_file, local_edf)
+        except RuntimeError as error:
+            print('ERROR:', error)
+
+        # Close the link to the tracker.
+        el_tracker.close()
+        print('closed')
+
+    # close the PsychoPy window
+    win.close()
+    # End the eyetracker session
+   # terminate_task()
+    # quit PsychoPy
+    #save psychopy
+    thisExp.saveAsWideText(filename+'.csv', delim=',')
+    thisExp.saveAsPickle(filename)
+    logging.flush()
+    core.quit()
+    
+    sys.exit()
+
+
+def abort_trial():
+    """Ends recording """
+
+    el_tracker = pylink.getEYELINK()
+
+    # Stop recording
+    if el_tracker.isRecording():
+        # add 100 ms to catch final trial events
+        pylink.pumpDelay(100)
+        el_tracker.stopRecording()
+
+    # clear the screen
+    clear_screen(win)
+    # Send a message to clear the Data Viewer screen
+    bgcolor_RGB = (116, 116, 116)
+    el_tracker.sendMessage('!V CLEAR %d %d %d' % bgcolor_RGB)
+
+    # send a message to mark trial end
+    el_tracker.sendMessage('TRIAL_RESULT %d' % pylink.TRIAL_ERROR)
+
+    return pylink.TRIAL_ERROR
+
+def start_eye_tracker(trial_index, trial_type):
+    # get a reference to the currently active EyeLink connection
+    el_tracker = pylink.getEYELINK()
+    # put the tracker in the offline mode first
+    el_tracker.setOfflineMode()
+    # clear the host screen before we draw the backdrop
+    el_tracker.sendCommand('clear_screen 0')
+    # send a "TRIALID" message to mark the start of a trial, see Data
+    # Viewer User Manual, "Protocol for EyeLink Data to Viewer Integration"
+    if trial_type=='encoding':    
+        el_tracker.sendMessage('trialIndex %d' % trial_index)
+        # record_status_message : show some info on the Host PC
+        # here we show how many trial has been tested
+        status_msg = 'eTrial number %d' % trial_index
+        print(status_msg)
+    elif trial_type=='retrieval':
+        el_tracker.sendMessage('trialIndex %d' % rtrial_index)
+        # record_status_message : show some info on the Host PC
+        # here we show how many trial has been tested
+        status_msg = 'retTrial number %d' % rtrial_index
+        print(status_msg)
+
+    el_tracker.sendCommand("record_status_message '%s'" % status_msg)
+    
+    #messages for when the images appear
+
+    
+    # drift check
+    # we recommend drift-check at the beginning of each trial
+    # the doDriftCorrect() function requires target position in integers
+    # the last two arguments:
+    # draw_target (1-default, 0-draw the target then call doDriftCorrect)
+    # allow_setup (1-press ESCAPE to recalibrate, 0-not allowed)
+    #
+    # Skip drift-check if running the script in Dummy Mode
+    while not dummy_mode:
+        # terminate the task if no longer connected to the tracker or
+        # user pressed Ctrl-C to terminate the task
+        if (not el_tracker.isConnected()) or el_tracker.breakPressed():
+            terminate_task()
+            return pylink.ABORT_EXPT
+        break
+        # # drift-check and re-do camera setup if ESCAPE is pressed
+        # try:
+        #     error = el_tracker.doDriftCorrect(int(scn_width/2.0),
+        #                                       int(scn_height/2.0), 1, 1)
+        #     print('2')
+
+        #     # break following a success drift-check
+        #     if error is not pylink.ESC_KEY:
+        #         break
+        # except:
+        #     pass
+
+    # put tracker in idle/offline mode before recording
+    el_tracker.setOfflineMode()
+
+    # Start recording
+    # arguments: sample_to_file, events_to_file, sample_over_link,
+    # event_over_link (1-yes, 0-no)
+    try:
+        el_tracker.startRecording(1, 1, 1, 1)
+
+    except RuntimeError as error:
+        print("ERROR:", error)
+        abort_trial()
+        return pylink.TRIAL_ERROR
+
+    # Allocate some time for the tracker to cache some samples
+    pylink.pumpDelay(100)
+   # print('are things working fine')
+    
+
+# Step 5: Set up the camera and calibrate the tracker
+
+# Show the task instructions
+task_msg = 'In the task, you may press the SPACEBAR to end a trial\n' + \
+    '\nPress Ctrl-C to if you need to quit the task early\n'
+if dummy_mode:
+    task_msg = task_msg + '\nNow, press ENTER to start the task'
+else:
+    task_msg = task_msg + '\nNow, press ENTER twice to calibrate tracker'
+show_msg(win, task_msg)
+
+>>>>>>> 4ea6bb48264907b6c83b9915d94d22d9a30cc43f
 # skip this step if running the script in Dummy Mode
 if not dummy_mode:
     try:
@@ -4103,6 +5022,27 @@ if not dummy_mode:
     except RuntimeError as err:
         print('ERROR:', err)
         el_tracker.exitCalibration()
+<<<<<<< HEAD
+=======
+    
+# Start Code - component code to be run after the window creation
+# Setup the Window
+win = visual.Window(
+    size=[1280, 720], fullscr=True, screen=0, 
+    winType='pyglet', allowGUI=False, allowStencil=False,
+    monitor='testMonitor', color=[0,0,0], colorSpace='rgb',
+    blendMode='avg', useFBO=True, 
+    units='height')
+# store frame rate of monitor if we can measure it
+expInfo['frameRate'] = win.getActualFrameRate()
+if expInfo['frameRate'] != None:
+    frameDur = 1.0 / round(expInfo['frameRate'])
+else:
+    frameDur = 1.0 / 60.0  # could not measure, so guess
+
+# create a default keyboard (e.g. to check for escape)
+defaultKeyboard = keyboard.Keyboard()
+>>>>>>> 4ea6bb48264907b6c83b9915d94d22d9a30cc43f
         
 #Second retrieval block starts   
 # ------Prepare to start Routine "initRecallPics2"-------
@@ -4303,7 +5243,15 @@ for thisRetrievalBlock2 in RetrievalBlock2:
 for thisComponent in RetrievalImageComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
+<<<<<<< HEAD
 sound_pop7.stop()  # ensure sound has stopped at end of routine
+=======
+#    RetrievalTrials.addData('retIMG.started', retIMG.tStartRefresh)
+#    RetrievalTrials.addData('retIMG.stopped', retIMG.tStopRefresh)
+sound_pop7.stop()  # ensure sound has stopped at end of routine
+#    RetrievalTrials.addData('sound_pop7.started', sound_pop7.tStartRefresh)
+#    RetrievalTrials.addData('sound_pop7.stopped', sound_pop7.tStopRefresh)
+>>>>>>> 4ea6bb48264907b6c83b9915d94d22d9a30cc43f
 el_tracker.sendMessage('retImg.ending %s' % RetrievalImageClock.getTime())
 el_tracker.sendMessage('!V TRIAL_VAR retIMG %s' %retrievalImage)
 RetrievalTrials.addData("retrievalTrials", str(retTrials))
@@ -4540,6 +5488,23 @@ for thisComponent in Q2TextComponents:
     RetrievalBlock2.addData("TRIAL_INDEX", str(TRIAL_INDEX))
     thisExp.addData("TRIAL_INDEX", str(TRIAL_INDEX))
     el_tracker.sendMessage('!V TRIAL_VAR retTrials %d' %retTrials)
+<<<<<<< HEAD
+=======
+#    RetrievalTrials.addData('decisionQ_2.started', decisionQ_2.tStartRefresh)
+#    RetrievalTrials.addData('decisionQ_2.stopped', decisionQ_2.tStopRefresh)
+#    RetrievalTrials.addData('first_left.started', first_left.tStartRefresh)
+#    RetrievalTrials.addData('first_left.stopped', first_left.tStopRefresh)
+#    RetrievalTrials.addData('second_middle.started', second_middle.tStartRefresh)
+#    RetrievalTrials.addData('second_middle.stopped', second_middle.tStopRefresh)
+#    RetrievalTrials.addData('third_right.started', third_right.tStartRefresh)
+#    RetrievalTrials.addData('third_right.stopped', third_right.tStopRefresh)
+#    RetrievalTrials.addData('First.started', First.tStartRefresh)
+#    RetrievalTrials.addData('First.stopped', First.tStopRefresh)
+#    RetrievalTrials.addData('Second.started', Second.tStartRefresh)
+#    RetrievalTrials.addData('Second.stopped', Second.tStopRefresh)
+#    RetrievalTrials.addData('Third.started', Third.tStartRefresh)
+#    RetrievalTrials.addData('Third.stopped', Third.tStopRefresh)
+>>>>>>> 4ea6bb48264907b6c83b9915d94d22d9a30cc43f
     el_tracker.sendMessage('decisionClock %s' % DecisionClock)
     # store data for RetrievalBlock2 (TrialHandler)
     x, y = Order_Position_Response.getPos()
@@ -4551,11 +5516,21 @@ for thisComponent in Q2TextComponents:
             if obj.contains(Order_Position_Response):
                 gotValidClick = True
                 Order_Position_Response.clicked_name.append(obj.name)
+<<<<<<< HEAD
+=======
+ #   RetrievalBlock2.addData('Order_Position_Response.x', x)
+ #   RetrievalBlock2.addData('Order_Position_Response.y', y)
+>>>>>>> 4ea6bb48264907b6c83b9915d94d22d9a30cc43f
     RetrievalBlock2.addData('Order_Position_Response.leftButton', buttons[0])
     RetrievalBlock2.addData('Order_Position_Response.midButton', buttons[1])
     RetrievalBlock2.addData('Order_Position_Response.rightButton', buttons[2])
     if len(Order_Position_Response.clicked_name):
         RetrievalBlock2.addData('Order_Position_Response.clicked_name', Order_Position_Response.clicked_name[0])
+<<<<<<< HEAD
+=======
+    #    RetrievalTrials.addData('Order_Position_Response.started', Order_Position_Response.tStart)
+    #    RetrievalTrials.addData('Order_Position_Response.stopped', Order_Position_Response.tStop)
+>>>>>>> 4ea6bb48264907b6c83b9915d94d22d9a30cc43f
     
     # the Routine "Decision" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset()
