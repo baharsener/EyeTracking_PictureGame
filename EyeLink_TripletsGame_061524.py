@@ -2309,6 +2309,9 @@ thisExp.nextEntry()
 # the Routine "break_2" was not non-slip safe, so reset the non-slip timer
 routineTimer.reset()
 
+#clear screen before recalibrating
+clear_screen(win) 
+
 #Recalibrate after the break
 # skip this step if running the script in Dummy Mode
 if not dummy_mode:
@@ -4087,6 +4090,9 @@ if start2.keys != None:  # we had a response
 thisExp.nextEntry()
 # the Routine "break_2" was not non-slip safe, so reset the non-slip timer
 routineTimer.reset()
+
+#clear screen before recalibrating
+clear_screen(win) 
 
 #Recalibrate after the break
 # skip this step if running the script in Dummy Mode
