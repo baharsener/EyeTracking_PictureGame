@@ -5120,7 +5120,7 @@ thisExp.addLoop(RetrievalBlock2)  # add the loop to the experiment
 thisRetrievalBlock2 = RetrievalBlock2.trialList[0]  # so we can initialise stimuli with some values
 # abbreviate parameter names if possible (e.g. rgb = thisRetrievalBlock2.rgb)
 if thisRetrievalBlock2 != None:
-    for paramName in thisRetrievalBlock2l:
+    for paramName in thisRetrievalBlock2:
         exec('{} = thisRetrievalBlock2[paramName]'.format(paramName))
 
 for thisRetrievalBlock2 in RetrievalBlock2:
