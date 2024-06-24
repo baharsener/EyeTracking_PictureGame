@@ -15,7 +15,7 @@ from __future__ import division
 from __future__ import print_function
 
 import psychopy
-psychopy.useVersion('2021.1.0')
+psychopy.useVersion('2021.1.4')
 from psychopy import visual, core, event
 # the rest of your script follows
 
@@ -4614,8 +4614,6 @@ for thisComponent in Q2TextComponents:
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
     clickedSound.stop()  # ensure sound has stopped at end of routine
-    RetrievalTrials.addData('clickedSound.started', clickedSound.tStartRefresh)
-    RetrievalTrials.addData('clickedSound.stopped', clickedSound.tStopRefresh)
     thisExp.nextEntry()
     # these shouldn't be strictly necessary (should auto-save)
     thisExp.saveAsWideText(filename+'.csv', delim=',')
